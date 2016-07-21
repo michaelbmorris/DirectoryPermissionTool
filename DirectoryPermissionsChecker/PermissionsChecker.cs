@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Security.AccessControl;
@@ -82,6 +81,7 @@ namespace DirectoryPermissionsChecker
             results += directory.GetDirectoryPermissionsString(_log);
             if (currentLevel >= _searchDepth && _searchDepth >= 0)
                 return results;
+            var nextLevel = currentLevel + 1;
             DirectoryInfo[] directories = null;
             try
             {
@@ -99,7 +99,7 @@ namespace DirectoryPermissionsChecker
                         results,
                         (current, childDirectory) =>
                             current + GetDirectoryPermissions(
-                                childDirectory, ++currentLevel));
+                                childDirectory, nextLevel));
         }
     }
 
