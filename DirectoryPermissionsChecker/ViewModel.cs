@@ -1,39 +1,70 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Deployment.Application;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
 using Extensions.PrimitiveExtensions;
 using GalaSoft.MvvmLight.CommandWpf;
-using static System.Deployment.Application.ApplicationDeployment;
 
-namespace DirectoryPermissionsChecker
+namespace DirectoryPermissionTool
 {
     internal class ViewModel : INotifyPropertyChanged
     {
-        public static readonly string OutputPath =
-            Path.Combine(
-                Environment.GetFolderPath(
-                    Environment.SpecialFolder.MyDocuments),
-                "DirectoryPermissionsChecker");
-
-        private const string CsvExtension = ".csv";
-        private const string DateTimeFormat = "yyyyMMddTHHmmss";
         private AboutWindow _aboutWindow;
         private Visibility _cancelButonVisibility;
 
-        private string _data;
-        private PermissionsChecker _directoryPermissionsChecker;
+        private DirectoryPermissionsChecker _directoryPermissionsChecker;
         private bool _isBusy;
-        private string _rootPath;
-        private List<int> _searchDepths;
-        private int _selectedSearchDepthIndex;
 
         private string _message;
+
+        private Visibility _messageVisibility;
+        private int _messageZIndex;
+        private Visibility _progressBarVisibility;
+        private string _rootPath;
+        private bool _searchDepthAllIsChecked;
+        private bool _searchDepthChildrenIsChecked;
+        private bool _searchDepthCurrentIsChecked;
+
+        internal ViewModel()
+        {
+            SetUpCommands();
+            SetUpProperties();
+        }
+
+        public ICommand AddExcludedPathCommand =>
+            new RelayCommand(AddExcludedPath, CanAddExcludedPath);
+
+        public ICommand AddSearchPathCommand =>
+            new RelayCommand(AddSearchPath, CanAddSearchPath);
+
+        public Visibility CancelButtonVisibility
+        {
+            get
+            {
+                return _cancelButonVisibility;
+            }
+            set
+            {
+                _cancelButonVisibility = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        public ICommand CancelCommand { get; private set; }
+
+        public ObservableCollection<DynamicTextBox> ExcludedPaths { get; private set; }
+
+        public ObservableCollection<DynamicTextBox> SearchPaths { get; private set; }
+
+        public ICommand GetDirectoryPermissionsCommand { get; private set; }
 
         public string Message
         {
@@ -44,22 +75,6 @@ namespace DirectoryPermissionsChecker
             set
             {
                 _message = value;
-                NotifyPropertyChanged();
-            }
-        }
-
-        private Visibility _messageVisibility;
-        private Visibility _progressBarVisibility;
-
-        public Visibility ProgressBarVisibility
-        {
-            get
-            {
-                return _progressBarVisibility;
-            }
-            set
-            {
-                _progressBarVisibility = value;
                 NotifyPropertyChanged();
             }
         }
@@ -77,80 +92,78 @@ namespace DirectoryPermissionsChecker
             }
         }
 
-        internal ViewModel()
-        {
-            SetUpCommands();
-            SetUpProperties();
-        }
-
-        public Visibility CancelButtonVisibility
+        public int MessageZIndex
         {
             get
             {
-                return _cancelButonVisibility;
+                return _messageZIndex;
             }
             set
             {
-                _cancelButonVisibility = value;
+                _messageZIndex = value;
                 NotifyPropertyChanged();
             }
         }
-
-        public ICommand CancelCommand { get; private set; }
-
-        public string Data
-        {
-            get
-            {
-                return _data;
-            }
-            set
-            {
-                _data = value;
-                NotifyPropertyChanged();
-            }
-        }
-
-        public ICommand GetDirectoryPermissionsCommand { get; private set; }
 
         public ICommand OpenAboutWindowCommand { get; private set; }
         public ICommand OpenHelpWindowCommand { get; private set; }
 
-        public string RootPath
+        public Visibility ProgressBarVisibility
         {
             get
             {
-                return _rootPath;
+                return _progressBarVisibility;
             }
             set
             {
-                _rootPath = value;
+                _progressBarVisibility = value;
                 NotifyPropertyChanged();
             }
         }
 
-        public List<int> SearchDepths
+        public ICommand RemoveExcludedPathCommand =>
+            new RelayCommand<DynamicTextBox>(
+                RemoveExcludedPath, CanRemoveExcludedPath);
+
+        public ICommand RemoveSearchPathCommand => 
+            new RelayCommand<DynamicTextBox>(
+            RemoveSearchPath, CanRemoveSearchPath);
+
+        public bool SearchDepthAllIsChecked
         {
             get
             {
-                return _searchDepths;
+                return _searchDepthAllIsChecked;
             }
             set
             {
-                _searchDepths = value;
+                _searchDepthAllIsChecked = value;
                 NotifyPropertyChanged();
             }
         }
 
-        public int SelectedSearchDepthIndex
+        public bool SearchDepthChildrenIsChecked
         {
             get
             {
-                return _selectedSearchDepthIndex;
+                return _searchDepthChildrenIsChecked;
             }
             set
             {
-                _selectedSearchDepthIndex = value;
+                _searchDepthChildrenIsChecked = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        public bool SearchDepthCurrentIsChecked
+        {
+            get
+            {
+                return _searchDepthCurrentIsChecked;
+            }
+            set
+            {
+                _searchDepthCurrentIsChecked = value;
                 NotifyPropertyChanged();
             }
         }
@@ -159,10 +172,24 @@ namespace DirectoryPermissionsChecker
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void OpenHelpWindowCommandExecute()
+        private void AddSearchPath()
         {
-            //Process.Start("help.chm");
-            ShowMessage("Help currently unavailable.");
+            SearchPaths.Add(new DynamicTextBox());
+        }
+
+        private void AddExcludedPath()
+        {
+            ExcludedPaths.Add(new DynamicTextBox());
+        }
+
+        private bool CanAddExcludedPath()
+        {
+            return ExcludedPaths.All(x => !x.Text.IsNullOrWhiteSpace());
+        }
+
+        private bool CanAddSearchPath()
+        {
+            return SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private bool CancelCommandCanExecute()
@@ -175,9 +202,21 @@ namespace DirectoryPermissionsChecker
             _directoryPermissionsChecker.Cancel();
         }
 
+        private bool CanRemoveExcludedPath(DynamicTextBox excludedPath = null)
+        {
+            return ExcludedPaths.Count > 1;
+        }
+
+        private bool CanRemoveSearchPath(DynamicTextBox searchPath = null)
+        {
+            return SearchPaths.Count > 1;
+        }
+
         private bool GetDirectoryPermissionsCommandCanExecute()
         {
-            return !RootPath.IsNullOrWhiteSpace() && !_isBusy;
+            return SearchPaths.Any(x => !x.Text.IsNullOrWhiteSpace()) &&
+                   !_isBusy &&
+                   GetSearchDepth() != SearchDepth.None;
         }
 
         private async void GetDirectoryPermissionsCommandExecute()
@@ -185,22 +224,21 @@ namespace DirectoryPermissionsChecker
             _isBusy = true;
             CancelButtonVisibility = Visibility.Visible;
             ProgressBarVisibility = Visibility.Visible;
+            HideMessage();
             try
             {
-                _directoryPermissionsChecker = new PermissionsChecker(
-                    RootPath,
-                    SearchDepths[SelectedSearchDepthIndex]);
+                _directoryPermissionsChecker = new DirectoryPermissionsChecker(
+                    SearchPaths.Select(x => x.Text),
+                    ExcludedPaths.Select(x => x.Text),
+                    GetSearchDepth());
                 await _directoryPermissionsChecker.Execute();
-                Data = _directoryPermissionsChecker.Data;
                 _directoryPermissionsChecker = null;
-                var fileName = Path.Combine(
-                    OutputPath,
-                    "DirectoryPermissionsResults - " +
-                    DateTime.Now.ToString(DateTimeFormat) + CsvExtension);
-                File.WriteAllText(fileName, Data);
-                Process.Start(fileName);
             }
             catch (DirectoryNotFoundException e)
+            {
+                ShowMessage(e.Message);
+            }
+            catch (OperationCanceledException e)
             {
                 ShowMessage(e.Message);
             }
@@ -209,12 +247,50 @@ namespace DirectoryPermissionsChecker
             ProgressBarVisibility = Visibility.Hidden;
         }
 
+        private SearchDepth GetSearchDepth()
+        {
+            if (SearchDepthAllIsChecked)
+                return SearchDepth.All;
+            if (SearchDepthChildrenIsChecked)
+                return SearchDepth.Children;
+            return SearchDepthCurrentIsChecked
+                ? SearchDepth.Current
+                : SearchDepth.None;
+        }
+
+        private void HideMessage()
+        {
+            Message = string.Empty;
+            MessageVisibility = Visibility.Hidden;
+            MessageZIndex = -1;
+        }
+
         private void NotifyPropertyChanged(
             [CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(
                 this,
                 new PropertyChangedEventArgs(propertyName));
+        }
+
+        private void OnExcludedPathsChanged(
+            object sender, NotifyCollectionChangedEventArgs e)
+        {
+            foreach (var excludedPath in ExcludedPaths)
+            {
+                excludedPath.AddButtonVisibility = Visibility.Hidden;
+            }
+            ExcludedPaths.Last().AddButtonVisibility = Visibility.Visible;
+        }
+
+        private void OnSearchPathsChanged(
+            object sender, NotifyCollectionChangedEventArgs e)
+        {
+            foreach (var searchPath in SearchPaths)
+            {
+                searchPath.AddButtonVisibility = Visibility.Hidden;
+            }
+            SearchPaths.Last().AddButtonVisibility = Visibility.Visible;
         }
 
         private void OpenAboutWindowCommandExecute()
@@ -226,6 +302,28 @@ namespace DirectoryPermissionsChecker
             }
             else
                 _aboutWindow.Activate();
+        }
+
+        private void OpenHelpWindowCommandExecute()
+        {
+            try
+            {
+                Process.Start("help.chm");
+            }
+            catch (Exception e)
+            {
+                ShowMessage($"Could not load help - {e} - {e.Message}");
+            }
+        }
+
+        private void RemoveExcludedPath(DynamicTextBox excludedPath)
+        {
+            ExcludedPaths.Remove(excludedPath);
+        }
+
+        private void RemoveSearchPath(DynamicTextBox searchPath)
+        {
+            SearchPaths.Remove(searchPath);
         }
 
         private void SetUpCommands()
@@ -250,24 +348,18 @@ namespace DirectoryPermissionsChecker
             CancelButtonVisibility = Visibility.Hidden;
             ProgressBarVisibility = Visibility.Hidden;
             MessageVisibility = Visibility.Hidden;
-            SearchDepths = new List<int>
-            {
-                -1,
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            };
+            MessageZIndex = -1;
+            ExcludedPaths = new ObservableCollection<DynamicTextBox>();
+            SearchPaths = new ObservableCollection<DynamicTextBox>();
+            ExcludedPaths.CollectionChanged += OnExcludedPathsChanged;
+            SearchPaths.CollectionChanged += OnSearchPathsChanged;
+            ExcludedPaths.Add(new DynamicTextBox());
+            SearchPaths.Add(new DynamicTextBox());
             try
             {
-                Version = CurrentDeployment.CurrentVersion.ToString();
+                Version =
+                    ApplicationDeployment.CurrentDeployment.CurrentVersion
+                        .ToString();
             }
             catch (InvalidDeploymentException)
             {
@@ -279,12 +371,49 @@ namespace DirectoryPermissionsChecker
         {
             Message = message + "\n\nDouble-click to dismiss.";
             MessageVisibility = Visibility.Visible;
+            MessageZIndex = 1;
         }
 
-        private void HideMessage()
+        public class DynamicTextBox : INotifyPropertyChanged
         {
-            Message = string.Empty;
-            MessageVisibility = Visibility.Hidden;
+            private Visibility _addButtonVisibility;
+            private string _text;
+
+            public Visibility AddButtonVisibility
+            {
+                get
+                {
+                    return _addButtonVisibility;
+                }
+                set
+                {
+                    _addButtonVisibility = value;
+                    NotifyPropertyChanged();
+                }
+            }
+
+            public string Text
+            {
+                get
+                {
+                    return _text;
+                }
+                set
+                {
+                    _text = value;
+                    NotifyPropertyChanged();
+                }
+            }
+
+            public event PropertyChangedEventHandler PropertyChanged;
+
+            private void NotifyPropertyChanged(
+                [CallerMemberName] string propertyName = "")
+            {
+                PropertyChanged?.Invoke(
+                    this,
+                    new PropertyChangedEventArgs(propertyName));
+            }
         }
     }
 }

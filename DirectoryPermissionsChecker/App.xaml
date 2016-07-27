@@ -1,9 +1,9 @@
-﻿<Application x:Class="DirectoryPermissionsChecker.App"
+﻿<Application x:Class="DirectoryPermissionTool.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:DirectoryPermissionsChecker"
+             xmlns:directoryPermissionTool="clr-namespace:DirectoryPermissionTool"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         <local:ViewModel x:Key="MainViewModel"/>
+         <directoryPermissionTool:ViewModel x:Key="MainViewModel"/>
     </Application.Resources>
 </Application>

@@ -1,56 +1,151 @@
-﻿<Window x:Class="DirectoryPermissionsChecker.MainWindow"
+﻿<Window x:Class="DirectoryPermissionTool.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DirectoryPermissionsChecker"
         mc:Ignorable="d"
         DataContext="{StaticResource MainViewModel}"
-        Title="Directory Permissions Checker"
+        Title="Directory Permissions Tool"
         Height="350"
         Width="525">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Help">
                 <MenuItem Header="About"
-                          Command="{Binding OpenAboutWindowCommand}"/>
+                          Command="{Binding OpenAboutWindowCommand}" />
                 <MenuItem Header="User Guide"
-                          Command="{Binding OpenHelpWindowCommand}"/>
+                          Command="{Binding OpenHelpWindowCommand}" />
             </MenuItem>
         </Menu>
-        <StackPanel>
-            <Label Content="Folder or Server Path:"/>
-            <TextBox Text="{Binding RootPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                Margin="5 5 5 5"/>
-            <Label Content="Max Search Depth:"/>
-            <ComboBox ItemsSource="{Binding SearchDepths}"
-                      SelectedIndex="{Binding SelectedSearchDepthIndex}"
-                      Margin="5 5 5 5"/>
-            <Separator/>
-            <Button Content="Get Directory Permissions"
-                    Command="{Binding GetDirectoryPermissionsCommand}"
-                    Margin="5 5 5 5"/>
-            <ProgressBar HorizontalAlignment="Center"
+        <Grid>
+            <Grid Row="0">
+                <StackPanel>
+                    <Label Content="Search the following path:" />
+                    <ListBox ItemsSource="{Binding SearchPaths}">
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="ListBoxItem">
+                                            <ContentPresenter />
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <DockPanel LastChildFill="True">
+                                    <Button DockPanel.Dock="Right"
+                                            Content="+"
+                                            Command="{Binding DataContext.AddSearchPathCommand,
+                                                RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                            
+                                            CommandParameter="{Binding}"
+                                            Visibility="{Binding AddButtonVisibility}" />
+                                    <Button DockPanel.Dock="Right"
+                                            Content="-"
+                                            Command="{Binding DataContext.RemoveSearchPathCommand, 
+                                                RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                            
+                                            CommandParameter="{Binding}"/>
+                                    <TextBox DockPanel.Dock="Left"
+                                             Text="{Binding Text,
+                                                Mode=TwoWay,
+                                                UpdateSourceTrigger=PropertyChanged}"
+                                             
+                                             HorizontalAlignment="Stretch"
+                                             HorizontalContentAlignment="Stretch" />
+                                </DockPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Label Content="Exclude the following path(s):" />
+                    <ListBox ItemsSource="{Binding ExcludedPaths}">
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="ListBoxItem">
+                                            <ContentPresenter />
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <DockPanel LastChildFill="True">
+                                    <Button DockPanel.Dock="Right"
+                                            Content="+"
+                                            Command="{Binding DataContext.AddExcludedPathCommand,
+                                                RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                            
+                                            CommandParameter="{Binding}"
+                                            Visibility="{Binding AddButtonVisibility}" />
+                                    <Button DockPanel.Dock="Right"
+                                            Content="-"
+                                            Command="{Binding DataContext.RemoveExcludedPathCommand, 
+                                                RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                            
+                                            CommandParameter="{Binding}"/>
+                                    <TextBox DockPanel.Dock="Left"
+                                             Text="{Binding Text,
+                                                Mode=TwoWay,
+                                                UpdateSourceTrigger=PropertyChanged}"
+                                             
+                                             HorizontalAlignment="Stretch"
+                                             HorizontalContentAlignment="Stretch" />
+                                </DockPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Label Content="Get permissions for:" />
+                    <RadioButton Content="This Directory Only"
+                                 IsChecked="{Binding SearchDepthCurrentIsChecked}"
+                                 GroupName="SearchDepth"
+                                 Margin="5 0 5 0" />
+                    <RadioButton Content="This Directory and its Children Only"
+                                 IsChecked="{Binding SearchDepthChildrenIsChecked}"
+                                 GroupName="SearchDepth"
+                                 Margin="5 5 5 0" />
+                    <RadioButton Content="This Directory and All Sub-directories"
+                                 IsChecked="{Binding SearchDepthAllIsChecked}"
+                                 GroupName="SearchDepth"
+                                 Margin="5 5 5 5" />
+                    <Separator />
+                    <Button Content="Get Directory Permissions"
+                            Command="{Binding GetDirectoryPermissionsCommand}"
+                            Margin="5 5 5 5" />
+                    <ProgressBar HorizontalAlignment="Center"
                                  VerticalAlignment="Center"
                                  Height="10"
                                  Width="100"
                                  IsIndeterminate="true"
                                  Visibility="{Binding ProgressBarVisibility}" />
-            <Button Content="Cancel"
+                    <Button Content="Cancel"
                             Command="{Binding CancelCommand}"
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
-                            Visibility="{Binding CancelButtonVisibility}"/>
-            <Label HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           HorizontalContentAlignment="Center"
-                           Background="White"
-                           BorderThickness="1"
-                           BorderBrush="Black"
-                           Content="{Binding Path=Message, Mode=TwoWay}"
-                           Visibility="{Binding Path=MessageVisibility, Mode=TwoWay}"
-                           MouseDoubleClick="Label_MouseDoubleClick" />
-        </StackPanel>
-        
+                            Visibility="{Binding CancelButtonVisibility}"
+                            Margin="5 5 5 5" />
+                </StackPanel>
+                <Border BorderBrush="Black"
+                        BorderThickness="1"
+                        Visibility="{Binding MessageVisibility, Mode=TwoWay}"
+                        Panel.ZIndex="{Binding MessageZIndex, Mode=TwoWay}"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="White"
+                        Width="475"
+                        Height="200">
+                    <TextBlock Text="{Binding Path=Message, Mode=TwoWay}"
+                               TextWrapping="Wrap"
+                               Visibility="{Binding MessageVisibility, Mode=TwoWay}"
+                               Panel.ZIndex="{Binding MessageZIndex, Mode=TwoWay}"
+                               MouseLeftButtonDown="Label_MouseDoubleClick" />
+                </Border>
+            </Grid>
+        </Grid>
     </DockPanel>
 </Window>
