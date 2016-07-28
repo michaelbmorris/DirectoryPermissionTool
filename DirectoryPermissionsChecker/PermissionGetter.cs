@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Threading;
 using Extensions.CollectionExtensions;
 
@@ -16,7 +15,7 @@ namespace DirectoryPermissionTool
         None
     }
 
-    internal class DirectoryInfoGetter
+    internal class PermissionGetter
     {
         private const int RootLevel = 0;
         private readonly CancellationToken _cancellationToken;
@@ -24,13 +23,17 @@ namespace DirectoryPermissionTool
         private readonly List<DirectoryInfo> _rootDirectories;
         private readonly SearchDepth _searchDepth;
         private readonly IEnumerable<string> _excludePaths;
+        private readonly bool _includeFiles;
 
-        public int MaxFolderLevels { get; private set; }
+        private List<PermissionInfo> _permissionInfos;
 
-        internal DirectoryInfoGetter(
+        public int MaxPathLevels { get; private set; }
+
+        internal PermissionGetter(
             IEnumerable<string> searchPaths,
             IEnumerable<string> excludePaths,
             SearchDepth searchDepth,
+            bool includeFiles,
             CancellationToken cancellationToken,
             List<string> log)
         {
@@ -52,50 +55,62 @@ namespace DirectoryPermissionTool
 
             _excludePaths = excludePaths;
             _searchDepth = searchDepth;
+            _includeFiles = includeFiles;
             _cancellationToken = cancellationToken;
             _log = log;
         }
 
-        internal List<DirectoryPermissionInfo> GetDirectories()
+        internal List<PermissionInfo> GetPermissionInfos()
         {
-            var directoryPermissionInfos = new List<DirectoryPermissionInfo>();
+            _permissionInfos = new List<PermissionInfo>();
             foreach (var rootDirectory in _rootDirectories)
             {
                 try
                 {
-                    GetDirectories(
-                        rootDirectory, directoryPermissionInfos, RootLevel);
+                    GetDirectories(rootDirectory, RootLevel);
                 }
                 catch (OperationCanceledException)
                 {
-                    directoryPermissionInfos = null;
+                    _permissionInfos = null;
                     throw;
                 }
             }
-            return directoryPermissionInfos;
+            return _permissionInfos;
         }
 
         private void GetDirectories(
             DirectoryInfo directory,
-            ICollection<DirectoryPermissionInfo> directories,
             int currentLevel)
         {
             try
             {
-                if (_excludePaths.ContainsIgnoreCase(directory.FullName))
+                if (!_excludePaths.IsNullOrEmpty() && 
+                    _excludePaths.ContainsIgnoreCase(directory.FullName))
                 {
-                    Debug.WriteLine("Skipped " + directory.FullName);
                     return;
                 }
-                var directoryPermissionInfo = new DirectoryPermissionInfo(
+                var permissionInfo = new PermissionInfo(
                     directory);
 
-                if (directoryPermissionInfo.FolderLevels > MaxFolderLevels)
+                if (permissionInfo.PathLevels > MaxPathLevels)
                 {
-                    MaxFolderLevels = directoryPermissionInfo.FolderLevels;
+                    MaxPathLevels = permissionInfo.PathLevels;
                 }
 
-                directories.Add(directoryPermissionInfo);
+                _permissionInfos.Add(permissionInfo);
+                if (_includeFiles)
+                {
+                    foreach (var fileInfo in directory.GetFiles())
+                    {
+                        permissionInfo = new PermissionInfo(fileInfo);
+                        if (permissionInfo.PathLevels > MaxPathLevels)
+                        {
+                            MaxPathLevels = permissionInfo.PathLevels;
+                        }
+
+                        _permissionInfos.Add(permissionInfo);
+                    }
+                }
             }
             catch (PathTooLongException)
             {
@@ -126,15 +141,14 @@ namespace DirectoryPermissionTool
                 foreach (var subDirectory in directory.GetDirectories())
                 {
                     _cancellationToken.ThrowIfCancellationRequested();
-                    GetDirectories(
-                        subDirectory, directories, currentLevel + 1);
+                    GetDirectories(subDirectory, currentLevel + 1);
                 }
             }
             catch (PathTooLongException)
             {
                 _log.Add(
                     "The path of directory with name '" +
-                    $"{directory.Name}' is too long.");
+                    $"{directory.Root}\\{directory.Name}' is too long.");
             }
             catch (UnauthorizedAccessException e)
             {

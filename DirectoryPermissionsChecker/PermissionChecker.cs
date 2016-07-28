@@ -8,7 +8,7 @@ using Extensions.CollectionExtensions;
 
 namespace DirectoryPermissionTool
 {
-    internal class DirectoryPermissionsChecker
+    internal class PermissionChecker
     {
         public static readonly string OutputPath =
             Path.Combine(
@@ -23,21 +23,23 @@ namespace DirectoryPermissionTool
         private const string TxtExtension = ".txt";
 
         private readonly CancellationTokenSource _cancellationTokenSource;
-        private readonly DirectoryInfoGetter _directoryGetter;
+        private readonly PermissionGetter _permissionGetter;
         private readonly List<string> _log;
 
-        internal DirectoryPermissionsChecker(
+        internal PermissionChecker(
             IEnumerable<string> searchPaths,
             IEnumerable<string> excludePaths,
-            SearchDepth searchDepth)
+            SearchDepth searchDepth,
+            bool includeFiles)
         {
             _cancellationTokenSource = new CancellationTokenSource();
             _log = new List<string>();
 
-            _directoryGetter = new DirectoryInfoGetter(
+            _permissionGetter = new PermissionGetter(
                 searchPaths,
                 excludePaths,
                 searchDepth,
+                includeFiles,
                 _cancellationTokenSource.Token,
                 _log);
 
@@ -56,11 +58,11 @@ namespace DirectoryPermissionTool
             var task = Task.Run(
                 () =>
                 {
-                    var directories = _directoryGetter.GetDirectories();
+                    var permissionInfos = _permissionGetter.GetPermissionInfos();
 
-                    Result = new DirectoryPermissionsFormatter(
-                        directories, 
-                        _directoryGetter.MaxFolderLevels,
+                    Result = new PermissionInfoFormatter(
+                        permissionInfos, 
+                        _permissionGetter.MaxPathLevels,
                         _cancellationTokenSource.Token)
                         .FormatDirectories();
                 },

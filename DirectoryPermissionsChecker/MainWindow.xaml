@@ -17,11 +17,14 @@
                           Command="{Binding OpenHelpWindowCommand}" />
             </MenuItem>
         </Menu>
+        <ScrollViewer>
         <Grid>
             <Grid Row="0">
                 <StackPanel>
-                    <Label Content="Search the following path:" />
-                    <ListBox ItemsSource="{Binding SearchPaths}">
+                    <Label Content="Search the following directories:" />
+                    <ListBox ItemsSource="{Binding SearchPaths}"
+                             BorderThickness="0"
+                             Margin="5 0 5 0">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="Template">
@@ -60,8 +63,10 @@
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
-                    <Label Content="Exclude the following path(s):" />
-                    <ListBox ItemsSource="{Binding ExcludedPaths}">
+                    <Label Content="Exclude the following directories:" />
+                    <ListBox ItemsSource="{Binding ExcludedPaths}"
+                             BorderThickness="0"
+                             Margin="5 0 5 0">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="Template">
@@ -101,18 +106,21 @@
                         </ListBox.ItemTemplate>
                     </ListBox>
                     <Label Content="Get permissions for:" />
-                    <RadioButton Content="This Directory Only"
+                    <RadioButton Content="Directories Only"
                                  IsChecked="{Binding SearchDepthCurrentIsChecked}"
                                  GroupName="SearchDepth"
                                  Margin="5 0 5 0" />
-                    <RadioButton Content="This Directory and its Children Only"
+                    <RadioButton Content="Directories and Children (1 Level)"
                                  IsChecked="{Binding SearchDepthChildrenIsChecked}"
                                  GroupName="SearchDepth"
                                  Margin="5 5 5 0" />
-                    <RadioButton Content="This Directory and All Sub-directories"
+                    <RadioButton Content="Directories and All Children"
                                  IsChecked="{Binding SearchDepthAllIsChecked}"
                                  GroupName="SearchDepth"
-                                 Margin="5 5 5 5" />
+                                 Margin="5 5 5 0" />
+                    <CheckBox Content="Include Files"
+                              Margin="5 5 5 5"
+                              IsChecked="{Binding IncludeFilesIsChecked}"/>
                     <Separator />
                     <Button Content="Get Directory Permissions"
                             Command="{Binding GetDirectoryPermissionsCommand}"
@@ -147,5 +155,6 @@
                 </Border>
             </Grid>
         </Grid>
+        </ScrollViewer>
     </DockPanel>
 </Window>

@@ -10,21 +10,26 @@ using Extensions.PrimitiveExtensions;
 
 namespace DirectoryPermissionTool
 {
-    internal class DirectoryPermissionsFormatter
+    internal class PermissionInfoFormatter
     {
         private const char Comma = ',';
         private const char Quote = '"';
+        private const int MaxResults = 1048576;
+        private const string IdentityReferenceHeader = "Identity";
+        private const string FileSystemRightsHeader = "File System Rights";
+        private const string AccessControlTypeHeader = "Access Control Type";
+        private const string IsInheritedHeader = "Is Inherited?";
 
         private readonly CancellationToken _cancellationToken;
-        private IEnumerable<DirectoryPermissionInfo> _directoryPermissionInfos;
+        private IEnumerable<PermissionInfo> _permissionInfos;
         private readonly int _maxFolderLevels;
 
-        internal DirectoryPermissionsFormatter(
-            IEnumerable<DirectoryPermissionInfo> directoryPermissionInfos,
+        internal PermissionInfoFormatter(
+            IEnumerable<PermissionInfo> permissionInfos,
             int maxFolderLevels,
             CancellationToken cancellationToken)
         {
-            _directoryPermissionInfos = directoryPermissionInfos;
+            _permissionInfos = permissionInfos;
             _maxFolderLevels = maxFolderLevels;
             _cancellationToken = cancellationToken;
         }
@@ -32,6 +37,7 @@ namespace DirectoryPermissionTool
         internal string FormatDirectories()
         {
             var stringBuilder = new StringBuilder();
+            var resultsCount = 0;
 
             for (var i = 0; i < _maxFolderLevels; i++)
             {
@@ -41,23 +47,28 @@ namespace DirectoryPermissionTool
             stringBuilder.AppendLine(
                 string.Join(
                     Comma.ToString(),
-                    "Identity".Wrap(Quote),
-                    "File System Rights".Wrap(Quote),
-                    "Access Control Type".Wrap(Quote),
-                    "Is Inherited?".Wrap(Quote)));
+                    IdentityReferenceHeader.Wrap(Quote),
+                    FileSystemRightsHeader.Wrap(Quote),
+                    AccessControlTypeHeader.Wrap(Quote),
+                    IsInheritedHeader.Wrap(Quote)));
             try
             {
-                foreach (var directoryPermissionInfo in _directoryPermissionInfos)
+                foreach (var permissionInfo in _permissionInfos)
                 {
                     _cancellationToken.ThrowIfCancellationRequested();
+                    if (resultsCount == MaxResults)
+                    {
+                        continue;
+                    }
+
                     var pathStringBuilder = new StringBuilder();
                     for (var i = 0; i < _maxFolderLevels; i++)
                     {
                         _cancellationToken.ThrowIfCancellationRequested();
-                        if (i < directoryPermissionInfo.FullNameSplitPath.Length)
+                        if (i < permissionInfo.FullNameSplitPath.Length)
                         {
                             pathStringBuilder.Append(
-                                directoryPermissionInfo.FullNameSplitPath[i].Wrap(
+                                permissionInfo.FullNameSplitPath[i].Wrap(
                                     Quote) + Comma);
                         }
                         else
@@ -68,8 +79,13 @@ namespace DirectoryPermissionTool
                     }
 
                     foreach (FileSystemAccessRule accessRule in
-                        directoryPermissionInfo.AccessRules)
+                        permissionInfo.AccessRules)
                     {
+                        if (resultsCount == MaxResults)
+                        {
+                            continue;
+                        }
+
                         var identityReference = accessRule.IdentityReference.Value;
 
                         var fileSystemRights =
@@ -89,38 +105,48 @@ namespace DirectoryPermissionTool
                                 fileSystemRights.Wrap(Quote),
                                 accessControlType.Wrap(Quote),
                                 isInherited.Wrap(Quote)));
+
+                        resultsCount++;
                     }
                 }
             }
             catch (OperationCanceledException)
             {
                 stringBuilder = null;
-                _directoryPermissionInfos = null;
+                _permissionInfos = null;
                 throw;
             }
-            
 
             return stringBuilder.ToString();
         }
     }
 
-    internal struct DirectoryPermissionInfo
+    internal struct PermissionInfo
     {
         internal string[] FullNameSplitPath { get; }
         internal AuthorizationRuleCollection AccessRules { get; }
 
-        internal int FolderLevels => FullNameSplitPath.Length;
+        internal int PathLevels => FullNameSplitPath.Length;
 
 
-        internal DirectoryPermissionInfo(DirectoryInfo directoryInfo)
+        internal PermissionInfo(DirectoryInfo directoryInfo)
         {
             FullNameSplitPath = directoryInfo.FullName.Split(
                 Path.DirectorySeparatorChar).Where(
                     s => !s.IsNullOrWhiteSpace()).ToArray();
 
-            AccessRules =
-                directoryInfo.GetAccessControl()
-                    .GetAccessRules(true, true, typeof(NTAccount));
+            AccessRules = directoryInfo.GetAccessControl().GetAccessRules(
+                true, true, typeof(NTAccount));
+        }
+
+        internal PermissionInfo(FileInfo fileInfo)
+        {
+            FullNameSplitPath = fileInfo.FullName.Split(
+                Path.DirectorySeparatorChar).Where(
+                    s => !s.IsNullOrWhiteSpace()).ToArray();
+
+            AccessRules = fileInfo.GetAccessControl().GetAccessRules(
+                true, true, typeof(NTAccount));
         }
     }
 }
