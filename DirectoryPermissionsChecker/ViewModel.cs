@@ -18,13 +18,10 @@ namespace DirectoryPermissionTool
     {
         private AboutWindow _aboutWindow;
         private Visibility _cancelButonVisibility;
-
         private PermissionChecker _directoryPermissionsChecker;
         private bool _includeFilesIsChecked;
         private bool _isBusy;
-
         private string _message;
-
         private Visibility _messageVisibility;
         private int _messageZIndex;
         private Visibility _progressBarVisibility;
@@ -34,15 +31,16 @@ namespace DirectoryPermissionTool
 
         internal ViewModel()
         {
-            SetUpCommands();
             SetUpProperties();
         }
 
-        public ICommand AddExcludedPathCommand =>
-            new RelayCommand(AddExcludedPath, CanAddExcludedPath);
+        public ICommand AddExcludedPath =>
+            new RelayCommand(ExecuteAddExcludedPath, CanAddExcludedPath);
 
-        public ICommand AddSearchPathCommand =>
-            new RelayCommand(AddSearchPath, CanAddSearchPath);
+        public ICommand AddSearchPath =>
+            new RelayCommand(ExecuteAddSearchPath, CanAddSearchPath);
+
+        public ICommand Cancel => new RelayCommand(ExecuteCancel, CanCancel);
 
         public Visibility CancelButtonVisibility
         {
@@ -62,12 +60,15 @@ namespace DirectoryPermissionTool
             }
         }
 
-        public ICommand CancelCommand { get; private set; }
+        public ObservableCollection<DynamicDirectoryPath> ExcludedPaths
+        {
+            get;
+            private set;
+        }
 
-        public ObservableCollection<DynamicTextBox> ExcludedPaths { get;
-            private set; }
-
-        public ICommand GetDirectoryPermissionsCommand { get; private set; }
+        public ICommand GetDirectoryPermissions => new RelayCommand(
+            ExecuteGetDirectoryPermissions,
+            CanGetDirectoryPermissions);
 
         public bool IncludeFilesIsChecked
         {
@@ -95,8 +96,8 @@ namespace DirectoryPermissionTool
             }
             set
             {
-                if (_message != null && 
-                    value != null && 
+                if (_message != null &&
+                    value != null &&
                     _message.Equals(value))
                 {
                     return;
@@ -143,9 +144,11 @@ namespace DirectoryPermissionTool
             }
         }
 
-        public ICommand OpenAboutWindowCommand { get; private set; }
+        public ICommand OpenAboutWindowCommand => new RelayCommand(
+            OpenAboutWindowCommandExecute);
 
-        public ICommand OpenHelpWindowCommand { get; private set; }
+        public ICommand OpenHelpWindowCommand => new RelayCommand(
+            OpenHelpWindowCommandExecute);
 
         public Visibility ProgressBarVisibility
         {
@@ -166,11 +169,11 @@ namespace DirectoryPermissionTool
         }
 
         public ICommand RemoveExcludedPathCommand =>
-            new RelayCommand<DynamicTextBox>(
+            new RelayCommand<DynamicDirectoryPath>(
                 RemoveExcludedPath, CanRemoveExcludedPath);
 
         public ICommand RemoveSearchPathCommand =>
-            new RelayCommand<DynamicTextBox>(
+            new RelayCommand<DynamicDirectoryPath>(
                 RemoveSearchPath, CanRemoveSearchPath);
 
         public bool SearchDepthAllIsChecked
@@ -227,22 +230,19 @@ namespace DirectoryPermissionTool
             }
         }
 
-        public ObservableCollection<DynamicTextBox> SearchPaths { get;
-            private set; }
+        public ObservableCollection<DynamicDirectoryPath> SearchPaths
+        {
+            get;
+            private set;
+        }
 
-        public string Version { get; private set; }
+        public string Version
+        {
+            get;
+            private set;
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
-
-        private void AddExcludedPath()
-        {
-            ExcludedPaths.Add(new DynamicTextBox());
-        }
-
-        private void AddSearchPath()
-        {
-            SearchPaths.Add(new DynamicTextBox());
-        }
 
         private bool CanAddExcludedPath()
         {
@@ -254,34 +254,46 @@ namespace DirectoryPermissionTool
             return SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
-        private bool CancelCommandCanExecute()
+        private bool CanCancel()
         {
             return _directoryPermissionsChecker != null;
         }
 
-        private void CancelCommandExecute()
-        {
-            _directoryPermissionsChecker.Cancel();
-        }
-
-        private bool CanRemoveExcludedPath(DynamicTextBox excludedPath = null)
-        {
-            return ExcludedPaths.Count > 1;
-        }
-
-        private bool CanRemoveSearchPath(DynamicTextBox searchPath = null)
-        {
-            return SearchPaths.Count > 1;
-        }
-
-        private bool GetDirectoryPermissionsCommandCanExecute()
+        private bool CanGetDirectoryPermissions()
         {
             return SearchPaths.Any(x => !x.Text.IsNullOrWhiteSpace()) &&
                    !_isBusy &&
                    GetSearchDepth() != SearchDepth.None;
         }
 
-        private async void GetDirectoryPermissionsCommandExecute()
+        private bool CanRemoveExcludedPath(
+            DynamicDirectoryPath excludedPath = null)
+        {
+            return ExcludedPaths.Count > 1;
+        }
+
+        private bool CanRemoveSearchPath(
+            DynamicDirectoryPath searchPath = null)
+        {
+            return SearchPaths.Count > 1;
+        }
+
+        private void ExecuteAddExcludedPath()
+        {
+            ExcludedPaths.Add(new DynamicDirectoryPath());
+        }
+
+        private void ExecuteAddSearchPath()
+        {
+            SearchPaths.Add(new DynamicDirectoryPath());
+        }
+
+        private void ExecuteCancel()
+        {
+            _directoryPermissionsChecker.Cancel();
+        }
+
+        private async void ExecuteGetDirectoryPermissions()
         {
             _isBusy = true;
             CancelButtonVisibility = Visibility.Visible;
@@ -385,30 +397,14 @@ namespace DirectoryPermissionTool
             }
         }
 
-        private void RemoveExcludedPath(DynamicTextBox excludedPath)
+        private void RemoveExcludedPath(DynamicDirectoryPath excludedPath)
         {
             ExcludedPaths.Remove(excludedPath);
         }
 
-        private void RemoveSearchPath(DynamicTextBox searchPath)
+        private void RemoveSearchPath(DynamicDirectoryPath searchPath)
         {
             SearchPaths.Remove(searchPath);
-        }
-
-        private void SetUpCommands()
-        {
-            OpenAboutWindowCommand = new RelayCommand(
-                OpenAboutWindowCommandExecute);
-
-            OpenHelpWindowCommand = new RelayCommand(
-                OpenHelpWindowCommandExecute);
-
-            GetDirectoryPermissionsCommand = new RelayCommand(
-                GetDirectoryPermissionsCommandExecute,
-                GetDirectoryPermissionsCommandCanExecute);
-
-            CancelCommand = new RelayCommand(
-                CancelCommandExecute, CancelCommandCanExecute);
         }
 
         private void SetUpProperties()
@@ -418,12 +414,12 @@ namespace DirectoryPermissionTool
             ProgressBarVisibility = Visibility.Hidden;
             MessageVisibility = Visibility.Hidden;
             MessageZIndex = -1;
-            ExcludedPaths = new ObservableCollection<DynamicTextBox>();
-            SearchPaths = new ObservableCollection<DynamicTextBox>();
+            ExcludedPaths = new ObservableCollection<DynamicDirectoryPath>();
+            SearchPaths = new ObservableCollection<DynamicDirectoryPath>();
             ExcludedPaths.CollectionChanged += OnExcludedPathsChanged;
             SearchPaths.CollectionChanged += OnSearchPathsChanged;
-            ExcludedPaths.Add(new DynamicTextBox());
-            SearchPaths.Add(new DynamicTextBox());
+            ExcludedPaths.Add(new DynamicDirectoryPath());
+            SearchPaths.Add(new DynamicDirectoryPath());
             try
             {
                 Version =
@@ -441,58 +437,6 @@ namespace DirectoryPermissionTool
             Message = message + "\n\nDouble-click to dismiss.";
             MessageVisibility = Visibility.Visible;
             MessageZIndex = 1;
-        }
-
-        public class DynamicTextBox : INotifyPropertyChanged
-        {
-            private Visibility _addButtonVisibility;
-            private string _text;
-
-            public Visibility AddButtonVisibility
-            {
-                get
-                {
-                    return _addButtonVisibility;
-                }
-                set
-                {
-                    if (_addButtonVisibility == value)
-                    {
-                        return;
-                    }
-
-                    _addButtonVisibility = value;
-                    NotifyPropertyChanged();
-                }
-            }
-
-            public string Text
-            {
-                get
-                {
-                    return _text;
-                }
-                set
-                {
-                    if (_text != null && value != null && _text.Equals(value))
-                    {
-                        return;
-                    }
-
-                    _text = value;
-                    NotifyPropertyChanged();
-                }
-            }
-
-            public event PropertyChangedEventHandler PropertyChanged;
-
-            private void NotifyPropertyChanged(
-                [CallerMemberName] string propertyName = "")
-            {
-                PropertyChanged?.Invoke(
-                    this,
-                    new PropertyChangedEventArgs(propertyName));
-            }
         }
     }
 }

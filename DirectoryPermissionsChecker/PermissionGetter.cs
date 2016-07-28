@@ -114,9 +114,10 @@ namespace DirectoryPermissionTool
             }
             catch (PathTooLongException)
             {
+                Debug.Assert(directory.Parent != null, "directory.Parent != null");
                 _log.Add(
                     "The path of directory with name '" +
-                    $"{directory.Name}' is too long.");
+                    $"{directory.Parent.FullName}\\{directory.Name}' is too long.");
             }
             catch (UnauthorizedAccessException)
             {
@@ -146,9 +147,10 @@ namespace DirectoryPermissionTool
             }
             catch (PathTooLongException)
             {
+                Debug.Assert(directory.Parent != null, "directory.Parent != null");
                 _log.Add(
                     "The path of directory with name '" +
-                    $"{directory.Root}\\{directory.Name}' is too long.");
+                    $"{directory.Parent.FullName}\\{directory.Name}' is too long.");
             }
             catch (UnauthorizedAccessException e)
             {

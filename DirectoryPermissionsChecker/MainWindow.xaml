@@ -6,8 +6,9 @@
         mc:Ignorable="d"
         DataContext="{StaticResource MainViewModel}"
         Title="Directory Permissions Tool"
-        Height="350"
-        Width="525">
+        Height="354"
+        Width="525"
+        ResizeMode="NoResize">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Help">
@@ -17,14 +18,15 @@
                           Command="{Binding OpenHelpWindowCommand}" />
             </MenuItem>
         </Menu>
-        <ScrollViewer>
         <Grid>
             <Grid Row="0">
                 <StackPanel>
                     <Label Content="Search the following directories:" />
                     <ListBox ItemsSource="{Binding SearchPaths}"
                              BorderThickness="0"
-                             Margin="5 0 5 0">
+                             Margin="5 0 5 0"
+                             Height="48"
+                             MaxHeight="48">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="Template">
@@ -43,20 +45,21 @@
                                             Content="+"
                                             Command="{Binding DataContext.AddSearchPathCommand,
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
-                                            
                                             CommandParameter="{Binding}"
                                             Visibility="{Binding AddButtonVisibility}" />
                                     <Button DockPanel.Dock="Right"
                                             Content="-"
                                             Command="{Binding DataContext.RemoveSearchPathCommand, 
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
-                                            
-                                            CommandParameter="{Binding}"/>
+                                            CommandParameter="{Binding}" />
+                                    <Button DockPanel.Dock="Right"
+                                            Content="Browse..."
+                                            Command="{Binding BrowseFolderCommand}" />
                                     <TextBox DockPanel.Dock="Left"
                                              Text="{Binding Text,
                                                 Mode=TwoWay,
                                                 UpdateSourceTrigger=PropertyChanged}"
-                                             
+
                                              HorizontalAlignment="Stretch"
                                              HorizontalContentAlignment="Stretch" />
                                 </DockPanel>
@@ -66,7 +69,9 @@
                     <Label Content="Exclude the following directories:" />
                     <ListBox ItemsSource="{Binding ExcludedPaths}"
                              BorderThickness="0"
-                             Margin="5 0 5 0">
+                             Margin="5 0 5 0"
+                             MaxHeight="48"
+                             Height="48">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="Template">
@@ -85,20 +90,21 @@
                                             Content="+"
                                             Command="{Binding DataContext.AddExcludedPathCommand,
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
-                                            
                                             CommandParameter="{Binding}"
                                             Visibility="{Binding AddButtonVisibility}" />
                                     <Button DockPanel.Dock="Right"
                                             Content="-"
                                             Command="{Binding DataContext.RemoveExcludedPathCommand, 
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
-                                            
-                                            CommandParameter="{Binding}"/>
+                                            CommandParameter="{Binding}" />
+                                    <Button DockPanel.Dock="Right"
+                                            Content="Browse..."
+                                            Command="{Binding BrowseFolderCommand}" />
                                     <TextBox DockPanel.Dock="Left"
                                              Text="{Binding Text,
                                                 Mode=TwoWay,
                                                 UpdateSourceTrigger=PropertyChanged}"
-                                             
+
                                              HorizontalAlignment="Stretch"
                                              HorizontalContentAlignment="Stretch" />
                                 </DockPanel>
@@ -120,11 +126,15 @@
                                  Margin="5 5 5 0" />
                     <CheckBox Content="Include Files"
                               Margin="5 5 5 5"
-                              IsChecked="{Binding IncludeFilesIsChecked}"/>
+                              IsChecked="{Binding IncludeFilesIsChecked}" />
                     <Separator />
                     <Button Content="Get Directory Permissions"
                             Command="{Binding GetDirectoryPermissionsCommand}"
                             Margin="5 5 5 5" />
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Visibility="{Binding ProgressBarVisibility}">
                     <ProgressBar HorizontalAlignment="Center"
                                  VerticalAlignment="Center"
                                  Height="10"
@@ -155,6 +165,5 @@
                 </Border>
             </Grid>
         </Grid>
-        </ScrollViewer>
     </DockPanel>
 </Window>
