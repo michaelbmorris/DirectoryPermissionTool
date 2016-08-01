@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Security.AccessControl;
-using System.Security.Principal;
 using System.Text;
 using System.Threading;
 using Extensions.PrimitiveExtensions;
@@ -12,25 +9,34 @@ namespace DirectoryPermissionTool
 {
     internal class PermissionInfoFormatter
     {
-        private const char Comma = ',';
-        private const char Quote = '"';
-        private const int MaxResults = 1048576;
-        private const string IdentityReferenceHeader = "Identity";
-        private const string FileSystemRightsHeader = "File System Rights";
         private const string AccessControlTypeHeader = "Access Control Type";
+        private const char Comma = ',';
+        private const string FileSystemRightsHeader = "File System Rights";
+        private const string IdentityReferenceHeader = "Identity";
         private const string IsInheritedHeader = "Is Inherited?";
+        private const string PathHeader = "Path";
+        private const string LevelHeader = "Level";
+        private const int MaxResults = 1048576;
+        private const char Quote = '"';
 
         private readonly CancellationToken _cancellationToken;
-        private IEnumerable<PermissionInfo> _permissionInfos;
         private readonly int _maxFolderLevels;
+        private IEnumerable<PermissionInfo> _permissionInfos;
+
+        private bool ShouldSplitPathLevels
+        {
+            get;
+        }
 
         internal PermissionInfoFormatter(
             IEnumerable<PermissionInfo> permissionInfos,
             int maxFolderLevels,
+            bool shouldSplitPathLevels,
             CancellationToken cancellationToken)
         {
             _permissionInfos = permissionInfos;
             _maxFolderLevels = maxFolderLevels;
+            ShouldSplitPathLevels = shouldSplitPathLevels;
             _cancellationToken = cancellationToken;
         }
 
@@ -39,9 +45,17 @@ namespace DirectoryPermissionTool
             var stringBuilder = new StringBuilder();
             var resultsCount = 0;
 
-            for (var i = 0; i < _maxFolderLevels; i++)
+            if (ShouldSplitPathLevels)
             {
-                stringBuilder.Append($"Level {i}".Wrap(Quote) + Comma);
+                for (var i = 0; i < _maxFolderLevels; i++)
+                {
+                    stringBuilder.Append(
+                        $"{LevelHeader} {i}".Wrap(Quote) + Comma);
+                }
+            }
+            else
+            {
+                stringBuilder.Append(PathHeader.Wrap(Quote) + Comma);
             }
 
             stringBuilder.AppendLine(
@@ -62,21 +76,30 @@ namespace DirectoryPermissionTool
                     }
 
                     var pathStringBuilder = new StringBuilder();
-                    for (var i = 0; i < _maxFolderLevels; i++)
+                    if (ShouldSplitPathLevels)
                     {
-                        _cancellationToken.ThrowIfCancellationRequested();
-                        if (i < permissionInfo.FullNameSplitPath.Length)
+                        for (var i = 0; i < _maxFolderLevels; i++)
                         {
-                            pathStringBuilder.Append(
-                                permissionInfo.FullNameSplitPath[i].Wrap(
-                                    Quote) + Comma);
-                        }
-                        else
-                        {
-                            pathStringBuilder.Append(
-                                string.Empty.Wrap(Quote) + Comma);
+                            _cancellationToken.ThrowIfCancellationRequested();
+                            if (i < permissionInfo.FullNameSplitPath.Length)
+                            {
+                                pathStringBuilder.Append(
+                                    permissionInfo.FullNameSplitPath[i].Wrap(
+                                        Quote) + Comma);
+                            }
+                            else
+                            {
+                                pathStringBuilder.Append(
+                                    string.Empty.Wrap(Quote) + Comma);
+                            }
                         }
                     }
+                    else
+                    {
+                        pathStringBuilder.Append(
+                            permissionInfo.FullName.Wrap(Quote) + Comma);
+                    }
+                    
 
                     foreach (FileSystemAccessRule accessRule in
                         permissionInfo.AccessRules)
@@ -86,7 +109,8 @@ namespace DirectoryPermissionTool
                             continue;
                         }
 
-                        var identityReference = accessRule.IdentityReference.Value;
+                        var identityReference =
+                            accessRule.IdentityReference.Value;
 
                         var fileSystemRights =
                             accessRule.FileSystemRights.ToString();
@@ -118,35 +142,6 @@ namespace DirectoryPermissionTool
             }
 
             return stringBuilder.ToString();
-        }
-    }
-
-    internal struct PermissionInfo
-    {
-        internal string[] FullNameSplitPath { get; }
-        internal AuthorizationRuleCollection AccessRules { get; }
-
-        internal int PathLevels => FullNameSplitPath.Length;
-
-
-        internal PermissionInfo(DirectoryInfo directoryInfo)
-        {
-            FullNameSplitPath = directoryInfo.FullName.Split(
-                Path.DirectorySeparatorChar).Where(
-                    s => !s.IsNullOrWhiteSpace()).ToArray();
-
-            AccessRules = directoryInfo.GetAccessControl().GetAccessRules(
-                true, true, typeof(NTAccount));
-        }
-
-        internal PermissionInfo(FileInfo fileInfo)
-        {
-            FullNameSplitPath = fileInfo.FullName.Split(
-                Path.DirectorySeparatorChar).Where(
-                    s => !s.IsNullOrWhiteSpace()).ToArray();
-
-            AccessRules = fileInfo.GetAccessControl().GetAccessRules(
-                true, true, typeof(NTAccount));
         }
     }
 }

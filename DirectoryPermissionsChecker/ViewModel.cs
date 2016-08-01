@@ -269,13 +269,15 @@ namespace DirectoryPermissionTool
         private bool CanRemoveExcludedPath(
             DynamicDirectoryPath excludedPath = null)
         {
-            return ExcludedPaths.Count > 1;
+            return ExcludedPaths.Count > 1 || 
+                ExcludedPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private bool CanRemoveSearchPath(
             DynamicDirectoryPath searchPath = null)
         {
-            return SearchPaths.Count > 1;
+            return SearchPaths.Count > 1 ||
+                SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private void ExecuteAddExcludedPath()
@@ -293,6 +295,11 @@ namespace DirectoryPermissionTool
             _directoryPermissionsChecker.Cancel();
         }
 
+        private bool SplitPathLevels()
+        {
+            return _splitPathLevelsIsChecked;
+        }
+
         private async void ExecuteGetDirectoryPermissions()
         {
             _isBusy = true;
@@ -305,7 +312,8 @@ namespace DirectoryPermissionTool
                     SearchPaths.Select(x => x.Text),
                     ExcludedPaths.Select(x => x.Text),
                     GetSearchDepth(),
-                    IncludeFilesIsChecked);
+                    IncludeFilesIsChecked,
+                    SplitPathLevelsIsChecked);
                 await _directoryPermissionsChecker.Execute();
                 _directoryPermissionsChecker = null;
             }
@@ -399,12 +407,65 @@ namespace DirectoryPermissionTool
 
         private void RemoveExcludedPath(DynamicDirectoryPath excludedPath)
         {
-            ExcludedPaths.Remove(excludedPath);
+            if (ExcludedPaths.Count == 1)
+            {
+                excludedPath.Text = string.Empty;
+            }
+            else
+            {
+                ExcludedPaths.Remove(excludedPath);
+            }
         }
 
         private void RemoveSearchPath(DynamicDirectoryPath searchPath)
         {
-            SearchPaths.Remove(searchPath);
+            if (SearchPaths.Count == 1)
+            {
+                searchPath.Text = string.Empty;
+            }
+            else
+            {
+                SearchPaths.Remove(searchPath);
+            }
+        }
+
+        private bool _splitPathLevelsIsChecked;
+
+        public bool SplitPathLevelsIsChecked
+        {
+            get
+            {
+                return _splitPathLevelsIsChecked;
+            }
+            set
+            {
+                if (_splitPathLevelsIsChecked == value)
+                {
+                    return;
+                }
+
+                _splitPathLevelsIsChecked = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        private bool _combinedPathLevelsIsChecked;
+
+        public bool CombinedPathLevelsIsChecked
+        {
+            get
+            {
+                return _combinedPathLevelsIsChecked;
+            }
+            set
+            {
+                if (_combinedPathLevelsIsChecked == value)
+                {
+                    return;
+                }
+                _combinedPathLevelsIsChecked = value;
+                NotifyPropertyChanged();
+            }
         }
 
         private void SetUpProperties()
@@ -420,9 +481,10 @@ namespace DirectoryPermissionTool
             SearchPaths.CollectionChanged += OnSearchPathsChanged;
             ExcludedPaths.Add(new DynamicDirectoryPath());
             SearchPaths.Add(new DynamicDirectoryPath());
+
             try
             {
-                Version =
+                Version = 
                     ApplicationDeployment.CurrentDeployment.CurrentVersion
                         .ToString();
             }

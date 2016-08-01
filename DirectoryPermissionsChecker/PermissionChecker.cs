@@ -26,14 +26,21 @@ namespace DirectoryPermissionTool
         private readonly PermissionGetter _permissionGetter;
         private readonly List<string> _log;
 
+        private bool ShouldSplitPathLevels
+        {
+            get;
+        }
+
         internal PermissionChecker(
             IEnumerable<string> searchPaths,
             IEnumerable<string> excludePaths,
             SearchDepth searchDepth,
-            bool includeFiles)
+            bool includeFiles,
+            bool shouldSplitPathLevels)
         {
             _cancellationTokenSource = new CancellationTokenSource();
             _log = new List<string>();
+            ShouldSplitPathLevels = shouldSplitPathLevels;
 
             _permissionGetter = new PermissionGetter(
                 searchPaths,
@@ -63,6 +70,7 @@ namespace DirectoryPermissionTool
                     Result = new PermissionInfoFormatter(
                         permissionInfos, 
                         _permissionGetter.MaxPathLevels,
+                        ShouldSplitPathLevels,
                         _cancellationTokenSource.Token)
                         .FormatDirectories();
                 },

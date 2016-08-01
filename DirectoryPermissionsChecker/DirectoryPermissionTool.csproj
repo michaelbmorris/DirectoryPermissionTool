@@ -27,7 +27,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Directory Permission Tool</ProductName>
     <PublisherName>IT Tools</PublisherName>
-    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationRevision>13</ApplicationRevision>
     <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -117,6 +117,7 @@
       <DependentUpon>AboutWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="DynamicDirectoryPath.cs" />
+    <Compile Include="PermissionInfo.cs" />
     <Compile Include="PermissionInfoFormatter.cs" />
     <Compile Include="PermissionGetter.cs" />
     <Compile Include="PermissionChecker.cs" />

@@ -6,7 +6,7 @@
         mc:Ignorable="d"
         DataContext="{StaticResource MainViewModel}"
         Title="Directory Permissions Tool"
-        Height="354"
+        Height="410"
         Width="525"
         ResizeMode="NoResize">
     <DockPanel>
@@ -43,7 +43,7 @@
                                 <DockPanel LastChildFill="True">
                                     <Button DockPanel.Dock="Right"
                                             Content="+"
-                                            Command="{Binding DataContext.AddSearchPathCommand,
+                                            Command="{Binding DataContext.AddSearchPath,
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
                                             CommandParameter="{Binding}"
                                             Visibility="{Binding AddButtonVisibility}" />
@@ -88,7 +88,7 @@
                                 <DockPanel LastChildFill="True">
                                     <Button DockPanel.Dock="Right"
                                             Content="+"
-                                            Command="{Binding DataContext.AddExcludedPathCommand,
+                                            Command="{Binding DataContext.AddExcludedPath,
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
                                             CommandParameter="{Binding}"
                                             Visibility="{Binding AddButtonVisibility}" />
@@ -125,11 +125,18 @@
                                  GroupName="SearchDepth"
                                  Margin="5 5 5 0" />
                     <CheckBox Content="Include Files"
-                              Margin="5 5 5 5"
+                              Margin="5 5 5 0"
                               IsChecked="{Binding IncludeFilesIsChecked}" />
+                    <Label Content="Display paths as:"/> 
+                    <RadioButton Content="Split (One Column per Level)"
+                                 Margin="5 0 5 0"
+                                 IsChecked="{Binding SplitPathLevelsIsChecked}"/>
+                    <RadioButton Content="Combined (All Levels in One Column)"
+                                 Margin="5 5 5 0"
+                                 IsChecked="{Binding CombinedPathLevelsIsChecked}"/>
                     <Separator />
                     <Button Content="Get Directory Permissions"
-                            Command="{Binding GetDirectoryPermissionsCommand}"
+                            Command="{Binding GetDirectoryPermissions}"
                             Margin="5 5 5 5" />
                 </StackPanel>
                 <StackPanel HorizontalAlignment="Center"
@@ -142,7 +149,7 @@
                                  IsIndeterminate="true"
                                  Visibility="{Binding ProgressBarVisibility}" />
                     <Button Content="Cancel"
-                            Command="{Binding CancelCommand}"
+                            Command="{Binding Cancel}"
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
                             Visibility="{Binding CancelButtonVisibility}"

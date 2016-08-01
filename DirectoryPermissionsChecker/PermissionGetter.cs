@@ -19,15 +19,13 @@ namespace DirectoryPermissionTool
     {
         private const int RootLevel = 0;
         private readonly CancellationToken _cancellationToken;
+        private readonly IEnumerable<string> _excludePaths;
+        private readonly bool _includeFiles;
         private readonly List<string> _log;
         private readonly List<DirectoryInfo> _rootDirectories;
         private readonly SearchDepth _searchDepth;
-        private readonly IEnumerable<string> _excludePaths;
-        private readonly bool _includeFiles;
 
         private List<PermissionInfo> _permissionInfos;
-
-        public int MaxPathLevels { get; private set; }
 
         internal PermissionGetter(
             IEnumerable<string> searchPaths,
@@ -60,6 +58,12 @@ namespace DirectoryPermissionTool
             _log = log;
         }
 
+        public int MaxPathLevels
+        {
+            get;
+            private set;
+        }
+
         internal List<PermissionInfo> GetPermissionInfos()
         {
             _permissionInfos = new List<PermissionInfo>();
@@ -84,7 +88,7 @@ namespace DirectoryPermissionTool
         {
             try
             {
-                if (!_excludePaths.IsNullOrEmpty() && 
+                if (!_excludePaths.IsNullOrEmpty() &&
                     _excludePaths.ContainsIgnoreCase(directory.FullName))
                 {
                     return;
@@ -114,7 +118,8 @@ namespace DirectoryPermissionTool
             }
             catch (PathTooLongException)
             {
-                Debug.Assert(directory.Parent != null, "directory.Parent != null");
+                Debug.Assert(
+                    directory.Parent != null, "directory.Parent != null");
                 _log.Add(
                     "The path of directory with name '" +
                     $"{directory.Parent.FullName}\\{directory.Name}' is too long.");
@@ -147,7 +152,8 @@ namespace DirectoryPermissionTool
             }
             catch (PathTooLongException)
             {
-                Debug.Assert(directory.Parent != null, "directory.Parent != null");
+                Debug.Assert(
+                    directory.Parent != null, "directory.Parent != null");
                 _log.Add(
                     "The path of directory with name '" +
                     $"{directory.Parent.FullName}\\{directory.Name}' is too long.");
@@ -155,7 +161,7 @@ namespace DirectoryPermissionTool
             catch (UnauthorizedAccessException e)
             {
                 _log.Add(e.Message);
-            }  
+            }
         }
     }
 }
