@@ -27,7 +27,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Directory Permission Tool</ProductName>
     <PublisherName>IT Tools</PublisherName>
-    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationRevision>14</ApplicationRevision>
     <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -104,6 +104,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="ValueConverters">
+      <HintPath>..\..\ValueConverters\ValueConverters\bin\Debug\ValueConverters.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -117,6 +120,7 @@
       <DependentUpon>AboutWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="DynamicDirectoryPath.cs" />
+    <Compile Include="DynamicText.cs" />
     <Compile Include="PermissionInfo.cs" />
     <Compile Include="PermissionInfoFormatter.cs" />
     <Compile Include="PermissionGetter.cs" />

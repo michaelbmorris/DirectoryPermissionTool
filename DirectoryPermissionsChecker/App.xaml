@@ -2,8 +2,10 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:directoryPermissionTool="clr-namespace:DirectoryPermissionTool"
+             xmlns:valueConverters="clr-namespace:ValueConverters;assembly=ValueConverters"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         <directoryPermissionTool:ViewModel x:Key="MainViewModel"/>
+        <directoryPermissionTool:ViewModel x:Key="MainViewModel" />
+        <valueConverters:InverseBooleanConverter x:Key="InverseBooleanConverter" />
     </Application.Resources>
 </Application>

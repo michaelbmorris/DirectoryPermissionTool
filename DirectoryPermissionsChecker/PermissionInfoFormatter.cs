@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading;
+using Extensions.CollectionExtensions;
 using Extensions.PrimitiveExtensions;
 
 namespace DirectoryPermissionTool
@@ -14,30 +15,49 @@ namespace DirectoryPermissionTool
         private const string FileSystemRightsHeader = "File System Rights";
         private const string IdentityReferenceHeader = "Identity";
         private const string IsInheritedHeader = "Is Inherited?";
-        private const string PathHeader = "Path";
         private const string LevelHeader = "Level";
-        private const int MaxResults = 1048576;
+        private const int MaxResults = 1048574;
+        private const string PathHeader = "Path";
         private const char Quote = '"';
 
-        private readonly CancellationToken _cancellationToken;
-        private readonly int _maxFolderLevels;
-        private IEnumerable<PermissionInfo> _permissionInfos;
+        internal PermissionInfoFormatter(
+            IEnumerable<PermissionInfo> permissionInfos,
+            int maxPathLevels,
+            bool shouldSplitPathLevels,
+            IEnumerable<string> excludedGroups,
+            CancellationToken cancellationToken)
+        {
+            PermissionInfos = permissionInfos;
+            MaxPathLevels = maxPathLevels;
+            ShouldSplitPathLevels = shouldSplitPathLevels;
+            ExcludedGroups = excludedGroups;
+            CancellationToken = cancellationToken;
+        }
 
-        private bool ShouldSplitPathLevels
+        private IEnumerable<string> ExcludedGroups
         {
             get;
         }
 
-        internal PermissionInfoFormatter(
-            IEnumerable<PermissionInfo> permissionInfos,
-            int maxFolderLevels,
-            bool shouldSplitPathLevels,
-            CancellationToken cancellationToken)
+        private CancellationToken CancellationToken
         {
-            _permissionInfos = permissionInfos;
-            _maxFolderLevels = maxFolderLevels;
-            ShouldSplitPathLevels = shouldSplitPathLevels;
-            _cancellationToken = cancellationToken;
+            get;
+        }
+
+        private int MaxPathLevels
+        {
+            get;
+        }
+
+        private IEnumerable<PermissionInfo> PermissionInfos
+        {
+            get;
+            set;
+        }
+
+        private bool ShouldSplitPathLevels
+        {
+            get;
         }
 
         internal string FormatDirectories()
@@ -45,9 +65,10 @@ namespace DirectoryPermissionTool
             var stringBuilder = new StringBuilder();
             var resultsCount = 0;
 
+            stringBuilder.Append("#".Wrap(Quote) + Comma);
             if (ShouldSplitPathLevels)
             {
-                for (var i = 0; i < _maxFolderLevels; i++)
+                for (var i = 0; i < MaxPathLevels; i++)
                 {
                     stringBuilder.Append(
                         $"{LevelHeader} {i}".Wrap(Quote) + Comma);
@@ -67,20 +88,23 @@ namespace DirectoryPermissionTool
                     IsInheritedHeader.Wrap(Quote)));
             try
             {
-                foreach (var permissionInfo in _permissionInfos)
+                foreach (var permissionInfo in PermissionInfos)
                 {
-                    _cancellationToken.ThrowIfCancellationRequested();
+                    CancellationToken.ThrowIfCancellationRequested();
+
                     if (resultsCount == MaxResults)
                     {
                         continue;
                     }
 
                     var pathStringBuilder = new StringBuilder();
+
                     if (ShouldSplitPathLevels)
                     {
-                        for (var i = 0; i < _maxFolderLevels; i++)
+                        for (var i = 0; i < MaxPathLevels; i++)
                         {
-                            _cancellationToken.ThrowIfCancellationRequested();
+                            CancellationToken.ThrowIfCancellationRequested();
+
                             if (i < permissionInfo.FullNameSplitPath.Length)
                             {
                                 pathStringBuilder.Append(
@@ -99,7 +123,7 @@ namespace DirectoryPermissionTool
                         pathStringBuilder.Append(
                             permissionInfo.FullName.Wrap(Quote) + Comma);
                     }
-                    
+
 
                     foreach (FileSystemAccessRule accessRule in
                         permissionInfo.AccessRules)
@@ -112,6 +136,12 @@ namespace DirectoryPermissionTool
                         var identityReference =
                             accessRule.IdentityReference.Value;
 
+                        if (ExcludedGroups.ContainsIgnoreCase(
+                            identityReference))
+                        {
+                            continue;
+                        }
+
                         var fileSystemRights =
                             accessRule.FileSystemRights.ToString();
 
@@ -119,7 +149,8 @@ namespace DirectoryPermissionTool
                             accessRule.AccessControlType.ToString();
 
                         var isInherited = accessRule.IsInherited.ToString();
-                        _cancellationToken.ThrowIfCancellationRequested();
+                        CancellationToken.ThrowIfCancellationRequested();
+                        stringBuilder.Append(resultsCount.ToString().Wrap(Quote) + Comma);
                         stringBuilder.Append(pathStringBuilder);
 
                         stringBuilder.AppendLine(
@@ -136,8 +167,9 @@ namespace DirectoryPermissionTool
             }
             catch (OperationCanceledException)
             {
+                // ReSharper disable once RedundantAssignment
                 stringBuilder = null;
-                _permissionInfos = null;
+                PermissionInfos = null;
                 throw;
             }
 

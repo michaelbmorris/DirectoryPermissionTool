@@ -22,33 +22,51 @@ namespace DirectoryPermissionTool
         private const string OutputFileName = "DirectoryPermissions";
         private const string TxtExtension = ".txt";
 
-        private readonly CancellationTokenSource _cancellationTokenSource;
-        private readonly PermissionGetter _permissionGetter;
-        private readonly List<string> _log;
+        private CancellationTokenSource CancellationTokenSource
+        {
+            get;
+        }
+
+        private PermissionGetter PermissionGetter
+        {
+            get;
+        }
+
+        private IList<string> Log
+        {
+            get;
+        }
 
         private bool ShouldSplitPathLevels
         {
             get;
         }
 
+        private IEnumerable<string> ExcludedGroups
+        {
+            get;
+        }
+
         internal PermissionChecker(
             IEnumerable<string> searchPaths,
-            IEnumerable<string> excludePaths,
+            IEnumerable<string> excludedPaths,
             SearchDepth searchDepth,
-            bool includeFiles,
-            bool shouldSplitPathLevels)
+            bool shouldIncludeFiles,
+            bool shouldSplitPathLevels,
+            IEnumerable<string> excludedGroups)
         {
-            _cancellationTokenSource = new CancellationTokenSource();
-            _log = new List<string>();
+            CancellationTokenSource = new CancellationTokenSource();
+            Log = new List<string>();
             ShouldSplitPathLevels = shouldSplitPathLevels;
+            ExcludedGroups = excludedGroups;
 
-            _permissionGetter = new PermissionGetter(
+            PermissionGetter = new PermissionGetter(
                 searchPaths,
-                excludePaths,
+                excludedPaths,
                 searchDepth,
-                includeFiles,
-                _cancellationTokenSource.Token,
-                _log);
+                shouldIncludeFiles,
+                CancellationTokenSource.Token,
+                Log);
 
             Directory.CreateDirectory(OutputPath);
         }
@@ -57,7 +75,7 @@ namespace DirectoryPermissionTool
 
         internal void Cancel()
         {
-            _cancellationTokenSource.Cancel();
+            CancellationTokenSource.Cancel();
         }
 
         internal async Task Execute()
@@ -65,16 +83,17 @@ namespace DirectoryPermissionTool
             var task = Task.Run(
                 () =>
                 {
-                    var permissionInfos = _permissionGetter.GetPermissionInfos();
+                    var permissionInfos = PermissionGetter.GetPermissionInfos();
 
                     Result = new PermissionInfoFormatter(
                         permissionInfos, 
-                        _permissionGetter.MaxPathLevels,
+                        PermissionGetter.MaxPathLevels,
                         ShouldSplitPathLevels,
-                        _cancellationTokenSource.Token)
+                        ExcludedGroups,
+                        CancellationTokenSource.Token)
                         .FormatDirectories();
                 },
-                _cancellationTokenSource.Token);
+                CancellationTokenSource.Token);
 
             await task;
 
@@ -96,13 +115,13 @@ namespace DirectoryPermissionTool
 
         private void WriteAndOpenLog(DateTime timestamp)
         {
-            if (_log.IsNullOrEmpty()) return;
+            if (Log.IsNullOrEmpty()) return;
             var logFileName = Path.Combine(
                 OutputPath,
                 $"{LogFileName} - " +
                 $"{timestamp.ToString(DateTimeFormat)}{TxtExtension}");
 
-            File.WriteAllLines(logFileName, _log);
+            File.WriteAllLines(logFileName, Log);
             Process.Start(logFileName);
         }
     }

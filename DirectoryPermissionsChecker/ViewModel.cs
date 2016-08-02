@@ -18,6 +18,7 @@ namespace DirectoryPermissionTool
     {
         private AboutWindow _aboutWindow;
         private Visibility _cancelButonVisibility;
+        private bool _combinedPathLevelsIsChecked;
         private PermissionChecker _directoryPermissionsChecker;
         private bool _includeFilesIsChecked;
         private bool _isBusy;
@@ -29,16 +30,21 @@ namespace DirectoryPermissionTool
         private bool _searchDepthChildrenIsChecked;
         private bool _searchDepthCurrentIsChecked;
 
+        private bool _splitPathLevelsIsChecked;
+
         internal ViewModel()
         {
             SetUpProperties();
         }
 
-        public ICommand AddExcludedPath =>
-            new RelayCommand(ExecuteAddExcludedPath, CanAddExcludedPath);
+        public ICommand AddExcludedGroup => new RelayCommand(
+            ExecuteAddExcludedGroup, CanAddExcludedGroup);
 
-        public ICommand AddSearchPath =>
-            new RelayCommand(ExecuteAddSearchPath, CanAddSearchPath);
+        public ICommand AddExcludedPath => new RelayCommand(
+            ExecuteAddExcludedPath, CanAddExcludedPath);
+
+        public ICommand AddSearchPath => new RelayCommand(
+            ExecuteAddSearchPath, CanAddSearchPath);
 
         public ICommand Cancel => new RelayCommand(ExecuteCancel, CanCancel);
 
@@ -58,6 +64,29 @@ namespace DirectoryPermissionTool
                 _cancelButonVisibility = value;
                 NotifyPropertyChanged();
             }
+        }
+
+        public bool CombinedPathLevelsIsChecked
+        {
+            get
+            {
+                return _combinedPathLevelsIsChecked;
+            }
+            set
+            {
+                if (_combinedPathLevelsIsChecked == value)
+                {
+                    return;
+                }
+                _combinedPathLevelsIsChecked = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        public ObservableCollection<DynamicText> ExcludedGroups
+        {
+            get;
+            private set;
         }
 
         public ObservableCollection<DynamicDirectoryPath> ExcludedPaths
@@ -84,6 +113,24 @@ namespace DirectoryPermissionTool
                 }
 
                 _includeFilesIsChecked = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        public bool IsBusy
+        {
+            get
+            {
+                return _isBusy;
+            }
+            set
+            {
+                if (_isBusy == value)
+                {
+                    return;
+                }
+
+                _isBusy = value;
                 NotifyPropertyChanged();
             }
         }
@@ -168,13 +215,16 @@ namespace DirectoryPermissionTool
             }
         }
 
-        public ICommand RemoveExcludedPathCommand =>
+        public ICommand RemoveExcludedPath =>
             new RelayCommand<DynamicDirectoryPath>(
-                RemoveExcludedPath, CanRemoveExcludedPath);
+                ExecuteRemoveExcludedPath, CanRemoveExcludedPath);
 
-        public ICommand RemoveSearchPathCommand =>
+        public ICommand RemoveSearchPath => 
             new RelayCommand<DynamicDirectoryPath>(
-                RemoveSearchPath, CanRemoveSearchPath);
+                ExecuteRemoveSearchPath, CanRemoveSearchPath);
+
+        public ICommand RemoveExcludedGroup => new RelayCommand<DynamicText>(
+            ExecuteRemoveExcludedGroup, CanRemoveExcludedGroup);
 
         public bool SearchDepthAllIsChecked
         {
@@ -236,6 +286,24 @@ namespace DirectoryPermissionTool
             private set;
         }
 
+        public bool SplitPathLevelsIsChecked
+        {
+            get
+            {
+                return _splitPathLevelsIsChecked;
+            }
+            set
+            {
+                if (_splitPathLevelsIsChecked == value)
+                {
+                    return;
+                }
+
+                _splitPathLevelsIsChecked = value;
+                NotifyPropertyChanged();
+            }
+        }
+
         public string Version
         {
             get;
@@ -254,6 +322,11 @@ namespace DirectoryPermissionTool
             return SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
+        private bool CanAddExcludedGroup()
+        {
+            return ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
+        }
+
         private bool CanCancel()
         {
             return _directoryPermissionsChecker != null;
@@ -269,15 +342,21 @@ namespace DirectoryPermissionTool
         private bool CanRemoveExcludedPath(
             DynamicDirectoryPath excludedPath = null)
         {
-            return ExcludedPaths.Count > 1 || 
-                ExcludedPaths.All(x => !x.Text.IsNullOrWhiteSpace());
+            return ExcludedPaths.Count > 1 ||
+                   ExcludedPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private bool CanRemoveSearchPath(
             DynamicDirectoryPath searchPath = null)
         {
             return SearchPaths.Count > 1 ||
-                SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
+                   SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
+        }
+
+        private bool CanRemoveExcludedGroup(DynamicText excludedGroup = null)
+        {
+            return ExcludedGroups.Count > 1 || 
+                ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private void ExecuteAddExcludedPath()
@@ -290,22 +369,23 @@ namespace DirectoryPermissionTool
             SearchPaths.Add(new DynamicDirectoryPath());
         }
 
+        private void ExecuteAddExcludedGroup()
+        {
+            ExcludedGroups.Add(new DynamicText());
+        }
+
         private void ExecuteCancel()
         {
             _directoryPermissionsChecker.Cancel();
         }
 
-        private bool SplitPathLevels()
-        {
-            return _splitPathLevelsIsChecked;
-        }
-
         private async void ExecuteGetDirectoryPermissions()
         {
-            _isBusy = true;
+            IsBusy = true;
             CancelButtonVisibility = Visibility.Visible;
             ProgressBarVisibility = Visibility.Visible;
             HideMessage();
+
             try
             {
                 _directoryPermissionsChecker = new PermissionChecker(
@@ -313,7 +393,9 @@ namespace DirectoryPermissionTool
                     ExcludedPaths.Select(x => x.Text),
                     GetSearchDepth(),
                     IncludeFilesIsChecked,
-                    SplitPathLevelsIsChecked);
+                    SplitPathLevelsIsChecked,
+                    ExcludedGroups.Select(x => x.Text));
+
                 await _directoryPermissionsChecker.Execute();
                 _directoryPermissionsChecker = null;
             }
@@ -325,7 +407,8 @@ namespace DirectoryPermissionTool
             {
                 ShowMessage(e.Message);
             }
-            _isBusy = false;
+
+            IsBusy = false;
             CancelButtonVisibility = Visibility.Hidden;
             ProgressBarVisibility = Visibility.Hidden;
         }
@@ -333,9 +416,15 @@ namespace DirectoryPermissionTool
         private SearchDepth GetSearchDepth()
         {
             if (SearchDepthAllIsChecked)
+            {
                 return SearchDepth.All;
+            }
+
             if (SearchDepthChildrenIsChecked)
+            {
                 return SearchDepth.Children;
+            }
+
             return SearchDepthCurrentIsChecked
                 ? SearchDepth.Current
                 : SearchDepth.None;
@@ -356,15 +445,27 @@ namespace DirectoryPermissionTool
                 new PropertyChangedEventArgs(propertyName));
         }
 
+        private void OnExcludedGroupsChanged(
+            object sender, NotifyCollectionChangedEventArgs e)
+        {
+            foreach (var excludedGroup in ExcludedGroups)
+            {
+                excludedGroup.AddButtonVisibility =
+                    excludedGroup == ExcludedGroups.Last()
+                        ? Visibility.Visible
+                        : Visibility.Hidden;
+            }
+        }
+
         private void OnExcludedPathsChanged(
             object sender, NotifyCollectionChangedEventArgs e)
         {
             foreach (var excludedPath in ExcludedPaths)
             {
-                excludedPath.AddButtonVisibility = excludedPath ==
-                                                   ExcludedPaths.Last()
-                    ? Visibility.Visible
-                    : Visibility.Hidden;
+                excludedPath.AddButtonVisibility =
+                    excludedPath == ExcludedPaths.Last()
+                        ? Visibility.Visible
+                        : Visibility.Hidden;
             }
         }
 
@@ -373,10 +474,10 @@ namespace DirectoryPermissionTool
         {
             foreach (var searchPath in SearchPaths)
             {
-                searchPath.AddButtonVisibility = searchPath ==
-                                                 SearchPaths.Last()
-                    ? Visibility.Visible
-                    : Visibility.Hidden;
+                searchPath.AddButtonVisibility =
+                    searchPath == SearchPaths.Last()
+                        ? Visibility.Visible
+                        : Visibility.Hidden;
             }
         }
 
@@ -405,7 +506,7 @@ namespace DirectoryPermissionTool
             }
         }
 
-        private void RemoveExcludedPath(DynamicDirectoryPath excludedPath)
+        private void ExecuteRemoveExcludedPath(DynamicDirectoryPath excludedPath)
         {
             if (ExcludedPaths.Count == 1)
             {
@@ -417,7 +518,19 @@ namespace DirectoryPermissionTool
             }
         }
 
-        private void RemoveSearchPath(DynamicDirectoryPath searchPath)
+        private void ExecuteRemoveExcludedGroup(DynamicText excludedGroup)
+        {
+            if (ExcludedGroups.Count == 1)
+            {
+                excludedGroup.Text = string.Empty;
+            }
+            else
+            {
+                ExcludedGroups.Remove(excludedGroup);
+            }
+        }
+
+        private void ExecuteRemoveSearchPath(DynamicDirectoryPath searchPath)
         {
             if (SearchPaths.Count == 1)
             {
@@ -429,62 +542,26 @@ namespace DirectoryPermissionTool
             }
         }
 
-        private bool _splitPathLevelsIsChecked;
-
-        public bool SplitPathLevelsIsChecked
-        {
-            get
-            {
-                return _splitPathLevelsIsChecked;
-            }
-            set
-            {
-                if (_splitPathLevelsIsChecked == value)
-                {
-                    return;
-                }
-
-                _splitPathLevelsIsChecked = value;
-                NotifyPropertyChanged();
-            }
-        }
-
-        private bool _combinedPathLevelsIsChecked;
-
-        public bool CombinedPathLevelsIsChecked
-        {
-            get
-            {
-                return _combinedPathLevelsIsChecked;
-            }
-            set
-            {
-                if (_combinedPathLevelsIsChecked == value)
-                {
-                    return;
-                }
-                _combinedPathLevelsIsChecked = value;
-                NotifyPropertyChanged();
-            }
-        }
-
         private void SetUpProperties()
         {
-            _isBusy = false;
+            IsBusy = false;
             CancelButtonVisibility = Visibility.Hidden;
             ProgressBarVisibility = Visibility.Hidden;
             MessageVisibility = Visibility.Hidden;
             MessageZIndex = -1;
             ExcludedPaths = new ObservableCollection<DynamicDirectoryPath>();
             SearchPaths = new ObservableCollection<DynamicDirectoryPath>();
+            ExcludedGroups = new ObservableCollection<DynamicText>();
             ExcludedPaths.CollectionChanged += OnExcludedPathsChanged;
             SearchPaths.CollectionChanged += OnSearchPathsChanged;
+            ExcludedPaths.CollectionChanged += OnExcludedGroupsChanged;
             ExcludedPaths.Add(new DynamicDirectoryPath());
             SearchPaths.Add(new DynamicDirectoryPath());
+            ExcludedGroups.Add(new DynamicText());
 
             try
             {
-                Version = 
+                Version =
                     ApplicationDeployment.CurrentDeployment.CurrentVersion
                         .ToString();
             }
