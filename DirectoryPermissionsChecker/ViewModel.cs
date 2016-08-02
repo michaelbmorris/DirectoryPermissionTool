@@ -215,16 +215,16 @@ namespace DirectoryPermissionTool
             }
         }
 
+        public ICommand RemoveExcludedGroup => new RelayCommand<DynamicText>(
+            ExecuteRemoveExcludedGroup, CanRemoveExcludedGroup);
+
         public ICommand RemoveExcludedPath =>
             new RelayCommand<DynamicDirectoryPath>(
                 ExecuteRemoveExcludedPath, CanRemoveExcludedPath);
 
-        public ICommand RemoveSearchPath => 
+        public ICommand RemoveSearchPath =>
             new RelayCommand<DynamicDirectoryPath>(
                 ExecuteRemoveSearchPath, CanRemoveSearchPath);
-
-        public ICommand RemoveExcludedGroup => new RelayCommand<DynamicText>(
-            ExecuteRemoveExcludedGroup, CanRemoveExcludedGroup);
 
         public bool SearchDepthAllIsChecked
         {
@@ -312,6 +312,11 @@ namespace DirectoryPermissionTool
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        private bool CanAddExcludedGroup()
+        {
+            return ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
+        }
+
         private bool CanAddExcludedPath()
         {
             return ExcludedPaths.All(x => !x.Text.IsNullOrWhiteSpace());
@@ -320,11 +325,6 @@ namespace DirectoryPermissionTool
         private bool CanAddSearchPath()
         {
             return SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
-        }
-
-        private bool CanAddExcludedGroup()
-        {
-            return ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private bool CanCancel()
@@ -337,6 +337,12 @@ namespace DirectoryPermissionTool
             return SearchPaths.Any(x => !x.Text.IsNullOrWhiteSpace()) &&
                    !_isBusy &&
                    GetSearchDepth() != SearchDepth.None;
+        }
+
+        private bool CanRemoveExcludedGroup(DynamicText excludedGroup = null)
+        {
+            return ExcludedGroups.Count > 1 ||
+                   ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private bool CanRemoveExcludedPath(
@@ -353,10 +359,9 @@ namespace DirectoryPermissionTool
                    SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
-        private bool CanRemoveExcludedGroup(DynamicText excludedGroup = null)
+        private void ExecuteAddExcludedGroup()
         {
-            return ExcludedGroups.Count > 1 || 
-                ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
+            ExcludedGroups.Add(new DynamicText());
         }
 
         private void ExecuteAddExcludedPath()
@@ -367,11 +372,6 @@ namespace DirectoryPermissionTool
         private void ExecuteAddSearchPath()
         {
             SearchPaths.Add(new DynamicDirectoryPath());
-        }
-
-        private void ExecuteAddExcludedGroup()
-        {
-            ExcludedGroups.Add(new DynamicText());
         }
 
         private void ExecuteCancel()
@@ -389,12 +389,18 @@ namespace DirectoryPermissionTool
             try
             {
                 _directoryPermissionsChecker = new PermissionChecker(
-                    SearchPaths.Select(x => x.Text),
-                    ExcludedPaths.Select(x => x.Text),
+                    from x in SearchPaths
+                    where !x.Text.IsNullOrWhiteSpace()
+                    select x.Text,
+                    from x in ExcludedPaths
+                    where !x.Text.IsNullOrWhiteSpace()
+                    select x.Text,
                     GetSearchDepth(),
                     IncludeFilesIsChecked,
                     SplitPathLevelsIsChecked,
-                    ExcludedGroups.Select(x => x.Text));
+                    from x in ExcludedGroups
+                    where !x.Text.IsNullOrWhiteSpace()
+                    select x.Text);
 
                 await _directoryPermissionsChecker.Execute();
                 _directoryPermissionsChecker = null;
@@ -411,6 +417,43 @@ namespace DirectoryPermissionTool
             IsBusy = false;
             CancelButtonVisibility = Visibility.Hidden;
             ProgressBarVisibility = Visibility.Hidden;
+        }
+
+        private void ExecuteRemoveExcludedGroup(DynamicText excludedGroup)
+        {
+            if (ExcludedGroups.Count == 1)
+            {
+                excludedGroup.Text = string.Empty;
+            }
+            else
+            {
+                ExcludedGroups.Remove(excludedGroup);
+            }
+        }
+
+        private void ExecuteRemoveExcludedPath(
+            DynamicDirectoryPath excludedPath)
+        {
+            if (ExcludedPaths.Count == 1)
+            {
+                excludedPath.Text = string.Empty;
+            }
+            else
+            {
+                ExcludedPaths.Remove(excludedPath);
+            }
+        }
+
+        private void ExecuteRemoveSearchPath(DynamicDirectoryPath searchPath)
+        {
+            if (SearchPaths.Count == 1)
+            {
+                searchPath.Text = string.Empty;
+            }
+            else
+            {
+                SearchPaths.Remove(searchPath);
+            }
         }
 
         private SearchDepth GetSearchDepth()
@@ -503,42 +546,6 @@ namespace DirectoryPermissionTool
             catch (Exception e)
             {
                 ShowMessage($"Could not load help - {e} - {e.Message}");
-            }
-        }
-
-        private void ExecuteRemoveExcludedPath(DynamicDirectoryPath excludedPath)
-        {
-            if (ExcludedPaths.Count == 1)
-            {
-                excludedPath.Text = string.Empty;
-            }
-            else
-            {
-                ExcludedPaths.Remove(excludedPath);
-            }
-        }
-
-        private void ExecuteRemoveExcludedGroup(DynamicText excludedGroup)
-        {
-            if (ExcludedGroups.Count == 1)
-            {
-                excludedGroup.Text = string.Empty;
-            }
-            else
-            {
-                ExcludedGroups.Remove(excludedGroup);
-            }
-        }
-
-        private void ExecuteRemoveSearchPath(DynamicDirectoryPath searchPath)
-        {
-            if (SearchPaths.Count == 1)
-            {
-                searchPath.Text = string.Empty;
-            }
-            else
-            {
-                SearchPaths.Remove(searchPath);
             }
         }
 

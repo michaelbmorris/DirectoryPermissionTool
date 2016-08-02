@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Security.Principal;
 using System.Threading;
 using Extensions.CollectionExtensions;
 
@@ -27,7 +28,7 @@ namespace DirectoryPermissionTool
             CancellationToken cancellationToken,
             IList<string> log)
         {
-            RootDirectories = new List<DirectoryInfo>();
+            RootDirectories = new HashSet<DirectoryInfo>();
             foreach (var searchPath in searchPaths)
             {
                 if (!Directory.Exists(searchPath))
@@ -71,13 +72,13 @@ namespace DirectoryPermissionTool
             get;
         }
 
-        private List<PermissionInfo> PermissionInfos
+        private HashSet<PermissionInfo> PermissionInfos
         {
             get;
             set;
         }
 
-        private List<DirectoryInfo> RootDirectories
+        private HashSet<DirectoryInfo> RootDirectories
         {
             get;
         }
@@ -92,9 +93,9 @@ namespace DirectoryPermissionTool
             get;
         }
 
-        internal List<PermissionInfo> GetPermissionInfos()
+        internal HashSet<PermissionInfo> GetPermissionInfos()
         {
-            PermissionInfos = new List<PermissionInfo>();
+            PermissionInfos = new HashSet<PermissionInfo>();
             foreach (var rootDirectory in RootDirectories)
             {
                 try

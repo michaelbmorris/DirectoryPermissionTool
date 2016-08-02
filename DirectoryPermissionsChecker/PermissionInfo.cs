@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Security.Principal;
@@ -6,7 +7,7 @@ using Extensions.PrimitiveExtensions;
 
 namespace DirectoryPermissionTool
 {
-    internal class PermissionInfo
+    internal class PermissionInfo : IEquatable<PermissionInfo>
     {
         internal string[] FullNameSplitPath
         {
@@ -23,6 +24,11 @@ namespace DirectoryPermissionTool
             get;
         }
 
+        internal string Owner
+        {
+            get;
+        }
+
         internal int PathLevels => FullNameSplitPath.Length;
 
         internal PermissionInfo(DirectoryInfo directoryInfo)
@@ -35,6 +41,16 @@ namespace DirectoryPermissionTool
 
             AccessRules = directoryInfo.GetAccessControl().GetAccessRules(
                 true, true, typeof(NTAccount));
+            try
+            {
+                Owner = directoryInfo.GetAccessControl().GetOwner(
+                    typeof(NTAccount)).ToString();
+            }
+            catch (IdentityNotMappedException)
+            {
+                Owner = string.Empty;
+            }
+            
         }
 
         internal PermissionInfo(FileInfo fileInfo)
@@ -47,6 +63,21 @@ namespace DirectoryPermissionTool
 
             AccessRules = fileInfo.GetAccessControl().GetAccessRules(
                 true, true, typeof(NTAccount));
+
+            try
+            {
+                Owner = fileInfo.GetAccessControl().GetOwner(
+                    typeof(NTAccount)).ToString();
+            }
+            catch (IdentityNotMappedException)
+            {
+                Owner = string.Empty;
+            }
+        }
+
+        public bool Equals(PermissionInfo other)
+        {
+            return FullName.EqualsOrdinalIgnoreCase(other.FullName);
         }
     }
 }

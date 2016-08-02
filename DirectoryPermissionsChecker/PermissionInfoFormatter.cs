@@ -19,6 +19,8 @@ namespace DirectoryPermissionTool
         private const int MaxResults = 1048574;
         private const string PathHeader = "Path";
         private const char Quote = '"';
+        private const string OwnerHeader = "Owner";
+        private const string ResultNumberHeader = "#";
 
         internal PermissionInfoFormatter(
             IEnumerable<PermissionInfo> permissionInfos,
@@ -65,7 +67,7 @@ namespace DirectoryPermissionTool
             var stringBuilder = new StringBuilder();
             var resultsCount = 0;
 
-            stringBuilder.Append("#".Wrap(Quote) + Comma);
+            stringBuilder.Append(ResultNumberHeader.Wrap(Quote) + Comma);
             if (ShouldSplitPathLevels)
             {
                 for (var i = 0; i < MaxPathLevels; i++)
@@ -85,7 +87,8 @@ namespace DirectoryPermissionTool
                     IdentityReferenceHeader.Wrap(Quote),
                     FileSystemRightsHeader.Wrap(Quote),
                     AccessControlTypeHeader.Wrap(Quote),
-                    IsInheritedHeader.Wrap(Quote)));
+                    IsInheritedHeader.Wrap(Quote),
+                    OwnerHeader.Wrap(Quote)));
             try
             {
                 foreach (var permissionInfo in PermissionInfos)
@@ -159,7 +162,8 @@ namespace DirectoryPermissionTool
                                 identityReference.Wrap(Quote),
                                 fileSystemRights.Wrap(Quote),
                                 accessControlType.Wrap(Quote),
-                                isInherited.Wrap(Quote)));
+                                isInherited.Wrap(Quote),
+                                permissionInfo.Owner.Wrap(Quote)));
 
                         resultsCount++;
                     }

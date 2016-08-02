@@ -6,7 +6,7 @@
         mc:Ignorable="d"
         DataContext="{StaticResource MainViewModel}"
         Title="Directory Permissions Tool"
-        Height="485"
+        SizeToContent="WidthAndHeight"
         Width="525"
         ResizeMode="NoResize">
     <DockPanel>
@@ -24,9 +24,7 @@
                     <Label Content="Search the following directories:" />
                     <ListBox ItemsSource="{Binding SearchPaths}"
                              BorderThickness="0"
-                             Margin="5 0 5 0"
-                             Height="48"
-                             MaxHeight="48">
+                             Margin="5 0 5 0">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="Template">
@@ -69,9 +67,7 @@
                     <Label Content="Exclude the following directories:" />
                     <ListBox ItemsSource="{Binding ExcludedPaths}"
                              BorderThickness="0"
-                             Margin="5 0 5 0"
-                             MaxHeight="48"
-                             Height="48">
+                             Margin="5 0 5 0">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="Template">
@@ -114,9 +110,7 @@
                     <Label Content="Exclude the following groups and users:"/>
                     <ListBox ItemsSource="{Binding ExcludedGroups}"
                              BorderThickness="0"
-                             Margin="5 0 5 0"
-                             MaxHeight="48"
-                             Height="48">
+                             Margin="5 0 5 0">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="Template">
