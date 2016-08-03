@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Extensions.CollectionExtensions;
 
-namespace DirectoryPermissionTool
+namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     internal class PermissionChecker
     {

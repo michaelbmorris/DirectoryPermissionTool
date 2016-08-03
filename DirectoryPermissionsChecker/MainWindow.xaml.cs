@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace DirectoryPermissionTool
+namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -14,15 +14,25 @@ namespace DirectoryPermissionTool
             InitializeComponent();
         }
 
-        private void Label_MouseDoubleClick(
+        private void UIElement_OnMouseLeftButtonDown(
             object sender, MouseButtonEventArgs e)
         {
-            if (e.ClickCount < 2) return;
-            var message = sender as TextBlock;
-            if (message == null) return;
-            message.Visibility = Visibility.Hidden;
+            if (e.ClickCount < 2)
+            {
+                return;
+            }
+
+            var messageBox = sender as Border;
+            var message = messageBox?.Child as TextBlock;
+
+            if (message == null)
+            {
+                return;
+            }
+
+            messageBox.Visibility = Visibility.Hidden;
             message.Text = string.Empty;
-            Panel.SetZIndex(message, -1);
+            Panel.SetZIndex(messageBox, -1);
         }
     }
 }

@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Security.Principal;
 using System.Threading;
 using Extensions.CollectionExtensions;
 
-namespace DirectoryPermissionTool
+namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     internal enum SearchDepth
     {
@@ -36,6 +35,7 @@ namespace DirectoryPermissionTool
                     throw new DirectoryNotFoundException(
                         $"Could not find directory '{searchPath}'");
                 }
+
                 RootDirectories.Add(new DirectoryInfo(searchPath));
             }
 

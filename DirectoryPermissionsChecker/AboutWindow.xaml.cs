@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace DirectoryPermissionTool
+namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     /// <summary>
     /// Interaction logic for AboutWindow.xaml

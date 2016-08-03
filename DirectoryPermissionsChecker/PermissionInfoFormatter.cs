@@ -6,7 +6,7 @@ using System.Threading;
 using Extensions.CollectionExtensions;
 using Extensions.PrimitiveExtensions;
 
-namespace DirectoryPermissionTool
+namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     internal class PermissionInfoFormatter
     {

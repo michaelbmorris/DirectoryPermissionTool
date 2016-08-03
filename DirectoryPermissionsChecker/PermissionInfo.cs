@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Security.Principal;
 using Extensions.PrimitiveExtensions;
 
-namespace DirectoryPermissionTool
+namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     internal class PermissionInfo : IEquatable<PermissionInfo>
     {

@@ -1,4 +1,4 @@
-﻿<Window x:Class="DirectoryPermissionTool.MainWindow"
+﻿<Window x:Class="MichaelBrandonMorris.DirectoryPermissionTool.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,7 +7,6 @@
         DataContext="{StaticResource MainViewModel}"
         Title="Directory Permissions Tool"
         SizeToContent="WidthAndHeight"
-        Width="525"
         ResizeMode="NoResize">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
@@ -44,7 +43,9 @@
                                             Command="{Binding DataContext.AddSearchPath,
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
                                             CommandParameter="{Binding}"
-                                            Visibility="{Binding AddButtonVisibility}" />
+                                            Visibility="{Binding AddButtonIsVisible, 
+                                        Converter={StaticResource BooleanToVisibilityHiddenConverter}, 
+                                        FallbackValue=Hidden}" />
                                     <Button DockPanel.Dock="Right"
                                             Content="-"
                                             Command="{Binding DataContext.RemoveSearchPath, 
@@ -87,7 +88,9 @@
                                             Command="{Binding DataContext.AddExcludedPath,
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
                                             CommandParameter="{Binding}"
-                                            Visibility="{Binding AddButtonVisibility}" />
+                                            Visibility="{Binding AddButtonIsVisible, 
+                                        Converter={StaticResource BooleanToVisibilityHiddenConverter}, 
+                                        FallbackValue=Hidden}" />
                                     <Button DockPanel.Dock="Right"
                                             Content="-"
                                             Command="{Binding DataContext.RemoveExcludedPath, 
@@ -107,7 +110,7 @@
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
-                    <Label Content="Exclude the following groups and users:"/>
+                    <Label Content="Exclude the following groups and users:" />
                     <ListBox ItemsSource="{Binding ExcludedGroups}"
                              BorderThickness="0"
                              Margin="5 0 5 0">
@@ -130,7 +133,9 @@
                                             Command="{Binding DataContext.AddExcludedGroup,
                                                 RelativeSource={RelativeSource AncestorType=ListBox}}"
                                             CommandParameter="{Binding}"
-                                            Visibility="{Binding AddButtonVisibility}" />
+                                            Visibility="{Binding AddButtonIsVisible, 
+                                        Converter={StaticResource BooleanToVisibilityHiddenConverter}, 
+                                        FallbackValue=Hidden}" />
                                     <Button DockPanel.Dock="Right"
                                             Content="-"
                                             Command="{Binding DataContext.RemoveExcludedGroup, 
@@ -163,13 +168,15 @@
                     <CheckBox Content="Include Files"
                               Margin="5 5 5 0"
                               IsChecked="{Binding IncludeFilesIsChecked}" />
-                    <Label Content="Display paths as:"/> 
-                    <RadioButton Content="Split (One Column per Level)"
-                                 Margin="5 0 5 0"
-                                 IsChecked="{Binding SplitPathLevelsIsChecked}"/>
+                    <Label Content="Display paths as:" />
                     <RadioButton Content="Combined (All Levels in One Column)"
+                                 GroupName="PathDisplay"
+                                 Margin="5 0 5 0"
+                                 IsChecked="{Binding CombinedPathLevelsIsChecked}" />
+                    <RadioButton Content="Split (One Column per Level)"
+                                 GroupName="PathDisplay"
                                  Margin="5 5 5 0"
-                                 IsChecked="{Binding CombinedPathLevelsIsChecked}"/>
+                                 IsChecked="{Binding SplitPathLevelsIsChecked}" />
                     <Separator />
                     <Button Content="Get Directory Permissions"
                             Command="{Binding GetDirectoryPermissions}"
@@ -177,34 +184,35 @@
                 </StackPanel>
                 <StackPanel HorizontalAlignment="Center"
                             VerticalAlignment="Center"
-                            Visibility="{Binding ProgressBarVisibility}">
+                            Visibility="{Binding IsBusy, 
+                    Converter={StaticResource BooleanToVisibilityHiddenConverter}, 
+                    FallbackValue=Hidden}">
                     <ProgressBar HorizontalAlignment="Center"
                                  VerticalAlignment="Center"
                                  Height="10"
                                  Width="100"
-                                 IsIndeterminate="true"
-                                 Visibility="{Binding ProgressBarVisibility}" />
+                                 IsIndeterminate="true" />
                     <Button Content="Cancel"
                             Command="{Binding Cancel}"
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
-                            Visibility="{Binding CancelButtonVisibility}"
                             Margin="5 5 5 5" />
                 </StackPanel>
                 <Border BorderBrush="Black"
                         BorderThickness="1"
-                        Visibility="{Binding MessageVisibility, Mode=TwoWay}"
+                        Margin="5 5 5 5"
+                        Visibility="{Binding MessageIsVisible, 
+                    Converter={StaticResource BooleanToVisibilityHiddenConverter}, 
+                    FallbackValue=Hidden, 
+                    Mode=TwoWay}"
                         Panel.ZIndex="{Binding MessageZIndex, Mode=TwoWay}"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Background="White"
-                        Width="475"
-                        Height="200">
-                    <TextBlock Text="{Binding Path=Message, Mode=TwoWay}"
-                               TextWrapping="Wrap"
-                               Visibility="{Binding MessageVisibility, Mode=TwoWay}"
-                               Panel.ZIndex="{Binding MessageZIndex, Mode=TwoWay}"
-                               MouseLeftButtonDown="Label_MouseDoubleClick" />
+                        MouseLeftButtonDown="UIElement_OnMouseLeftButtonDown">
+                    <TextBlock Margin="5 5 5 5"
+                        Text="{Binding Path=Message, Mode=TwoWay}"
+                               TextWrapping="Wrap" />
                 </Border>
             </Grid>
         </Grid>

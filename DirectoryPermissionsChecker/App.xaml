@@ -1,11 +1,12 @@
-﻿<Application x:Class="DirectoryPermissionTool.App"
+﻿<Application x:Class="MichaelBrandonMorris.DirectoryPermissionTool.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:directoryPermissionTool="clr-namespace:DirectoryPermissionTool"
-             xmlns:valueConverters="clr-namespace:ValueConverters;assembly=ValueConverters"
+             xmlns:valueConverters="clr-namespace:MichaelBrandonMorris.ValueConverters;assembly=MichaelBrandonMorris.ValueConverters"
+             xmlns:directoryPermissionTool="clr-namespace:MichaelBrandonMorris.DirectoryPermissionTool"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <directoryPermissionTool:ViewModel x:Key="MainViewModel" />
         <valueConverters:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+        <valueConverters:BooleanToVisibilityHiddenConverter x:Key="BooleanToVisibilityHiddenConverter"/>
     </Application.Resources>
 </Application>
