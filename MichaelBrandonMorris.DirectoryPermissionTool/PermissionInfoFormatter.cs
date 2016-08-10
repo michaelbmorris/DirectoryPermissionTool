@@ -108,7 +108,7 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                         {
                             CancellationToken.ThrowIfCancellationRequested();
 
-                            if (i < permissionInfo.FullNameSplitPath.Length)
+                            if (i < permissionInfo.PathLevels)
                             {
                                 pathStringBuilder.Append(
                                     permissionInfo.FullNameSplitPath[i].Wrap(
