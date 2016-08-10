@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Getting Started Guide</Title>
+<link rel="stylesheet" href="styles.css">
+</HEAD>
+<BODY>
+
+<h1>Getting Started Guide</h1>
+
+<p>This tool allows you to get the permissions for directories and files, saving results in a .csv report file. To begin, select at least one directory path to search. You may add additional search paths using the plus button to the right of the search path. If you wish to remove a search path, you may use the minus button next to each search path.</p>
+
+<p>You may also define paths to be excluded from the search. Like with the search paths, use the plus and minus buttons to add or remove additional excluded paths.</p>
+
+<p>You may also exclude certain groups or users from the results. This may be useful if your system has generic users or groups set up that have access to everything, such as administrators. Like with the paths, use the plus and minus buttons to add or remove excluded groups or users.</p>
+
+<p>There are three options for the search depth. You may get the permissions for:</p>
+<ul>
+	<li>The Specified Directories Only</li>
+	<li>The Specified Directories & Immediate Children</li>
+	<li>The Specified Directories & All Children</li>
+</ul>
+<p>The first option will only get the permissions for the directories you enter into the search paths. The second option will get the specified directories, as well as their immediate subdirectories. The third option will check the specified directories and all directories in these directories at all levels. You may also check the box to include files, which will get the files of all searched directories.</p>
+
+<p>There are two options for how the directory and file paths are displayed in the output file:</p>
+<ul>
+	<li>Combined</li>
+	<li>Split</li>
+</ul>
+<p>Combined will display the paths in a single cell, with backslashes between each level. You will be able to copy and paste this path into Windows Explorer to navigate to the directory or file. Split will separate the path on each backslash, placing the separate parts into different cells. This produces a tree-like structure that shows the hierarchy of directories.</p>
+
+<p>Once you have decided on your settings, run the search by pressing <b>Get Directory Permissions</b>. The tool will run, and automatically open the output file, which will be saved under <b>My Documents\Directory Permission Tool</b>. A log file will also be displayed if any errors occured during the execution. You may then change the settings and run the tool again as needed.</p>
+
+
+
+</BODY>
+</HTML>

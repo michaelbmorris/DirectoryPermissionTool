@@ -10,11 +10,16 @@ using System.Windows.Input;
 using Extensions.PrimitiveExtensions;
 using GalaSoft.MvvmLight.CommandWpf;
 using MichaelBrandonMorris.DynamicText;
+using static System.IO.Path;
+using static System.Deployment.Application.ApplicationDeployment;
 
 namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     internal class ViewModel : INotifyPropertyChanged
     {
+        private static readonly string HelpFile =
+            Combine(Combine("Resources", "Help"), "Help.chm");
+
         private AboutWindow _aboutWindow;
         private Visibility _cancelButonVisibility;
         private bool _combinedPathLevelsIsChecked;
@@ -28,8 +33,8 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
         private bool _searchDepthAllIsChecked;
         private bool _searchDepthChildrenIsChecked;
         private bool _searchDepthCurrentIsChecked;
-
         private bool _splitPathLevelsIsChecked;
+        private Process _userGuide;
 
         internal ViewModel()
         {
@@ -212,8 +217,9 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             }
         }
 
-        public ICommand RemoveExcludedGroup => new RelayCommand<DynamicText.DynamicText>(
-            ExecuteRemoveExcludedGroup, CanRemoveExcludedGroup);
+        public ICommand RemoveExcludedGroup
+            => new RelayCommand<DynamicText.DynamicText>(
+                ExecuteRemoveExcludedGroup, CanRemoveExcludedGroup);
 
         public ICommand RemoveExcludedPath =>
             new RelayCommand<DynamicDirectoryPath>(
@@ -302,8 +308,55 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
 
         public string Version
         {
-            get;
-            private set;
+            get
+            {
+                string version;
+
+                try
+                {
+                    version = CurrentDeployment.CurrentVersion.ToString();
+                }
+                catch (InvalidDeploymentException)
+                {
+                    version = "Development Build";
+                }
+
+                return version;
+            }
+        }
+
+        private AboutWindow AboutWindow
+        {
+            get
+            {
+                if (_aboutWindow == null || !_aboutWindow.IsVisible)
+                {
+                    _aboutWindow = new AboutWindow();
+                }
+
+                return _aboutWindow;
+            }
+        }
+
+        private Process UserGuide
+        {
+            get
+            {
+                if (_userGuide != null && !_userGuide.HasExited)
+                {
+                    _userGuide.Kill();
+                }
+
+                _userGuide = new Process
+                {
+                    StartInfo =
+                    {
+                        FileName = HelpFile
+                    }
+                };
+
+                return _userGuide;
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -336,12 +389,8 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                    && PathDisplayOptionIsChecked();
         }
 
-        private bool PathDisplayOptionIsChecked()
-        {
-            return CombinedPathLevelsIsChecked || SplitPathLevelsIsChecked;
-        }
-
-        private bool CanRemoveExcludedGroup(DynamicText.DynamicText excludedGroup = null)
+        private bool CanRemoveExcludedGroup(
+            DynamicText.DynamicText excludedGroup = null)
         {
             return ExcludedGroups.Count > 1 ||
                    ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
@@ -421,7 +470,8 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             ProgressBarVisibility = Visibility.Hidden;
         }
 
-        private void ExecuteRemoveExcludedGroup(DynamicText.DynamicText excludedGroup)
+        private void ExecuteRemoveExcludedGroup(
+            DynamicText.DynamicText excludedGroup)
         {
             if (ExcludedGroups.Count == 1)
             {
@@ -492,44 +542,31 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
 
         private void OpenAboutWindowCommandExecute()
         {
-            if (_aboutWindow == null || !_aboutWindow.IsVisible)
-            {
-                _aboutWindow = new AboutWindow();
-                _aboutWindow.Show();
-            }
-            else
-            {
-                _aboutWindow.Activate();
-            }
+            AboutWindow.Show();
+            AboutWindow.Activate();
         }
 
         private void OpenHelpWindowCommandExecute()
         {
             try
             {
-                Process.Start("help.chm");
+                UserGuide.Start();
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                ShowMessage($"Could not load help.");
+                ShowMessage("Could not load help.");
             }
+        }
+
+        private bool PathDisplayOptionIsChecked()
+        {
+            return CombinedPathLevelsIsChecked || SplitPathLevelsIsChecked;
         }
 
         private void SetUpProperties()
         {
             IsBusy = false;
             MessageZIndex = -1;
-
-            try
-            {
-                Version =
-                    ApplicationDeployment.CurrentDeployment.CurrentVersion
-                        .ToString();
-            }
-            catch (InvalidDeploymentException)
-            {
-                Version = "(Development Build)";
-            }
         }
 
         private void ShowMessage(string message)

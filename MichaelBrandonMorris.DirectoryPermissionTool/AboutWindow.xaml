@@ -15,7 +15,7 @@
                 <Binding Path="Version" />
             </Label.Content>
             <Label.ContentStringFormat>
-                Directory Permissions Tool {0}
+                Directory Permission Tool - {0}
             </Label.ContentStringFormat>
         </Label>
         <Label>
