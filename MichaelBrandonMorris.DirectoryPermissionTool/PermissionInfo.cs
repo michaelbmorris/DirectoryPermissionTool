@@ -3,13 +3,70 @@ using System.IO;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Security.Principal;
-using Extensions.PrimitiveExtensions;
+using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
 namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
     internal class PermissionInfo : IEquatable<PermissionInfo>
     {
-        internal string[] FullNameSplitPath
+        internal PermissionInfo(DirectoryInfo directoryInfo)
+        {
+            FullNameSplitPath = directoryInfo.FullName.Split(
+                    Path.DirectorySeparatorChar)
+                .Where(
+                    s => !s.IsNullOrWhiteSpace())
+                .ToArray();
+
+            FullName = directoryInfo.FullName;
+
+            AccessRules = directoryInfo.GetAccessControl()
+                .GetAccessRules(
+                    true,
+                    true,
+                    typeof(NTAccount));
+            try
+            {
+                Owner = directoryInfo.GetAccessControl()
+                    .GetOwner(
+                        typeof(NTAccount))
+                    .ToString();
+            }
+            catch (IdentityNotMappedException)
+            {
+                Owner = string.Empty;
+            }
+        }
+
+        internal PermissionInfo(FileInfo fileInfo)
+        {
+            FullNameSplitPath = fileInfo.FullName.Split(
+                    Path.DirectorySeparatorChar)
+                .Where(
+                    s => !s.IsNullOrWhiteSpace())
+                .ToArray();
+
+            FullName = fileInfo.FullName;
+
+            AccessRules = fileInfo.GetAccessControl()
+                .GetAccessRules(
+                    true,
+                    true,
+                    typeof(NTAccount));
+
+            try
+            {
+                Owner = fileInfo.GetAccessControl()
+                    .GetOwner(
+                        typeof(NTAccount))
+                    .ToString();
+            }
+            catch (IdentityNotMappedException)
+            {
+                Owner = string.Empty;
+            }
+        }
+
+        internal AuthorizationRuleCollection AccessRules
         {
             get;
         }
@@ -19,7 +76,7 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             get;
         }
 
-        internal AuthorizationRuleCollection AccessRules
+        internal string[] FullNameSplitPath
         {
             get;
         }
@@ -29,55 +86,18 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             get;
         }
 
-        internal int PathLevels => FullNameSplitPath.Length;
-
-        internal PermissionInfo(DirectoryInfo directoryInfo)
+        internal int PathLevels
         {
-            FullNameSplitPath = directoryInfo.FullName.Split(
-                Path.DirectorySeparatorChar).Where(
-                    s => !s.IsNullOrWhiteSpace()).ToArray();
-
-            FullName = directoryInfo.FullName;
-
-            AccessRules = directoryInfo.GetAccessControl().GetAccessRules(
-                true, true, typeof(NTAccount));
-            try
+            get
             {
-                Owner = directoryInfo.GetAccessControl().GetOwner(
-                    typeof(NTAccount)).ToString();
-            }
-            catch (IdentityNotMappedException)
-            {
-                Owner = string.Empty;
-            }
-            
-        }
-
-        internal PermissionInfo(FileInfo fileInfo)
-        {
-            FullNameSplitPath = fileInfo.FullName.Split(
-                Path.DirectorySeparatorChar).Where(
-                    s => !s.IsNullOrWhiteSpace()).ToArray();
-
-            FullName = fileInfo.FullName;
-
-            AccessRules = fileInfo.GetAccessControl().GetAccessRules(
-                true, true, typeof(NTAccount));
-
-            try
-            {
-                Owner = fileInfo.GetAccessControl().GetOwner(
-                    typeof(NTAccount)).ToString();
-            }
-            catch (IdentityNotMappedException)
-            {
-                Owner = string.Empty;
+                return FullNameSplitPath.Length;
             }
         }
 
         public bool Equals(PermissionInfo other)
         {
-            return FullName.EqualsOrdinalIgnoreCase(other.FullName);
+            return other != null
+                   && FullName.EqualsOrdinalIgnoreCase(other.FullName);
         }
     }
 }

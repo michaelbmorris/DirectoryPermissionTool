@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Extensions.CollectionExtensions;
+using MichaelBrandonMorris.Extensions.CollectionExtensions;
 
 namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
@@ -21,31 +21,6 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
         private const string LogFileName = "Log";
         private const string OutputFileName = "DirectoryPermissions";
         private const string TxtExtension = ".txt";
-
-        private CancellationTokenSource CancellationTokenSource
-        {
-            get;
-        }
-
-        private PermissionGetter PermissionGetter
-        {
-            get;
-        }
-
-        private IList<string> Log
-        {
-            get;
-        }
-
-        private bool ShouldSplitPathLevels
-        {
-            get;
-        }
-
-        private IEnumerable<string> ExcludedGroups
-        {
-            get;
-        }
 
         internal PermissionChecker(
             IEnumerable<string> searchPaths,
@@ -71,7 +46,36 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             Directory.CreateDirectory(OutputPath);
         }
 
-        public string Result { get; private set; }
+        public string Result
+        {
+            get;
+            private set;
+        }
+
+        private CancellationTokenSource CancellationTokenSource
+        {
+            get;
+        }
+
+        private IEnumerable<string> ExcludedGroups
+        {
+            get;
+        }
+
+        private IList<string> Log
+        {
+            get;
+        }
+
+        private PermissionGetter PermissionGetter
+        {
+            get;
+        }
+
+        private bool ShouldSplitPathLevels
+        {
+            get;
+        }
 
         internal void Cancel()
         {
@@ -86,11 +90,11 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                     var permissionInfos = PermissionGetter.GetPermissionInfos();
 
                     Result = new PermissionInfoFormatter(
-                        permissionInfos, 
-                        PermissionGetter.MaxPathLevels,
-                        ShouldSplitPathLevels,
-                        ExcludedGroups,
-                        CancellationTokenSource.Token)
+                            permissionInfos,
+                            PermissionGetter.MaxPathLevels,
+                            ShouldSplitPathLevels,
+                            ExcludedGroups,
+                            CancellationTokenSource.Token)
                         .FormatDirectories();
                 },
                 CancellationTokenSource.Token);
@@ -102,27 +106,30 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             WriteAndOpenLog(now);
         }
 
+        private void WriteAndOpenLog(DateTime timestamp)
+        {
+            if (Log.IsNullOrEmpty())
+            {
+                return;
+            }
+            var logFileName = Path.Combine(
+                OutputPath,
+                $"{LogFileName} - "
+                + $"{timestamp.ToString(DateTimeFormat)}{TxtExtension}");
+
+            File.WriteAllLines(logFileName, Log);
+            Process.Start(logFileName);
+        }
+
         private void WriteAndOpenResult(DateTime timestamp)
         {
             var resultFileName = Path.Combine(
                 OutputPath,
-                $"{OutputFileName} - " +
-                $"{timestamp.ToString(DateTimeFormat)}{CsvExtension}");
+                $"{OutputFileName} - "
+                + $"{timestamp.ToString(DateTimeFormat)}{CsvExtension}");
 
             File.WriteAllText(resultFileName, Result);
             Process.Start(resultFileName);
-        }
-
-        private void WriteAndOpenLog(DateTime timestamp)
-        {
-            if (Log.IsNullOrEmpty()) return;
-            var logFileName = Path.Combine(
-                OutputPath,
-                $"{LogFileName} - " +
-                $"{timestamp.ToString(DateTimeFormat)}{TxtExtension}");
-
-            File.WriteAllLines(logFileName, Log);
-            Process.Start(logFileName);
         }
     }
 }

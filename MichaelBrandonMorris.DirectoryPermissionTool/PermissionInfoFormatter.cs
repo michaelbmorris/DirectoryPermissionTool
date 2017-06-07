@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading;
-using Extensions.CollectionExtensions;
-using Extensions.PrimitiveExtensions;
+using MichaelBrandonMorris.Extensions.CollectionExtensions;
+using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
 namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
@@ -17,9 +17,9 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
         private const string IsInheritedHeader = "Is Inherited?";
         private const string LevelHeader = "Level";
         private const int MaxResults = 1048574;
+        private const string OwnerHeader = "Owner";
         private const string PathHeader = "Path";
         private const char Quote = '"';
-        private const string OwnerHeader = "Owner";
         private const string ResultNumberHeader = "#";
 
         internal PermissionInfoFormatter(
@@ -36,12 +36,12 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             CancellationToken = cancellationToken;
         }
 
-        private IEnumerable<string> ExcludedGroups
+        private CancellationToken CancellationToken
         {
             get;
         }
 
-        private CancellationToken CancellationToken
+        private IEnumerable<string> ExcludedGroups
         {
             get;
         }
@@ -51,15 +51,15 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             get;
         }
 
+        private bool ShouldSplitPathLevels
+        {
+            get;
+        }
+
         private IEnumerable<PermissionInfo> PermissionInfos
         {
             get;
             set;
-        }
-
-        private bool ShouldSplitPathLevels
-        {
-            get;
         }
 
         internal string FormatDirectories()
@@ -111,8 +111,10 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                             if (i < permissionInfo.PathLevels)
                             {
                                 pathStringBuilder.Append(
-                                    permissionInfo.FullNameSplitPath[i].Wrap(
-                                        Quote) + Comma);
+                                    permissionInfo.FullNameSplitPath[i]
+                                        .Wrap(
+                                            Quote)
+                                    + Comma);
                             }
                             else
                             {
@@ -153,7 +155,8 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
 
                         var isInherited = accessRule.IsInherited.ToString();
                         CancellationToken.ThrowIfCancellationRequested();
-                        stringBuilder.Append(resultsCount.ToString().Wrap(Quote) + Comma);
+                        stringBuilder.Append(
+                            resultsCount.ToString().Wrap(Quote) + Comma);
                         stringBuilder.Append(pathStringBuilder);
 
                         stringBuilder.AppendLine(

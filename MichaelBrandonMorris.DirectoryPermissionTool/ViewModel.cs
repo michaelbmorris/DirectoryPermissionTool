@@ -7,9 +7,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
-using Extensions.PrimitiveExtensions;
 using GalaSoft.MvvmLight.CommandWpf;
 using MichaelBrandonMorris.DynamicText;
+using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 using static System.IO.Path;
 using static System.Deployment.Application.ApplicationDeployment;
 
@@ -41,16 +41,135 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             SetUpProperties();
         }
 
-        public ICommand AddExcludedGroup => new RelayCommand(
-            ExecuteAddExcludedGroup, CanAddExcludedGroup);
+        public ICommand AddExcludedGroup
+        {
+            get
+            {
+                return new RelayCommand(
+                    ExecuteAddExcludedGroup,
+                    CanAddExcludedGroup);
+            }
+        }
 
-        public ICommand AddExcludedPath => new RelayCommand(
-            ExecuteAddExcludedPath, CanAddExcludedPath);
+        public ICommand AddExcludedPath
+        {
+            get
+            {
+                return new RelayCommand(
+                    ExecuteAddExcludedPath,
+                    CanAddExcludedPath);
+            }
+        }
 
-        public ICommand AddSearchPath => new RelayCommand(
-            ExecuteAddSearchPath, CanAddSearchPath);
+        public ICommand AddSearchPath
+        {
+            get
+            {
+                return new RelayCommand(
+                    ExecuteAddSearchPath,
+                    CanAddSearchPath);
+            }
+        }
 
-        public ICommand Cancel => new RelayCommand(ExecuteCancel, CanCancel);
+        public ICommand Cancel
+        {
+            get
+            {
+                return new RelayCommand(ExecuteCancel, CanCancel);
+            }
+        }
+
+        public DynamicTextCollection ExcludedGroups
+        {
+            get;
+        } = new DynamicTextCollection();
+
+        public DynamicDirectoryPathCollection ExcludedPaths
+        {
+            get;
+        } = new DynamicDirectoryPathCollection();
+
+        public ICommand GetDirectoryPermissions
+        {
+            get
+            {
+                return new RelayCommand(
+                    ExecuteGetDirectoryPermissions,
+                    CanGetDirectoryPermissions);
+            }
+        }
+
+        public ICommand OpenAboutWindowCommand
+        {
+            get
+            {
+                return new RelayCommand(
+                    OpenAboutWindowCommandExecute);
+            }
+        }
+
+        public ICommand OpenHelpWindowCommand
+        {
+            get
+            {
+                return new RelayCommand(
+                    OpenHelpWindowCommandExecute);
+            }
+        }
+
+        public ICommand RemoveExcludedGroup
+        {
+            get
+            {
+                return new RelayCommand<DynamicText.DynamicText>(
+                    ExecuteRemoveExcludedGroup,
+                    CanRemoveExcludedGroup);
+            }
+        }
+
+        public ICommand RemoveExcludedPath
+        {
+            get
+            {
+                return new RelayCommand<DynamicDirectoryPath>(
+                    ExecuteRemoveExcludedPath,
+                    CanRemoveExcludedPath);
+            }
+        }
+
+        public ICommand RemoveSearchPath
+        {
+            get
+            {
+                return new RelayCommand<DynamicDirectoryPath>(
+                    ExecuteRemoveSearchPath,
+                    CanRemoveSearchPath);
+            }
+        }
+
+        public DynamicDirectoryPathCollection SearchPaths
+        {
+            get;
+        } = new DynamicDirectoryPathCollection();
+
+        public string Version
+        {
+            get
+            {
+                string version;
+
+                try
+                {
+                    version = CurrentDeployment.CurrentVersion.ToString();
+                }
+                catch (InvalidDeploymentException)
+                {
+                    version = "Development Build";
+                }
+
+                return version;
+            }
+        }
 
         public Visibility CancelButtonVisibility
         {
@@ -86,20 +205,6 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                 NotifyPropertyChanged();
             }
         }
-
-        public DynamicTextCollection ExcludedGroups
-        {
-            get;
-        } = new DynamicTextCollection();
-
-        public DynamicDirectoryPathCollection ExcludedPaths
-        {
-            get;
-        } = new DynamicDirectoryPathCollection();
-
-        public ICommand GetDirectoryPermissions => new RelayCommand(
-            ExecuteGetDirectoryPermissions,
-            CanGetDirectoryPermissions);
 
         public bool IncludeFilesIsChecked
         {
@@ -145,9 +250,7 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             }
             set
             {
-                if (_message != null &&
-                    value != null &&
-                    _message.Equals(value))
+                if (_message != null && value != null && _message.Equals(value))
                 {
                     return;
                 }
@@ -193,12 +296,6 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             }
         }
 
-        public ICommand OpenAboutWindowCommand => new RelayCommand(
-            OpenAboutWindowCommandExecute);
-
-        public ICommand OpenHelpWindowCommand => new RelayCommand(
-            OpenHelpWindowCommandExecute);
-
         public Visibility ProgressBarVisibility
         {
             get
@@ -216,18 +313,6 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                 NotifyPropertyChanged();
             }
         }
-
-        public ICommand RemoveExcludedGroup
-            => new RelayCommand<DynamicText.DynamicText>(
-                ExecuteRemoveExcludedGroup, CanRemoveExcludedGroup);
-
-        public ICommand RemoveExcludedPath =>
-            new RelayCommand<DynamicDirectoryPath>(
-                ExecuteRemoveExcludedPath, CanRemoveExcludedPath);
-
-        public ICommand RemoveSearchPath =>
-            new RelayCommand<DynamicDirectoryPath>(
-                ExecuteRemoveSearchPath, CanRemoveSearchPath);
 
         public bool SearchDepthAllIsChecked
         {
@@ -283,11 +368,6 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             }
         }
 
-        public DynamicDirectoryPathCollection SearchPaths
-        {
-            get;
-        } = new DynamicDirectoryPathCollection();
-
         public bool SplitPathLevelsIsChecked
         {
             get
@@ -303,25 +383,6 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
 
                 _splitPathLevelsIsChecked = value;
                 NotifyPropertyChanged();
-            }
-        }
-
-        public string Version
-        {
-            get
-            {
-                string version;
-
-                try
-                {
-                    version = CurrentDeployment.CurrentVersion.ToString();
-                }
-                catch (InvalidDeploymentException)
-                {
-                    version = "Development Build";
-                }
-
-                return version;
             }
         }
 
@@ -383,31 +444,31 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
 
         private bool CanGetDirectoryPermissions()
         {
-            return SearchPaths.Any(x => !x.Text.IsNullOrWhiteSpace()) &&
-                   !_isBusy &&
-                   GetSearchDepth() != SearchDepth.None
+            return SearchPaths.Any(x => !x.Text.IsNullOrWhiteSpace())
+                   && !_isBusy
+                   && GetSearchDepth() != SearchDepth.None
                    && PathDisplayOptionIsChecked();
         }
 
         private bool CanRemoveExcludedGroup(
             DynamicText.DynamicText excludedGroup = null)
         {
-            return ExcludedGroups.Count > 1 ||
-                   ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
+            return ExcludedGroups.Count > 1
+                   || ExcludedGroups.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private bool CanRemoveExcludedPath(
             DynamicDirectoryPath excludedPath = null)
         {
-            return ExcludedPaths.Count > 1 ||
-                   ExcludedPaths.All(x => !x.Text.IsNullOrWhiteSpace());
+            return ExcludedPaths.Count > 1
+                   || ExcludedPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private bool CanRemoveSearchPath(
             DynamicDirectoryPath searchPath = null)
         {
-            return SearchPaths.Count > 1 ||
-                   SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
+            return SearchPaths.Count > 1
+                   || SearchPaths.All(x => !x.Text.IsNullOrWhiteSpace());
         }
 
         private void ExecuteAddExcludedGroup()

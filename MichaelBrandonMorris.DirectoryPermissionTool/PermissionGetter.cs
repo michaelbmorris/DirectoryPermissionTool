@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-using Extensions.CollectionExtensions;
+using MichaelBrandonMorris.Extensions.CollectionExtensions;
 
 namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
@@ -72,12 +72,6 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             get;
         }
 
-        private HashSet<PermissionInfo> PermissionInfos
-        {
-            get;
-            set;
-        }
-
         private HashSet<DirectoryInfo> RootDirectories
         {
             get;
@@ -91,6 +85,12 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
         private bool ShouldIncludeFiles
         {
             get;
+        }
+
+        private HashSet<PermissionInfo> PermissionInfos
+        {
+            get;
+            set;
         }
 
         internal HashSet<PermissionInfo> GetPermissionInfos()
@@ -117,8 +117,8 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
         {
             try
             {
-                if (!ExcludePaths.IsNullOrEmpty() &&
-                    ExcludePaths.ContainsIgnoreCase(directory.FullName))
+                if (!ExcludePaths.IsNullOrEmpty()
+                    && ExcludePaths.ContainsIgnoreCase(directory.FullName))
                 {
                     return;
                 }
@@ -151,23 +151,24 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             catch (PathTooLongException)
             {
                 Debug.Assert(
-                    directory.Parent != null, "directory.Parent != null");
+                    directory.Parent != null,
+                    "directory.Parent != null");
 
                 Log.Add(
-                    "The path of directory with name '" +
-                    $"{directory.Parent.FullName}\\" +
-                    $"{directory.Name}' is too long.");
+                    "The path of directory with name '"
+                    + $"{directory.Parent.FullName}\\"
+                    + $"{directory.Name}' is too long.");
             }
             catch (UnauthorizedAccessException)
             {
                 Log.Add(
-                    "Could not get permissions for directory '" +
-                    $"{directory.FullName}'");
+                    "Could not get permissions for directory '"
+                    + $"{directory.FullName}'");
             }
 
-            if (SearchDepth == SearchDepth.Current ||
-                (SearchDepth == SearchDepth.Children &&
-                 currentLevel > RootLevel))
+            if (SearchDepth == SearchDepth.Current
+                || SearchDepth == SearchDepth.Children
+                && currentLevel > RootLevel)
             {
                 return;
             }
@@ -183,12 +184,13 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             catch (PathTooLongException)
             {
                 Debug.Assert(
-                    directory.Parent != null, "directory.Parent != null");
+                    directory.Parent != null,
+                    "directory.Parent != null");
 
                 Log.Add(
-                    "The path of directory with name '" +
-                    $"{directory.Parent.FullName}\\" +
-                    $"{directory.Name}' is too long.");
+                    "The path of directory with name '"
+                    + $"{directory.Parent.FullName}\\"
+                    + $"{directory.Name}' is too long.");
             }
             catch (UnauthorizedAccessException e)
             {

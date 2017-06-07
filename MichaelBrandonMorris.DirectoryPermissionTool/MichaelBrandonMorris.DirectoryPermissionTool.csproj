@@ -15,7 +15,7 @@
     <WarningLevel>4</WarningLevel>
     <TargetFrameworkProfile />
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>\\kng1fsmf01\Public\ITCOOP2016\DirectoryPermissionsChecker\</PublishUrl>
+    <PublishUrl>\\kng1fsmf01\Public\IT\Kpt IT Tools\DirectoryPermissionsChecker\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Unc</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -28,7 +28,9 @@
     <TargetCulture>en</TargetCulture>
     <ProductName>Directory Permission Tool</ProductName>
     <PublisherName>IT Tools</PublisherName>
-    <ApplicationRevision>20</ApplicationRevision>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>21</ApplicationRevision>
     <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -65,15 +67,12 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Extensions">
-      <HintPath>..\..\Extensions\Extensions\bin\Debug\Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="GalaSoft.MvvmLight, Version=5.3.0.19026, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
       <Private>True</Private>
@@ -88,17 +87,20 @@
     </Reference>
     <Reference Include="MichaelBrandonMorris.DynamicText, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\MichaelBrandonMorris.DynamicText\MichaelBrandonMorris.DynamicText\bin\Release\MichaelBrandonMorris.DynamicText.dll</HintPath>
+      <HintPath>..\..\MichaelBrandonMorris.DynamicText\MichaelBrandonMorris.DynamicText\bin\Debug\MichaelBrandonMorris.DynamicText.dll</HintPath>
+    </Reference>
+    <Reference Include="MichaelBrandonMorris.Extensions">
+      <HintPath>..\..\MichaelBrandonMorris.Extensions\MichaelBrandonMorris.Extensions\bin\Debug\MichaelBrandonMorris.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="MichaelBrandonMorris.ValueConverters">
-      <HintPath>..\..\ValueConverters\ValueConverters\bin\Debug\MichaelBrandonMorris.ValueConverters.dll</HintPath>
+      <HintPath>..\..\MichaelBrandonMorris.ValueConverters\MichaelBrandonMorris.ValueConverters\bin\Debug\MichaelBrandonMorris.ValueConverters.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Ookii.Dialogs.Wpf">
-      <HintPath>..\..\..\..\..\Downloads\Ookii.Dialogs\Ookii.Dialogs.Wpf.dll</HintPath>
+      <HintPath>U:\Ookii.Dialogs\Ookii.Dialogs.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
