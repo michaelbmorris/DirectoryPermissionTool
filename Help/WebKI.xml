@@ -1,0 +1,1487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AboutWindow class">
+    <HelpKINode Title="AboutWindow Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    <HelpKINode Title="AboutWindow Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    <HelpKINode Title="about AboutWindow class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AboutWindow property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AboutWindow.htm" />
+  <HelpKINode Title="AboutWindow.AboutWindow constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.-ctor.htm" />
+  <HelpKINode Title="Access enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+  <HelpKINode Title="Access field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.Access.htm" />
+  <HelpKINode Title="AccessControlTypeHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.AccessControlTypeHeader.htm" />
+  <HelpKINode Title="AccessRules property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.AccessRules.htm" />
+  <HelpKINode Title="AddExcludedGroup property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedGroup.htm" />
+  <HelpKINode Title="AddExcludedPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedPath.htm" />
+  <HelpKINode Title="AddSearchPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddSearchPath.htm" />
+  <HelpKINode Title="All enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" />
+  <HelpKINode Title="All field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.All.htm" />
+  <HelpKINode Title="AnonymousProperty property">
+    <HelpKINode Title="AnonymousProperty Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.AnonymousProperty.htm" />
+    <HelpKINode Title="AnonymousProperty Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.AnonymousProperty.htm" />
+    <HelpKINode Title="AnonymousProperty Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.AnonymousProperty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App class">
+    <HelpKINode Title="App Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    <HelpKINode Title="App Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    <HelpKINode Title="about App class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspChildControlTypeAttribute class">
+    <HelpKINode Title="AspChildControlTypeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+    <HelpKINode Title="AspChildControlTypeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+    <HelpKINode Title="about AspChildControlTypeAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspChildControlTypeAttribute.AspChildControlTypeAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.-ctor.htm" />
+  <HelpKINode Title="AspChildControlTypeAttribute.ControlType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.ControlType.htm" />
+  <HelpKINode Title="AspChildControlTypeAttribute.TagName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.TagName.htm" />
+  <HelpKINode Title="AspDataFieldAttribute class">
+    <HelpKINode Title="AspDataFieldAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+    <HelpKINode Title="AspDataFieldAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+    <HelpKINode Title="about AspDataFieldAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspDataFieldsAttribute class">
+    <HelpKINode Title="AspDataFieldsAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+    <HelpKINode Title="AspDataFieldsAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+    <HelpKINode Title="about AspDataFieldsAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMethodPropertyAttribute class">
+    <HelpKINode Title="AspMethodPropertyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+    <HelpKINode Title="AspMethodPropertyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+    <HelpKINode Title="about AspMethodPropertyAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcActionAttribute class">
+    <HelpKINode Title="AspMvcActionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+    <HelpKINode Title="AspMvcActionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+    <HelpKINode Title="about AspMvcActionAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcActionAttribute.AnonymousProperty property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.AnonymousProperty.htm" />
+  <HelpKINode Title="AspMvcActionAttribute.AspMvcActionAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcActionSelectorAttribute class">
+    <HelpKINode Title="AspMvcActionSelectorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+    <HelpKINode Title="AspMvcActionSelectorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+    <HelpKINode Title="about AspMvcActionSelectorAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcAreaAttribute class">
+    <HelpKINode Title="AspMvcAreaAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+    <HelpKINode Title="about AspMvcAreaAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcAreaAttribute.AnonymousProperty property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.AnonymousProperty.htm" />
+  <HelpKINode Title="AspMvcAreaAttribute.AspMvcAreaAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="about AspMvcAreaMasterLocationFormatAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute.AspMvcAreaMasterLocationFormatAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute.Format property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.Format.htm" />
+  <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="about AspMvcAreaPartialViewLocationFormatAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute.AspMvcAreaPartialViewLocationFormatAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute.Format property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.Format.htm" />
+  <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="about AspMvcAreaViewLocationFormatAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute.AspMvcAreaViewLocationFormatAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute.Format property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.Format.htm" />
+  <HelpKINode Title="AspMvcControllerAttribute class">
+    <HelpKINode Title="AspMvcControllerAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+    <HelpKINode Title="AspMvcControllerAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+    <HelpKINode Title="about AspMvcControllerAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcControllerAttribute.AnonymousProperty property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.AnonymousProperty.htm" />
+  <HelpKINode Title="AspMvcControllerAttribute.AspMvcControllerAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcDisplayTemplateAttribute class">
+    <HelpKINode Title="AspMvcDisplayTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+    <HelpKINode Title="AspMvcDisplayTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+    <HelpKINode Title="about AspMvcDisplayTemplateAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcEditorTemplateAttribute class">
+    <HelpKINode Title="AspMvcEditorTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+    <HelpKINode Title="AspMvcEditorTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+    <HelpKINode Title="about AspMvcEditorTemplateAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcMasterAttribute class">
+    <HelpKINode Title="AspMvcMasterAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+    <HelpKINode Title="AspMvcMasterAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+    <HelpKINode Title="about AspMvcMasterAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcMasterLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcMasterLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcMasterLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="about AspMvcMasterLocationFormatAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcMasterLocationFormatAttribute.AspMvcMasterLocationFormatAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcMasterLocationFormatAttribute.Format property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.Format.htm" />
+  <HelpKINode Title="AspMvcModelTypeAttribute class">
+    <HelpKINode Title="AspMvcModelTypeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+    <HelpKINode Title="AspMvcModelTypeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+    <HelpKINode Title="about AspMvcModelTypeAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcPartialViewAttribute class">
+    <HelpKINode Title="AspMvcPartialViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+    <HelpKINode Title="AspMvcPartialViewAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+    <HelpKINode Title="about AspMvcPartialViewAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="about AspMvcPartialViewLocationFormatAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute.AspMvcPartialViewLocationFormatAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute.Format property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.Format.htm" />
+  <HelpKINode Title="AspMvcSuppressViewErrorAttribute class">
+    <HelpKINode Title="AspMvcSuppressViewErrorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+    <HelpKINode Title="AspMvcSuppressViewErrorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+    <HelpKINode Title="about AspMvcSuppressViewErrorAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcTemplateAttribute class">
+    <HelpKINode Title="AspMvcTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+    <HelpKINode Title="AspMvcTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+    <HelpKINode Title="about AspMvcTemplateAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcViewAttribute class">
+    <HelpKINode Title="AspMvcViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+    <HelpKINode Title="AspMvcViewAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+    <HelpKINode Title="about AspMvcViewAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcViewComponentAttribute class">
+    <HelpKINode Title="AspMvcViewComponentAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+    <HelpKINode Title="AspMvcViewComponentAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+    <HelpKINode Title="about AspMvcViewComponentAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcViewComponentViewAttribute class">
+    <HelpKINode Title="AspMvcViewComponentViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+    <HelpKINode Title="AspMvcViewComponentViewAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+    <HelpKINode Title="about AspMvcViewComponentViewAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="about AspMvcViewLocationFormatAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspMvcViewLocationFormatAttribute.AspMvcViewLocationFormatAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.-ctor.htm" />
+  <HelpKINode Title="AspMvcViewLocationFormatAttribute.Format property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.Format.htm" />
+  <HelpKINode Title="AspRequiredAttributeAttribute class">
+    <HelpKINode Title="AspRequiredAttributeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+    <HelpKINode Title="AspRequiredAttributeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+    <HelpKINode Title="about AspRequiredAttributeAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspRequiredAttributeAttribute.AspRequiredAttributeAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.-ctor.htm" />
+  <HelpKINode Title="AspRequiredAttributeAttribute.Attribute property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.Attribute.htm" />
+  <HelpKINode Title="AspTypePropertyAttribute class">
+    <HelpKINode Title="AspTypePropertyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+    <HelpKINode Title="AspTypePropertyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+    <HelpKINode Title="about AspTypePropertyAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AspTypePropertyAttribute.AspTypePropertyAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.-ctor.htm" />
+  <HelpKINode Title="AspTypePropertyAttribute.CreateConstructorReferences property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.CreateConstructorReferences.htm" />
+  <HelpKINode Title="AssertionConditionAttribute class">
+    <HelpKINode Title="AssertionConditionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+    <HelpKINode Title="AssertionConditionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+    <HelpKINode Title="about AssertionConditionAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssertionConditionAttribute.AssertionConditionAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.-ctor.htm" />
+  <HelpKINode Title="AssertionConditionAttribute.ConditionType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.ConditionType.htm" />
+  <HelpKINode Title="AssertionConditionType enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" />
+  <HelpKINode Title="AssertionConditionType.IS_FALSE field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_FALSE.htm" />
+  <HelpKINode Title="AssertionConditionType.IS_NOT_NULL field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_NOT_NULL.htm" />
+  <HelpKINode Title="AssertionConditionType.IS_NULL field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_NULL.htm" />
+  <HelpKINode Title="AssertionConditionType.IS_TRUE field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_TRUE.htm" />
+  <HelpKINode Title="AssertionMethodAttribute class">
+    <HelpKINode Title="AssertionMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+    <HelpKINode Title="AssertionMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+    <HelpKINode Title="about AssertionMethodAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assign enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+  <HelpKINode Title="Assign field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.Assign.htm" />
+  <HelpKINode Title="Attribute property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.Attribute.htm" />
+  <HelpKINode Title="BasePath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.BasePath.htm" />
+  <HelpKINode Title="BaseType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.BaseType.htm" />
+  <HelpKINode Title="BaseTypeRequiredAttribute class">
+    <HelpKINode Title="BaseTypeRequiredAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+    <HelpKINode Title="BaseTypeRequiredAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+    <HelpKINode Title="about BaseTypeRequiredAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseTypeRequiredAttribute.BaseType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.BaseType.htm" />
+  <HelpKINode Title="BaseTypeRequiredAttribute.BaseTypeRequiredAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.-ctor.htm" />
+  <HelpKINode Title="CanAddExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedGroup.htm" />
+  <HelpKINode Title="CanAddExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedPath.htm" />
+  <HelpKINode Title="CanAddSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddSearchPath.htm" />
+  <HelpKINode Title="CanBeNullAttribute class">
+    <HelpKINode Title="CanBeNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+    <HelpKINode Title="CanBeNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+    <HelpKINode Title="about CanBeNullAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanCancel method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanCancel.htm" />
+  <HelpKINode Title="Cancel method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Cancel.htm" />
+  <HelpKINode Title="Cancel property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Cancel.htm" />
+  <HelpKINode Title="CancelButtonVisibility property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CancelButtonVisibility.htm" />
+  <HelpKINode Title="CancellationToken property">
+    <HelpKINode Title="CancellationToken Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.CancellationToken.htm" />
+    <HelpKINode Title="CancellationToken Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.CancellationToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CancellationTokenSource property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CancellationTokenSource.htm" />
+  <HelpKINode Title="CanGetDirectoryPermissions method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanGetDirectoryPermissions.htm" />
+  <HelpKINode Title="CannotApplyEqualityOperatorAttribute class">
+    <HelpKINode Title="CannotApplyEqualityOperatorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+    <HelpKINode Title="CannotApplyEqualityOperatorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+    <HelpKINode Title="about CannotApplyEqualityOperatorAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanRemoveExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedGroup.htm" />
+  <HelpKINode Title="CanRemoveExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedPath.htm" />
+  <HelpKINode Title="CanRemoveSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveSearchPath.htm" />
+  <HelpKINode Title="Children enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" />
+  <HelpKINode Title="Children field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.Children.htm" />
+  <HelpKINode Title="CollectionAccessAttribute class">
+    <HelpKINode Title="CollectionAccessAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+    <HelpKINode Title="CollectionAccessAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+    <HelpKINode Title="about CollectionAccessAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CollectionAccessAttribute.CollectionAccessAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.-ctor.htm" />
+  <HelpKINode Title="CollectionAccessAttribute.CollectionAccessType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.CollectionAccessType.htm" />
+  <HelpKINode Title="CollectionAccessType enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" />
+  <HelpKINode Title="CollectionAccessType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.CollectionAccessType.htm" />
+  <HelpKINode Title="CollectionAccessType.ModifyExistingContent field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.ModifyExistingContent.htm" />
+  <HelpKINode Title="CollectionAccessType.None field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.None.htm" />
+  <HelpKINode Title="CollectionAccessType.Read field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.Read.htm" />
+  <HelpKINode Title="CollectionAccessType.UpdatedContent field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.UpdatedContent.htm" />
+  <HelpKINode Title="CombinedPathLevelsIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CombinedPathLevelsIsChecked.htm" />
+  <HelpKINode Title="Comma field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Comma.htm" />
+  <HelpKINode Title="Comment property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.Comment.htm" />
+  <HelpKINode Title="ConditionType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.ConditionType.htm" />
+  <HelpKINode Title="Contract property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.Contract.htm" />
+  <HelpKINode Title="ContractAnnotationAttribute class">
+    <HelpKINode Title="ContractAnnotationAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+    <HelpKINode Title="ContractAnnotationAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+    <HelpKINode Title="about ContractAnnotationAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractAnnotationAttribute.Contract property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.Contract.htm" />
+  <HelpKINode Title="ContractAnnotationAttribute.ContractAnnotationAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor.htm" />
+  <HelpKINode Title="ContractAnnotationAttribute.ForceFullStates property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.ForceFullStates.htm" />
+  <HelpKINode Title="ControlType property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.ControlType.htm" />
+  <HelpKINode Title="CreateConstructorReferences property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.CreateConstructorReferences.htm" />
+  <HelpKINode Title="CsvExtension field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CsvExtension.htm" />
+  <HelpKINode Title="Culture property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.Culture.htm" />
+  <HelpKINode Title="Current enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" />
+  <HelpKINode Title="Current field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.Current.htm" />
+  <HelpKINode Title="Default enumeration member">
+    <HelpKINode Title="ImplicitUseKindFlags Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+    <HelpKINode Title="ImplicitUseTargetFlags Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Default field">
+    <HelpKINode Title="Default Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.Default.htm" />
+    <HelpKINode Title="Default Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.Default.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Default property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.Default.htm" />
+  <HelpKINode Title="defaultInstance field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.defaultInstance.htm" />
+  <HelpKINode Title="Directive property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.Directive.htm" />
+  <HelpKINode Title="Editable property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Editable.htm" />
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="Equals Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm" />
+    <HelpKINode Title="Equals Method " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExcludedGroups property">
+    <HelpKINode Title="ExcludedGroups Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ExcludedGroups.htm" />
+    <HelpKINode Title="ExcludedGroups Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ExcludedGroups.htm" />
+    <HelpKINode Title="ExcludedGroups Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedGroups.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExcludedPaths property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedPaths.htm" />
+  <HelpKINode Title="ExcludePaths property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ExcludePaths.htm" />
+  <HelpKINode Title="Execute method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Execute.htm" />
+  <HelpKINode Title="ExecuteAddExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedGroup.htm" />
+  <HelpKINode Title="ExecuteAddExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedPath.htm" />
+  <HelpKINode Title="ExecuteAddSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddSearchPath.htm" />
+  <HelpKINode Title="ExecuteCancel method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteCancel.htm" />
+  <HelpKINode Title="ExecuteGetDirectoryPermissions method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteGetDirectoryPermissions.htm" />
+  <HelpKINode Title="ExecuteRemoveExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedGroup.htm" />
+  <HelpKINode Title="ExecuteRemoveExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedPath.htm" />
+  <HelpKINode Title="ExecuteRemoveSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveSearchPath.htm" />
+  <HelpKINode Title="Expression property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Expression.htm" />
+  <HelpKINode Title="FieldName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.FieldName.htm" />
+  <HelpKINode Title="FileSystemRightsHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FileSystemRightsHeader.htm" />
+  <HelpKINode Title="ForceFullStates property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.ForceFullStates.htm" />
+  <HelpKINode Title="Format property">
+    <HelpKINode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.Format.htm" />
+    <HelpKINode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.Format.htm" />
+    <HelpKINode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.Format.htm" />
+    <HelpKINode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.Format.htm" />
+    <HelpKINode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.Format.htm" />
+    <HelpKINode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.Format.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormatDirectories method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FormatDirectories.htm" />
+  <HelpKINode Title="FormatParameterName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.FormatParameterName.htm" />
+  <HelpKINode Title="FullName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullName.htm" />
+  <HelpKINode Title="FullNameSplitPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullNameSplitPath.htm" />
+  <HelpKINode Title="GetDirectories method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetDirectories.htm" />
+  <HelpKINode Title="GetDirectoryPermissions property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetDirectoryPermissions.htm" />
+  <HelpKINode Title="GetPermissionInfos method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetPermissionInfos.htm" />
+  <HelpKINode Title="GetSearchDepth method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetSearchDepth.htm" />
+  <HelpKINode Title="HelpFile field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HelpFile.htm" />
+  <HelpKINode Title="HideMessage method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HideMessage.htm" />
+  <HelpKINode Title="HtmlAttributeValueAttribute class">
+    <HelpKINode Title="HtmlAttributeValueAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+    <HelpKINode Title="HtmlAttributeValueAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+    <HelpKINode Title="about HtmlAttributeValueAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HtmlAttributeValueAttribute.HtmlAttributeValueAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.-ctor.htm" />
+  <HelpKINode Title="HtmlAttributeValueAttribute.Name property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.Name.htm" />
+  <HelpKINode Title="HtmlElementAttributesAttribute class">
+    <HelpKINode Title="HtmlElementAttributesAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+    <HelpKINode Title="HtmlElementAttributesAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+    <HelpKINode Title="about HtmlElementAttributesAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HtmlElementAttributesAttribute.HtmlElementAttributesAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor.htm" />
+  <HelpKINode Title="HtmlElementAttributesAttribute.Name property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.Name.htm" />
+  <HelpKINode Title="IdentityReferenceHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IdentityReferenceHeader.htm" />
+  <HelpKINode Title="ImplicitNotNullAttribute class">
+    <HelpKINode Title="ImplicitNotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+    <HelpKINode Title="ImplicitNotNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+    <HelpKINode Title="about ImplicitNotNullAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImplicitUseKindFlags enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+  <HelpKINode Title="ImplicitUseKindFlags.Access field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.Access.htm" />
+  <HelpKINode Title="ImplicitUseKindFlags.Assign field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.Assign.htm" />
+  <HelpKINode Title="ImplicitUseKindFlags.Default field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.Default.htm" />
+  <HelpKINode Title="ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature.htm" />
+  <HelpKINode Title="ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature.htm" />
+  <HelpKINode Title="ImplicitUseTargetFlags enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="ImplicitUseTargetFlags.Default field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.Default.htm" />
+  <HelpKINode Title="ImplicitUseTargetFlags.Itself field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.Itself.htm" />
+  <HelpKINode Title="ImplicitUseTargetFlags.Members field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.Members.htm" />
+  <HelpKINode Title="ImplicitUseTargetFlags.WithMembers field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.WithMembers.htm" />
+  <HelpKINode Title="IncludeFilesIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IncludeFilesIsChecked.htm" />
+  <HelpKINode Title="InstantHandleAttribute class">
+    <HelpKINode Title="InstantHandleAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+    <HelpKINode Title="InstantHandleAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+    <HelpKINode Title="about InstantHandleAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InstantiatedNoFixedConstructorSignature enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+  <HelpKINode Title="InstantiatedNoFixedConstructorSignature field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature.htm" />
+  <HelpKINode Title="InstantiatedWithFixedConstructorSignature enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+  <HelpKINode Title="InstantiatedWithFixedConstructorSignature field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature.htm" />
+  <HelpKINode Title="InvokerParameterNameAttribute class">
+    <HelpKINode Title="InvokerParameterNameAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+    <HelpKINode Title="InvokerParameterNameAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+    <HelpKINode Title="about InvokerParameterNameAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsBusy property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IsBusy.htm" />
+  <HelpKINode Title="IsInheritedHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IsInheritedHeader.htm" />
+  <HelpKINode Title="IS_FALSE enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" />
+  <HelpKINode Title="IS_FALSE field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_FALSE.htm" />
+  <HelpKINode Title="IS_NOT_NULL enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" />
+  <HelpKINode Title="IS_NOT_NULL field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_NOT_NULL.htm" />
+  <HelpKINode Title="IS_NULL enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" />
+  <HelpKINode Title="IS_NULL field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_NULL.htm" />
+  <HelpKINode Title="IS_TRUE enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" />
+  <HelpKINode Title="IS_TRUE field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.IS_TRUE.htm" />
+  <HelpKINode Title="ItemCanBeNullAttribute class">
+    <HelpKINode Title="ItemCanBeNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+    <HelpKINode Title="ItemCanBeNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+    <HelpKINode Title="about ItemCanBeNullAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemNotNullAttribute class">
+    <HelpKINode Title="ItemNotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+    <HelpKINode Title="ItemNotNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+    <HelpKINode Title="about ItemNotNullAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Itself enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="Itself field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.Itself.htm" />
+  <HelpKINode Title="Justification property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.Justification.htm" />
+  <HelpKINode Title="LevelHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.LevelHeader.htm" />
+  <HelpKINode Title="LinqTunnelAttribute class">
+    <HelpKINode Title="LinqTunnelAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+    <HelpKINode Title="LinqTunnelAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+    <HelpKINode Title="about LinqTunnelAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalizationRequiredAttribute class">
+    <HelpKINode Title="LocalizationRequiredAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+    <HelpKINode Title="LocalizationRequiredAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+    <HelpKINode Title="about LocalizationRequiredAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalizationRequiredAttribute.LocalizationRequiredAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor.htm" />
+  <HelpKINode Title="LocalizationRequiredAttribute.Required property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.Required.htm" />
+  <HelpKINode Title="Log property">
+    <HelpKINode Title="Log Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Log.htm" />
+    <HelpKINode Title="Log Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.Log.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogFileName field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.LogFileName.htm" />
+  <HelpKINode Title="MacroAttribute class">
+    <HelpKINode Title="MacroAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+    <HelpKINode Title="MacroAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+    <HelpKINode Title="about MacroAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MacroAttribute.Editable property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Editable.htm" />
+  <HelpKINode Title="MacroAttribute.Expression property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Expression.htm" />
+  <HelpKINode Title="MacroAttribute.Target property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Target.htm" />
+  <HelpKINode Title="MainWindow class">
+    <HelpKINode Title="MainWindow Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    <HelpKINode Title="MainWindow Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    <HelpKINode Title="about MainWindow class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainWindow.MainWindow constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.-ctor.htm" />
+  <HelpKINode Title="MainWindow.UIElement_OnMouseLeftButtonDown method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.UIElement_OnMouseLeftButtonDown.htm" />
+  <HelpKINode Title="MaxPathLevels property">
+    <HelpKINode Title="MaxPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxPathLevels.htm" />
+    <HelpKINode Title="MaxPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.MaxPathLevels.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MaxResults field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxResults.htm" />
+  <HelpKINode Title="MeansImplicitUseAttribute class">
+    <HelpKINode Title="MeansImplicitUseAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+    <HelpKINode Title="MeansImplicitUseAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+    <HelpKINode Title="about MeansImplicitUseAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MeansImplicitUseAttribute.MeansImplicitUseAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor.htm" />
+  <HelpKINode Title="MeansImplicitUseAttribute.TargetFlags property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.TargetFlags.htm" />
+  <HelpKINode Title="MeansImplicitUseAttribute.UseKindFlags property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.UseKindFlags.htm" />
+  <HelpKINode Title="Members enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="Members field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.Members.htm" />
+  <HelpKINode Title="Message property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Message.htm" />
+  <HelpKINode Title="MessageIsVisible property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageIsVisible.htm" />
+  <HelpKINode Title="MessageZIndex property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageZIndex.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool namespace" Url="html/N-MichaelBrandonMorris.DirectoryPermissionTool.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow class">
+    <HelpKINode Title="AboutWindow Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    <HelpKINode Title="AboutWindow Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.App class">
+    <HelpKINode Title="App Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    <HelpKINode Title="App Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.MainWindow class">
+    <HelpKINode Title="MainWindow Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    <HelpKINode Title="MainWindow Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker class">
+    <HelpKINode Title="PermissionChecker Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+    <HelpKINode Title="PermissionChecker Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter class">
+    <HelpKINode Title="PermissionGetter Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+    <HelpKINode Title="PermissionGetter Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo class">
+    <HelpKINode Title="PermissionInfo Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+    <HelpKINode Title="PermissionInfo Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter class">
+    <HelpKINode Title="PermissionInfoFormatter Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+    <HelpKINode Title="PermissionInfoFormatter Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties namespace" Url="html/N-MichaelBrandonMorris.DirectoryPermissionTool.Properties.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute class">
+    <HelpKINode Title="AspChildControlTypeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+    <HelpKINode Title="AspChildControlTypeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute class">
+    <HelpKINode Title="AspDataFieldAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+    <HelpKINode Title="AspDataFieldAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute class">
+    <HelpKINode Title="AspDataFieldsAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+    <HelpKINode Title="AspDataFieldsAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute class">
+    <HelpKINode Title="AspMethodPropertyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+    <HelpKINode Title="AspMethodPropertyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute class">
+    <HelpKINode Title="AspMvcActionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+    <HelpKINode Title="AspMvcActionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute class">
+    <HelpKINode Title="AspMvcActionSelectorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+    <HelpKINode Title="AspMvcActionSelectorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute class">
+    <HelpKINode Title="AspMvcAreaAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute class">
+    <HelpKINode Title="AspMvcControllerAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+    <HelpKINode Title="AspMvcControllerAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute class">
+    <HelpKINode Title="AspMvcDisplayTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+    <HelpKINode Title="AspMvcDisplayTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute class">
+    <HelpKINode Title="AspMvcEditorTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+    <HelpKINode Title="AspMvcEditorTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute class">
+    <HelpKINode Title="AspMvcMasterAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+    <HelpKINode Title="AspMvcMasterAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcMasterLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcMasterLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute class">
+    <HelpKINode Title="AspMvcModelTypeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+    <HelpKINode Title="AspMvcModelTypeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute class">
+    <HelpKINode Title="AspMvcPartialViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+    <HelpKINode Title="AspMvcPartialViewAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute class">
+    <HelpKINode Title="AspMvcSuppressViewErrorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+    <HelpKINode Title="AspMvcSuppressViewErrorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute class">
+    <HelpKINode Title="AspMvcTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+    <HelpKINode Title="AspMvcTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute class">
+    <HelpKINode Title="AspMvcViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+    <HelpKINode Title="AspMvcViewAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute class">
+    <HelpKINode Title="AspMvcViewComponentAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+    <HelpKINode Title="AspMvcViewComponentAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute class">
+    <HelpKINode Title="AspMvcViewComponentViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+    <HelpKINode Title="AspMvcViewComponentViewAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute class">
+    <HelpKINode Title="AspMvcViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+    <HelpKINode Title="AspMvcViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute class">
+    <HelpKINode Title="AspRequiredAttributeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+    <HelpKINode Title="AspRequiredAttributeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute class">
+    <HelpKINode Title="AspTypePropertyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+    <HelpKINode Title="AspTypePropertyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute class">
+    <HelpKINode Title="AssertionConditionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+    <HelpKINode Title="AssertionConditionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute class">
+    <HelpKINode Title="AssertionMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+    <HelpKINode Title="AssertionMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute class">
+    <HelpKINode Title="BaseTypeRequiredAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+    <HelpKINode Title="BaseTypeRequiredAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute class">
+    <HelpKINode Title="CanBeNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+    <HelpKINode Title="CanBeNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute class">
+    <HelpKINode Title="CannotApplyEqualityOperatorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+    <HelpKINode Title="CannotApplyEqualityOperatorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute class">
+    <HelpKINode Title="CollectionAccessAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+    <HelpKINode Title="CollectionAccessAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute class">
+    <HelpKINode Title="ContractAnnotationAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+    <HelpKINode Title="ContractAnnotationAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute class">
+    <HelpKINode Title="HtmlAttributeValueAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+    <HelpKINode Title="HtmlAttributeValueAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute class">
+    <HelpKINode Title="HtmlElementAttributesAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+    <HelpKINode Title="HtmlElementAttributesAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute class">
+    <HelpKINode Title="ImplicitNotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+    <HelpKINode Title="ImplicitNotNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute class">
+    <HelpKINode Title="InstantHandleAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+    <HelpKINode Title="InstantHandleAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute class">
+    <HelpKINode Title="InvokerParameterNameAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+    <HelpKINode Title="InvokerParameterNameAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute class">
+    <HelpKINode Title="ItemCanBeNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+    <HelpKINode Title="ItemCanBeNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute class">
+    <HelpKINode Title="ItemNotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+    <HelpKINode Title="ItemNotNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute class">
+    <HelpKINode Title="LinqTunnelAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+    <HelpKINode Title="LinqTunnelAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute class">
+    <HelpKINode Title="LocalizationRequiredAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+    <HelpKINode Title="LocalizationRequiredAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute class">
+    <HelpKINode Title="MacroAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+    <HelpKINode Title="MacroAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute class">
+    <HelpKINode Title="MeansImplicitUseAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+    <HelpKINode Title="MeansImplicitUseAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute class">
+    <HelpKINode Title="MustUseReturnValueAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+    <HelpKINode Title="MustUseReturnValueAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute class">
+    <HelpKINode Title="NoEnumerationAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+    <HelpKINode Title="NoEnumerationAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder class">
+    <HelpKINode Title="NoReorder Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+    <HelpKINode Title="NoReorder Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute class">
+    <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+    <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute class">
+    <HelpKINode Title="NotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+    <HelpKINode Title="NotNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute class">
+    <HelpKINode Title="PathReferenceAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+    <HelpKINode Title="PathReferenceAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute class">
+    <HelpKINode Title="ProvidesContextAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+    <HelpKINode Title="ProvidesContextAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute class">
+    <HelpKINode Title="PublicAPIAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+    <HelpKINode Title="PublicAPIAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute class">
+    <HelpKINode Title="PureAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+    <HelpKINode Title="PureAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute class">
+    <HelpKINode Title="RazorDirectiveAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+    <HelpKINode Title="RazorDirectiveAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute class">
+    <HelpKINode Title="RazorHelperCommonAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+    <HelpKINode Title="RazorHelperCommonAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute class">
+    <HelpKINode Title="RazorImportNamespaceAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+    <HelpKINode Title="RazorImportNamespaceAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute class">
+    <HelpKINode Title="RazorInjectionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+    <HelpKINode Title="RazorInjectionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute class">
+    <HelpKINode Title="RazorLayoutAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+    <HelpKINode Title="RazorLayoutAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute class">
+    <HelpKINode Title="RazorSectionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+    <HelpKINode Title="RazorSectionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute class">
+    <HelpKINode Title="RazorWriteLiteralMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+    <HelpKINode Title="RazorWriteLiteralMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute class">
+    <HelpKINode Title="RazorWriteMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+    <HelpKINode Title="RazorWriteMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute class">
+    <HelpKINode Title="RazorWriteMethodParameterAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+    <HelpKINode Title="RazorWriteMethodParameterAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute class">
+    <HelpKINode Title="RegexPatternAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+    <HelpKINode Title="RegexPatternAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources class">
+    <HelpKINode Title="Resources Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+    <HelpKINode Title="Resources Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings class">
+    <HelpKINode Title="Settings Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="Settings Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute class">
+    <HelpKINode Title="SourceTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+    <HelpKINode Title="SourceTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute class">
+    <HelpKINode Title="StringFormatMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+    <HelpKINode Title="StringFormatMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute class">
+    <HelpKINode Title="TerminatesProgramAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+    <HelpKINode Title="TerminatesProgramAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute class">
+    <HelpKINode Title="UsedImplicitlyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+    <HelpKINode Title="UsedImplicitlyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute class">
+    <HelpKINode Title="ValueProviderAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+    <HelpKINode Title="ValueProviderAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute class">
+    <HelpKINode Title="XamlItemBindingOfItemsControlAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+    <HelpKINode Title="XamlItemBindingOfItemsControlAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute class">
+    <HelpKINode Title="XamlItemsControlAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+    <HelpKINode Title="XamlItemsControlAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.DirectoryPermissionTool.ViewModel class">
+    <HelpKINode Title="ViewModel Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="ViewModel Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModifyExistingContent enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" />
+  <HelpKINode Title="ModifyExistingContent field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.ModifyExistingContent.htm" />
+  <HelpKINode Title="MustUseReturnValueAttribute class">
+    <HelpKINode Title="MustUseReturnValueAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+    <HelpKINode Title="MustUseReturnValueAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+    <HelpKINode Title="about MustUseReturnValueAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MustUseReturnValueAttribute.Justification property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.Justification.htm" />
+  <HelpKINode Title="MustUseReturnValueAttribute.MustUseReturnValueAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NoEnumerationAttribute class">
+    <HelpKINode Title="NoEnumerationAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+    <HelpKINode Title="NoEnumerationAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+    <HelpKINode Title="about NoEnumerationAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="None enumeration member">
+    <HelpKINode Title="CollectionAccessType Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" />
+    <HelpKINode Title="SearchDepth Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="None field">
+    <HelpKINode Title="None Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.None.htm" />
+    <HelpKINode Title="None Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.None.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NoReorder class">
+    <HelpKINode Title="NoReorder Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+    <HelpKINode Title="NoReorder Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+    <HelpKINode Title="about NoReorder class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotifyPropertyChanged method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.NotifyPropertyChanged.htm" />
+  <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute class">
+    <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+    <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+    <HelpKINode Title="about NotifyPropertyChangedInvocatorAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute.NotifyPropertyChangedInvocatorAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor.htm" />
+  <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute.ParameterName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.ParameterName.htm" />
+  <HelpKINode Title="NotNullAttribute class">
+    <HelpKINode Title="NotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+    <HelpKINode Title="NotNullAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+    <HelpKINode Title="about NotNullAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OpenAboutWindowCommand property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommand.htm" />
+  <HelpKINode Title="OpenAboutWindowCommandExecute method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommandExecute.htm" />
+  <HelpKINode Title="OpenHelpWindowCommand property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommand.htm" />
+  <HelpKINode Title="OpenHelpWindowCommandExecute method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommandExecute.htm" />
+  <HelpKINode Title="OutputFileName field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputFileName.htm" />
+  <HelpKINode Title="OutputPath field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputPath.htm" />
+  <HelpKINode Title="Owner property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Owner.htm" />
+  <HelpKINode Title="OwnerHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.OwnerHeader.htm" />
+  <HelpKINode Title="ParameterName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.ParameterName.htm" />
+  <HelpKINode Title="PathDisplayOptionIsChecked method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PathDisplayOptionIsChecked.htm" />
+  <HelpKINode Title="PathHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PathHeader.htm" />
+  <HelpKINode Title="PathLevels property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.PathLevels.htm" />
+  <HelpKINode Title="PathReferenceAttribute class">
+    <HelpKINode Title="PathReferenceAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+    <HelpKINode Title="PathReferenceAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+    <HelpKINode Title="about PathReferenceAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PathReferenceAttribute.BasePath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.BasePath.htm" />
+  <HelpKINode Title="PathReferenceAttribute.PathReferenceAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor.htm" />
+  <HelpKINode Title="PermissionChecker class">
+    <HelpKINode Title="PermissionChecker Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+    <HelpKINode Title="PermissionChecker Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+    <HelpKINode Title="about PermissionChecker class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PermissionChecker.Cancel method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Cancel.htm" />
+  <HelpKINode Title="PermissionChecker.CancellationTokenSource property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CancellationTokenSource.htm" />
+  <HelpKINode Title="PermissionChecker.CsvExtension field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CsvExtension.htm" />
+  <HelpKINode Title="PermissionChecker.ExcludedGroups property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ExcludedGroups.htm" />
+  <HelpKINode Title="PermissionChecker.Execute method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Execute.htm" />
+  <HelpKINode Title="PermissionChecker.Log property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Log.htm" />
+  <HelpKINode Title="PermissionChecker.LogFileName field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.LogFileName.htm" />
+  <HelpKINode Title="PermissionChecker.OutputFileName field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputFileName.htm" />
+  <HelpKINode Title="PermissionChecker.OutputPath field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputPath.htm" />
+  <HelpKINode Title="PermissionChecker.PermissionChecker constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.-ctor.htm" />
+  <HelpKINode Title="PermissionChecker.PermissionGetter property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.PermissionGetter.htm" />
+  <HelpKINode Title="PermissionChecker.Result property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Result.htm" />
+  <HelpKINode Title="PermissionChecker.ShouldSplitPathLevels property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ShouldSplitPathLevels.htm" />
+  <HelpKINode Title="PermissionChecker.TxtExtension field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.TxtExtension.htm" />
+  <HelpKINode Title="PermissionChecker.WriteAndOpenLog method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenLog.htm" />
+  <HelpKINode Title="PermissionChecker.WriteAndOpenResult method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenResult.htm" />
+  <HelpKINode Title="PermissionGetter class">
+    <HelpKINode Title="PermissionGetter Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+    <HelpKINode Title="PermissionGetter Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+    <HelpKINode Title="about PermissionGetter class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PermissionGetter property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.PermissionGetter.htm" />
+  <HelpKINode Title="PermissionGetter.CancellationToken property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.CancellationToken.htm" />
+  <HelpKINode Title="PermissionGetter.ExcludePaths property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ExcludePaths.htm" />
+  <HelpKINode Title="PermissionGetter.GetDirectories method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetDirectories.htm" />
+  <HelpKINode Title="PermissionGetter.GetPermissionInfos method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetPermissionInfos.htm" />
+  <HelpKINode Title="PermissionGetter.Log property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.Log.htm" />
+  <HelpKINode Title="PermissionGetter.MaxPathLevels property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.MaxPathLevels.htm" />
+  <HelpKINode Title="PermissionGetter.PermissionGetter constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.-ctor.htm" />
+  <HelpKINode Title="PermissionGetter.PermissionInfos property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.PermissionInfos.htm" />
+  <HelpKINode Title="PermissionGetter.RootDirectories property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootDirectories.htm" />
+  <HelpKINode Title="PermissionGetter.RootLevel field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootLevel.htm" />
+  <HelpKINode Title="PermissionGetter.SearchDepth property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.SearchDepth.htm" />
+  <HelpKINode Title="PermissionGetter.ShouldIncludeFiles property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ShouldIncludeFiles.htm" />
+  <HelpKINode Title="PermissionInfo class">
+    <HelpKINode Title="PermissionInfo Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+    <HelpKINode Title="PermissionInfo Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+    <HelpKINode Title="about PermissionInfo class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PermissionInfo.AccessRules property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.AccessRules.htm" />
+  <HelpKINode Title="PermissionInfo.Equals method">
+    <HelpKINode Title="Equals Method " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm" />
+    <HelpKINode Title="Equals Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PermissionInfo.FullName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullName.htm" />
+  <HelpKINode Title="PermissionInfo.FullNameSplitPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullNameSplitPath.htm" />
+  <HelpKINode Title="PermissionInfo.Owner property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Owner.htm" />
+  <HelpKINode Title="PermissionInfo.PathLevels property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.PathLevels.htm" />
+  <HelpKINode Title="PermissionInfo.PermissionInfo constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor.htm" />
+  <HelpKINode Title="PermissionInfoFormatter class">
+    <HelpKINode Title="PermissionInfoFormatter Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+    <HelpKINode Title="PermissionInfoFormatter Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+    <HelpKINode Title="about PermissionInfoFormatter class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PermissionInfoFormatter.AccessControlTypeHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.AccessControlTypeHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.CancellationToken property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.CancellationToken.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.Comma field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Comma.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.ExcludedGroups property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ExcludedGroups.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.FileSystemRightsHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FileSystemRightsHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.FormatDirectories method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FormatDirectories.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.IdentityReferenceHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IdentityReferenceHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.IsInheritedHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IsInheritedHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.LevelHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.LevelHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.MaxPathLevels property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxPathLevels.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.MaxResults field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxResults.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.OwnerHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.OwnerHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.PathHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PathHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.PermissionInfoFormatter constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.-ctor.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.PermissionInfos property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PermissionInfos.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.Quote field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Quote.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.ResultNumberHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ResultNumberHeader.htm" />
+  <HelpKINode Title="PermissionInfoFormatter.ShouldSplitPathLevels property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ShouldSplitPathLevels.htm" />
+  <HelpKINode Title="PermissionInfos property">
+    <HelpKINode Title="PermissionInfos Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PermissionInfos.htm" />
+    <HelpKINode Title="PermissionInfos Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.PermissionInfos.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProgressBarVisibility property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ProgressBarVisibility.htm" />
+  <HelpKINode Title="PropertyChanged event" Url="html/E-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PropertyChanged.htm" />
+  <HelpKINode Title="ProvidesContextAttribute class">
+    <HelpKINode Title="ProvidesContextAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+    <HelpKINode Title="ProvidesContextAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+    <HelpKINode Title="about ProvidesContextAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublicAPIAttribute class">
+    <HelpKINode Title="PublicAPIAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+    <HelpKINode Title="PublicAPIAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+    <HelpKINode Title="about PublicAPIAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublicAPIAttribute.Comment property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.Comment.htm" />
+  <HelpKINode Title="PublicAPIAttribute.PublicAPIAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor.htm" />
+  <HelpKINode Title="PureAttribute class">
+    <HelpKINode Title="PureAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+    <HelpKINode Title="PureAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+    <HelpKINode Title="about PureAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Quote field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Quote.htm" />
+  <HelpKINode Title="RazorDirectiveAttribute class">
+    <HelpKINode Title="RazorDirectiveAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+    <HelpKINode Title="RazorDirectiveAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+    <HelpKINode Title="about RazorDirectiveAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorDirectiveAttribute.Directive property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.Directive.htm" />
+  <HelpKINode Title="RazorDirectiveAttribute.RazorDirectiveAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.-ctor.htm" />
+  <HelpKINode Title="RazorHelperCommonAttribute class">
+    <HelpKINode Title="RazorHelperCommonAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+    <HelpKINode Title="RazorHelperCommonAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+    <HelpKINode Title="about RazorHelperCommonAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorImportNamespaceAttribute class">
+    <HelpKINode Title="RazorImportNamespaceAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+    <HelpKINode Title="RazorImportNamespaceAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+    <HelpKINode Title="about RazorImportNamespaceAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorImportNamespaceAttribute.Name property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.Name.htm" />
+  <HelpKINode Title="RazorImportNamespaceAttribute.RazorImportNamespaceAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.-ctor.htm" />
+  <HelpKINode Title="RazorInjectionAttribute class">
+    <HelpKINode Title="RazorInjectionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+    <HelpKINode Title="RazorInjectionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+    <HelpKINode Title="about RazorInjectionAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorInjectionAttribute.FieldName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.FieldName.htm" />
+  <HelpKINode Title="RazorInjectionAttribute.RazorInjectionAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.-ctor.htm" />
+  <HelpKINode Title="RazorInjectionAttribute.Type property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.Type.htm" />
+  <HelpKINode Title="RazorLayoutAttribute class">
+    <HelpKINode Title="RazorLayoutAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+    <HelpKINode Title="RazorLayoutAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+    <HelpKINode Title="about RazorLayoutAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorSectionAttribute class">
+    <HelpKINode Title="RazorSectionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+    <HelpKINode Title="RazorSectionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+    <HelpKINode Title="about RazorSectionAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorWriteLiteralMethodAttribute class">
+    <HelpKINode Title="RazorWriteLiteralMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+    <HelpKINode Title="RazorWriteLiteralMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+    <HelpKINode Title="about RazorWriteLiteralMethodAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorWriteMethodAttribute class">
+    <HelpKINode Title="RazorWriteMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+    <HelpKINode Title="RazorWriteMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+    <HelpKINode Title="about RazorWriteMethodAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RazorWriteMethodParameterAttribute class">
+    <HelpKINode Title="RazorWriteMethodParameterAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+    <HelpKINode Title="RazorWriteMethodParameterAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+    <HelpKINode Title="about RazorWriteMethodParameterAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Read enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" />
+  <HelpKINode Title="Read field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.Read.htm" />
+  <HelpKINode Title="RegexPatternAttribute class">
+    <HelpKINode Title="RegexPatternAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+    <HelpKINode Title="RegexPatternAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+    <HelpKINode Title="about RegexPatternAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveExcludedGroup property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedGroup.htm" />
+  <HelpKINode Title="RemoveExcludedPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedPath.htm" />
+  <HelpKINode Title="RemoveSearchPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveSearchPath.htm" />
+  <HelpKINode Title="Required property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.Required.htm" />
+  <HelpKINode Title="resourceCulture field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceCulture.htm" />
+  <HelpKINode Title="resourceMan field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceMan.htm" />
+  <HelpKINode Title="ResourceManager property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.ResourceManager.htm" />
+  <HelpKINode Title="Resources class">
+    <HelpKINode Title="Resources Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+    <HelpKINode Title="Resources Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+    <HelpKINode Title="about Resources class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Resources.Culture property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.Culture.htm" />
+  <HelpKINode Title="Resources.resourceCulture field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceCulture.htm" />
+  <HelpKINode Title="Resources.resourceMan field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceMan.htm" />
+  <HelpKINode Title="Resources.ResourceManager property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.ResourceManager.htm" />
+  <HelpKINode Title="Resources.Resources constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.-ctor.htm" />
+  <HelpKINode Title="Result property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Result.htm" />
+  <HelpKINode Title="ResultNumberHeader field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ResultNumberHeader.htm" />
+  <HelpKINode Title="RootDirectories property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootDirectories.htm" />
+  <HelpKINode Title="RootLevel field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootLevel.htm" />
+  <HelpKINode Title="SearchDepth enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" />
+  <HelpKINode Title="SearchDepth property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.SearchDepth.htm" />
+  <HelpKINode Title="SearchDepth.All field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.All.htm" />
+  <HelpKINode Title="SearchDepth.Children field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.Children.htm" />
+  <HelpKINode Title="SearchDepth.Current field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.Current.htm" />
+  <HelpKINode Title="SearchDepth.None field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.None.htm" />
+  <HelpKINode Title="SearchDepthAllIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthAllIsChecked.htm" />
+  <HelpKINode Title="SearchDepthChildrenIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthChildrenIsChecked.htm" />
+  <HelpKINode Title="SearchDepthCurrentIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthCurrentIsChecked.htm" />
+  <HelpKINode Title="SearchPaths property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchPaths.htm" />
+  <HelpKINode Title="Settings class">
+    <HelpKINode Title="Settings Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="Settings Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="about Settings class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.Default property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.Default.htm" />
+  <HelpKINode Title="Settings.defaultInstance field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.defaultInstance.htm" />
+  <HelpKINode Title="SetUpProperties method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SetUpProperties.htm" />
+  <HelpKINode Title="ShouldIncludeFiles property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ShouldIncludeFiles.htm" />
+  <HelpKINode Title="ShouldSplitPathLevels property">
+    <HelpKINode Title="ShouldSplitPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ShouldSplitPathLevels.htm" />
+    <HelpKINode Title="ShouldSplitPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ShouldSplitPathLevels.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowMessage method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ShowMessage.htm" />
+  <HelpKINode Title="SourceTemplateAttribute class">
+    <HelpKINode Title="SourceTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+    <HelpKINode Title="SourceTemplateAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+    <HelpKINode Title="about SourceTemplateAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SplitPathLevelsIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SplitPathLevelsIsChecked.htm" />
+  <HelpKINode Title="StringFormatMethodAttribute class">
+    <HelpKINode Title="StringFormatMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+    <HelpKINode Title="StringFormatMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+    <HelpKINode Title="about StringFormatMethodAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringFormatMethodAttribute.FormatParameterName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.FormatParameterName.htm" />
+  <HelpKINode Title="StringFormatMethodAttribute.StringFormatMethodAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.-ctor.htm" />
+  <HelpKINode Title="TagName property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.TagName.htm" />
+  <HelpKINode Title="Target property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Target.htm" />
+  <HelpKINode Title="TargetFlags property">
+    <HelpKINode Title="TargetFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.TargetFlags.htm" />
+    <HelpKINode Title="TargetFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.TargetFlags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TerminatesProgramAttribute class">
+    <HelpKINode Title="TerminatesProgramAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+    <HelpKINode Title="TerminatesProgramAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+    <HelpKINode Title="about TerminatesProgramAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TxtExtension field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.TxtExtension.htm" />
+  <HelpKINode Title="Type property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.Type.htm" />
+  <HelpKINode Title="UIElement_OnMouseLeftButtonDown method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.UIElement_OnMouseLeftButtonDown.htm" />
+  <HelpKINode Title="UpdatedContent enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" />
+  <HelpKINode Title="UpdatedContent field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.UpdatedContent.htm" />
+  <HelpKINode Title="UsedImplicitlyAttribute class">
+    <HelpKINode Title="UsedImplicitlyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+    <HelpKINode Title="UsedImplicitlyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+    <HelpKINode Title="about UsedImplicitlyAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsedImplicitlyAttribute.TargetFlags property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.TargetFlags.htm" />
+  <HelpKINode Title="UsedImplicitlyAttribute.UsedImplicitlyAttribute constructor" Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor.htm" />
+  <HelpKINode Title="UsedImplicitlyAttribute.UseKindFlags property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.UseKindFlags.htm" />
+  <HelpKINode Title="UseKindFlags property">
+    <HelpKINode Title="UseKindFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.UseKindFlags.htm" />
+    <HelpKINode Title="UseKindFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.UseKindFlags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserGuide property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.UserGuide.htm" />
+  <HelpKINode Title="ValueProviderAttribute class">
+    <HelpKINode Title="ValueProviderAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+    <HelpKINode Title="ValueProviderAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+    <HelpKINode Title="about ValueProviderAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueProviderAttribute.Name property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.Name.htm" />
+  <HelpKINode Title="ValueProviderAttribute.ValueProviderAttribute constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.-ctor.htm" />
+  <HelpKINode Title="Version property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Version.htm" />
+  <HelpKINode Title="ViewModel class">
+    <HelpKINode Title="ViewModel Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="ViewModel Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="about ViewModel class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewModel.AboutWindow property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AboutWindow.htm" />
+  <HelpKINode Title="ViewModel.AddExcludedGroup property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedGroup.htm" />
+  <HelpKINode Title="ViewModel.AddExcludedPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedPath.htm" />
+  <HelpKINode Title="ViewModel.AddSearchPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddSearchPath.htm" />
+  <HelpKINode Title="ViewModel.CanAddExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedGroup.htm" />
+  <HelpKINode Title="ViewModel.CanAddExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedPath.htm" />
+  <HelpKINode Title="ViewModel.CanAddSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddSearchPath.htm" />
+  <HelpKINode Title="ViewModel.CanCancel method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanCancel.htm" />
+  <HelpKINode Title="ViewModel.Cancel property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Cancel.htm" />
+  <HelpKINode Title="ViewModel.CancelButtonVisibility property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CancelButtonVisibility.htm" />
+  <HelpKINode Title="ViewModel.CanGetDirectoryPermissions method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanGetDirectoryPermissions.htm" />
+  <HelpKINode Title="ViewModel.CanRemoveExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedGroup.htm" />
+  <HelpKINode Title="ViewModel.CanRemoveExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedPath.htm" />
+  <HelpKINode Title="ViewModel.CanRemoveSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveSearchPath.htm" />
+  <HelpKINode Title="ViewModel.CombinedPathLevelsIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CombinedPathLevelsIsChecked.htm" />
+  <HelpKINode Title="ViewModel.ExcludedGroups property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedGroups.htm" />
+  <HelpKINode Title="ViewModel.ExcludedPaths property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedPaths.htm" />
+  <HelpKINode Title="ViewModel.ExecuteAddExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedGroup.htm" />
+  <HelpKINode Title="ViewModel.ExecuteAddExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedPath.htm" />
+  <HelpKINode Title="ViewModel.ExecuteAddSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddSearchPath.htm" />
+  <HelpKINode Title="ViewModel.ExecuteCancel method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteCancel.htm" />
+  <HelpKINode Title="ViewModel.ExecuteGetDirectoryPermissions method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteGetDirectoryPermissions.htm" />
+  <HelpKINode Title="ViewModel.ExecuteRemoveExcludedGroup method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedGroup.htm" />
+  <HelpKINode Title="ViewModel.ExecuteRemoveExcludedPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedPath.htm" />
+  <HelpKINode Title="ViewModel.ExecuteRemoveSearchPath method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveSearchPath.htm" />
+  <HelpKINode Title="ViewModel.GetDirectoryPermissions property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetDirectoryPermissions.htm" />
+  <HelpKINode Title="ViewModel.GetSearchDepth method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetSearchDepth.htm" />
+  <HelpKINode Title="ViewModel.HelpFile field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HelpFile.htm" />
+  <HelpKINode Title="ViewModel.HideMessage method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HideMessage.htm" />
+  <HelpKINode Title="ViewModel.IncludeFilesIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IncludeFilesIsChecked.htm" />
+  <HelpKINode Title="ViewModel.IsBusy property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IsBusy.htm" />
+  <HelpKINode Title="ViewModel.Message property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Message.htm" />
+  <HelpKINode Title="ViewModel.MessageIsVisible property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageIsVisible.htm" />
+  <HelpKINode Title="ViewModel.MessageZIndex property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageZIndex.htm" />
+  <HelpKINode Title="ViewModel.NotifyPropertyChanged method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.NotifyPropertyChanged.htm" />
+  <HelpKINode Title="ViewModel.OpenAboutWindowCommand property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommand.htm" />
+  <HelpKINode Title="ViewModel.OpenAboutWindowCommandExecute method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommandExecute.htm" />
+  <HelpKINode Title="ViewModel.OpenHelpWindowCommand property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommand.htm" />
+  <HelpKINode Title="ViewModel.OpenHelpWindowCommandExecute method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommandExecute.htm" />
+  <HelpKINode Title="ViewModel.PathDisplayOptionIsChecked method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PathDisplayOptionIsChecked.htm" />
+  <HelpKINode Title="ViewModel.ProgressBarVisibility property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ProgressBarVisibility.htm" />
+  <HelpKINode Title="ViewModel.PropertyChanged event" Url="html/E-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PropertyChanged.htm" />
+  <HelpKINode Title="ViewModel.RemoveExcludedGroup property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedGroup.htm" />
+  <HelpKINode Title="ViewModel.RemoveExcludedPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedPath.htm" />
+  <HelpKINode Title="ViewModel.RemoveSearchPath property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveSearchPath.htm" />
+  <HelpKINode Title="ViewModel.SearchDepthAllIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthAllIsChecked.htm" />
+  <HelpKINode Title="ViewModel.SearchDepthChildrenIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthChildrenIsChecked.htm" />
+  <HelpKINode Title="ViewModel.SearchDepthCurrentIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthCurrentIsChecked.htm" />
+  <HelpKINode Title="ViewModel.SearchPaths property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchPaths.htm" />
+  <HelpKINode Title="ViewModel.SetUpProperties method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SetUpProperties.htm" />
+  <HelpKINode Title="ViewModel.ShowMessage method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ShowMessage.htm" />
+  <HelpKINode Title="ViewModel.SplitPathLevelsIsChecked property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SplitPathLevelsIsChecked.htm" />
+  <HelpKINode Title="ViewModel.UserGuide property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.UserGuide.htm" />
+  <HelpKINode Title="ViewModel.Version property" Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Version.htm" />
+  <HelpKINode Title="ViewModel.ViewModel constructor" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.-ctor.htm" />
+  <HelpKINode Title="ViewModel._aboutWindow field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._aboutWindow.htm" />
+  <HelpKINode Title="ViewModel._cancelButonVisibility field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._cancelButonVisibility.htm" />
+  <HelpKINode Title="ViewModel._combinedPathLevelsIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._combinedPathLevelsIsChecked.htm" />
+  <HelpKINode Title="ViewModel._directoryPermissionsChecker field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._directoryPermissionsChecker.htm" />
+  <HelpKINode Title="ViewModel._includeFilesIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._includeFilesIsChecked.htm" />
+  <HelpKINode Title="ViewModel._isBusy field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._isBusy.htm" />
+  <HelpKINode Title="ViewModel._message field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._message.htm" />
+  <HelpKINode Title="ViewModel._messageIsVisible field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageIsVisible.htm" />
+  <HelpKINode Title="ViewModel._messageZIndex field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageZIndex.htm" />
+  <HelpKINode Title="ViewModel._progressBarVisibility field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._progressBarVisibility.htm" />
+  <HelpKINode Title="ViewModel._searchDepthAllIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthAllIsChecked.htm" />
+  <HelpKINode Title="ViewModel._searchDepthChildrenIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthChildrenIsChecked.htm" />
+  <HelpKINode Title="ViewModel._searchDepthCurrentIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthCurrentIsChecked.htm" />
+  <HelpKINode Title="ViewModel._splitPathLevelsIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._splitPathLevelsIsChecked.htm" />
+  <HelpKINode Title="ViewModel._userGuide field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._userGuide.htm" />
+  <HelpKINode Title="WithMembers enumeration member" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="WithMembers field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.WithMembers.htm" />
+  <HelpKINode Title="WriteAndOpenLog method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenLog.htm" />
+  <HelpKINode Title="WriteAndOpenResult method" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenResult.htm" />
+  <HelpKINode Title="XamlItemBindingOfItemsControlAttribute class">
+    <HelpKINode Title="XamlItemBindingOfItemsControlAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+    <HelpKINode Title="XamlItemBindingOfItemsControlAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+    <HelpKINode Title="about XamlItemBindingOfItemsControlAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XamlItemsControlAttribute class">
+    <HelpKINode Title="XamlItemsControlAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+    <HelpKINode Title="XamlItemsControlAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+    <HelpKINode Title="about XamlItemsControlAttribute class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_aboutWindow field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._aboutWindow.htm" />
+  <HelpKINode Title="_cancelButonVisibility field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._cancelButonVisibility.htm" />
+  <HelpKINode Title="_combinedPathLevelsIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._combinedPathLevelsIsChecked.htm" />
+  <HelpKINode Title="_directoryPermissionsChecker field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._directoryPermissionsChecker.htm" />
+  <HelpKINode Title="_includeFilesIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._includeFilesIsChecked.htm" />
+  <HelpKINode Title="_isBusy field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._isBusy.htm" />
+  <HelpKINode Title="_message field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._message.htm" />
+  <HelpKINode Title="_messageIsVisible field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageIsVisible.htm" />
+  <HelpKINode Title="_messageZIndex field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageZIndex.htm" />
+  <HelpKINode Title="_progressBarVisibility field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._progressBarVisibility.htm" />
+  <HelpKINode Title="_searchDepthAllIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthAllIsChecked.htm" />
+  <HelpKINode Title="_searchDepthChildrenIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthChildrenIsChecked.htm" />
+  <HelpKINode Title="_searchDepthCurrentIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthCurrentIsChecked.htm" />
+  <HelpKINode Title="_splitPathLevelsIsChecked field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._splitPathLevelsIsChecked.htm" />
+  <HelpKINode Title="_userGuide field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._userGuide.htm" />
+</HelpKI>

@@ -8,20 +8,91 @@ using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
 namespace MichaelBrandonMorris.DirectoryPermissionTool
 {
+    /// <summary>
+    ///     Class PermissionInfoFormatter.
+    /// </summary>
+    /// TODO Edit XML Comment Template for PermissionInfoFormatter
     internal class PermissionInfoFormatter
     {
+        /// <summary>
+        ///     The access control type header
+        /// </summary>
+        /// TODO Edit XML Comment Template for AccessControlTypeHeader
         private const string AccessControlTypeHeader = "Access Control Type";
+
+        /// <summary>
+        ///     The comma
+        /// </summary>
+        /// TODO Edit XML Comment Template for Comma
         private const char Comma = ',';
+
+        /// <summary>
+        ///     The file system rights header
+        /// </summary>
+        /// TODO Edit XML Comment Template for FileSystemRightsHeader
         private const string FileSystemRightsHeader = "File System Rights";
+
+        /// <summary>
+        ///     The identity reference header
+        /// </summary>
+        /// TODO Edit XML Comment Template for IdentityReferenceHeader
         private const string IdentityReferenceHeader = "Identity";
+
+        /// <summary>
+        ///     The is inherited header
+        /// </summary>
+        /// TODO Edit XML Comment Template for IsInheritedHeader
         private const string IsInheritedHeader = "Is Inherited?";
+
+        /// <summary>
+        ///     The level header
+        /// </summary>
+        /// TODO Edit XML Comment Template for LevelHeader
         private const string LevelHeader = "Level";
+
+        /// <summary>
+        ///     The maximum results
+        /// </summary>
+        /// TODO Edit XML Comment Template for MaxResults
         private const int MaxResults = 1048574;
+
+        /// <summary>
+        ///     The owner header
+        /// </summary>
+        /// TODO Edit XML Comment Template for OwnerHeader
         private const string OwnerHeader = "Owner";
+
+        /// <summary>
+        ///     The path header
+        /// </summary>
+        /// TODO Edit XML Comment Template for PathHeader
         private const string PathHeader = "Path";
+
+        /// <summary>
+        ///     The quote
+        /// </summary>
+        /// TODO Edit XML Comment Template for Quote
         private const char Quote = '"';
+
+        /// <summary>
+        ///     The result number header
+        /// </summary>
+        /// TODO Edit XML Comment Template for ResultNumberHeader
         private const string ResultNumberHeader = "#";
 
+        /// <summary>
+        ///     Initializes a new instance of the
+        ///     <see cref="PermissionInfoFormatter" /> class.
+        /// </summary>
+        /// <param name="permissionInfos">The permission infos.</param>
+        /// <param name="maxPathLevels">The maximum path levels.</param>
+        /// <param name="shouldSplitPathLevels">
+        ///     if set to <c>true</c>
+        ///     [should split path levels].
+        /// </param>
+        /// <param name="excludedGroups">The excluded groups.</param>
+        /// <param name="cancellationToken">The cancellation token.</param>
+        /// TODO Edit XML Comment Template for #ctor
         internal PermissionInfoFormatter(
             IEnumerable<PermissionInfo> permissionInfos,
             int maxPathLevels,
@@ -36,32 +107,66 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
             CancellationToken = cancellationToken;
         }
 
+        /// <summary>
+        ///     Gets the cancellation token.
+        /// </summary>
+        /// <value>The cancellation token.</value>
+        /// TODO Edit XML Comment Template for CancellationToken
         private CancellationToken CancellationToken
         {
             get;
         }
 
+        /// <summary>
+        ///     Gets the excluded groups.
+        /// </summary>
+        /// <value>The excluded groups.</value>
+        /// TODO Edit XML Comment Template for ExcludedGroups
         private IEnumerable<string> ExcludedGroups
         {
             get;
         }
 
+        /// <summary>
+        ///     Gets the maximum path levels.
+        /// </summary>
+        /// <value>The maximum path levels.</value>
+        /// TODO Edit XML Comment Template for MaxPathLevels
         private int MaxPathLevels
         {
             get;
         }
 
+        /// <summary>
+        ///     Gets a value indicating whether [should split path
+        ///     levels].
+        /// </summary>
+        /// <value>
+        ///     <c>true</c> if [should split path levels];
+        ///     otherwise, <c>false</c>.
+        /// </value>
+        /// TODO Edit XML Comment Template for ShouldSplitPathLevels
         private bool ShouldSplitPathLevels
         {
             get;
         }
 
+        /// <summary>
+        ///     Gets or sets the permission infos.
+        /// </summary>
+        /// <value>The permission infos.</value>
+        /// TODO Edit XML Comment Template for PermissionInfos
         private IEnumerable<PermissionInfo> PermissionInfos
         {
             get;
             set;
         }
 
+        /// <summary>
+        ///     Formats the directories.
+        /// </summary>
+        /// <returns>System.String.</returns>
+        /// TODO Edit XML Comment Template for FormatDirectories
         internal string FormatDirectories()
         {
             var stringBuilder = new StringBuilder();
@@ -112,8 +217,7 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                             {
                                 pathStringBuilder.Append(
                                     permissionInfo.FullNameSplitPath[i]
-                                        .Wrap(
-                                            Quote)
+                                        .Wrap(Quote)
                                     + Comma);
                             }
                             else
@@ -130,8 +234,8 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                     }
 
 
-                    foreach (FileSystemAccessRule accessRule in
-                        permissionInfo.AccessRules)
+                    foreach (FileSystemAccessRule accessRule in permissionInfo
+                        .AccessRules)
                     {
                         if (resultsCount == MaxResults)
                         {
@@ -141,8 +245,8 @@ namespace MichaelBrandonMorris.DirectoryPermissionTool
                         var identityReference =
                             accessRule.IdentityReference.Value;
 
-                        if (ExcludedGroups.ContainsIgnoreCase(
-                            identityReference))
+                        if (ExcludedGroups.ContainsIgnoreCase(identityReference)
+                        )
                         {
                             continue;
                         }

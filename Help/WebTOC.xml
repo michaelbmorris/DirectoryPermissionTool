@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="f831fb09-8cde-4d13-b62a-469a77cfee1c" Title="MichaelBrandonMorris.DirectoryPermissionTool Namespace" Url="html/N-MichaelBrandonMorris.DirectoryPermissionTool.htm">
+    <HelpTOCNode Id="266c520b-ace4-427e-88a2-de26f4d887d4" Title="AboutWindow Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm">
+      <HelpTOCNode Title="AboutWindow Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+      <HelpTOCNode Title="AboutWindow Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.-ctor.htm" />
+      <HelpTOCNode Title="AboutWindow Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+      <HelpTOCNode Title="AboutWindow Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+      <HelpTOCNode Title="AboutWindow Events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f65858da-eba8-47f8-977d-51847292ac05" Title="App Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm">
+      <HelpTOCNode Title="App Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+      <HelpTOCNode Title="App Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+      <HelpTOCNode Title="App Events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d60b9cfc-bc8c-4551-841a-d877dfa40857" Title="MainWindow Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.-ctor.htm" />
+      <HelpTOCNode Id="e32af0ce-82cc-44ff-a6aa-367e0eb529fc" Title="MainWindow Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm">
+        <HelpTOCNode Title="UIElement_OnMouseLeftButtonDown Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.UIElement_OnMouseLeftButtonDown.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MainWindow Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+      <HelpTOCNode Title="MainWindow Events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="abb13c7d-f770-4dcd-b22d-4e1362eba8b6" Title="PermissionChecker Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm">
+      <HelpTOCNode Title="PermissionChecker Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" />
+      <HelpTOCNode Title="PermissionChecker Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.-ctor.htm" />
+      <HelpTOCNode Id="5f8f0446-f9e6-4b6b-a4eb-a5d5ca751fcc" Title="PermissionChecker Fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm">
+        <HelpTOCNode Title="CsvExtension Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CsvExtension.htm" />
+        <HelpTOCNode Title="LogFileName Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.LogFileName.htm" />
+        <HelpTOCNode Title="OutputFileName Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputFileName.htm" />
+        <HelpTOCNode Title="OutputPath Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputPath.htm" />
+        <HelpTOCNode Title="TxtExtension Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.TxtExtension.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3b3438a3-dc24-433f-bee7-8a0fea578c87" Title="PermissionChecker Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm">
+        <HelpTOCNode Title="Cancel Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Cancel.htm" />
+        <HelpTOCNode Title="Execute Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Execute.htm" />
+        <HelpTOCNode Title="WriteAndOpenLog Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenLog.htm" />
+        <HelpTOCNode Title="WriteAndOpenResult Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenResult.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7aa9fdb4-ecbb-4373-aad4-672476789ed1" Title="PermissionChecker Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm">
+        <HelpTOCNode Title="CancellationTokenSource Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CancellationTokenSource.htm" />
+        <HelpTOCNode Title="ExcludedGroups Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ExcludedGroups.htm" />
+        <HelpTOCNode Title="Log Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Log.htm" />
+        <HelpTOCNode Title="PermissionGetter Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.PermissionGetter.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Result.htm" />
+        <HelpTOCNode Title="ShouldSplitPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ShouldSplitPathLevels.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="768233a3-4935-4045-8f1d-383e7af42d5c" Title="PermissionGetter Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm">
+      <HelpTOCNode Title="PermissionGetter Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" />
+      <HelpTOCNode Title="PermissionGetter Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.-ctor.htm" />
+      <HelpTOCNode Id="03e57d6c-20b3-4f33-a1b0-7bc8249136a8" Title="PermissionGetter Fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm">
+        <HelpTOCNode Title="RootLevel Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootLevel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b4cfc137-dc23-447b-bf78-f5cb9e801e12" Title="PermissionGetter Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm">
+        <HelpTOCNode Title="GetDirectories Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetDirectories.htm" />
+        <HelpTOCNode Title="GetPermissionInfos Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetPermissionInfos.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="19d537fd-fff6-45fd-bf6a-5085242d5cb1" Title="PermissionGetter Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm">
+        <HelpTOCNode Title="CancellationToken Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.CancellationToken.htm" />
+        <HelpTOCNode Title="ExcludePaths Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ExcludePaths.htm" />
+        <HelpTOCNode Title="Log Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.Log.htm" />
+        <HelpTOCNode Title="MaxPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.MaxPathLevels.htm" />
+        <HelpTOCNode Title="PermissionInfos Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.PermissionInfos.htm" />
+        <HelpTOCNode Title="RootDirectories Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootDirectories.htm" />
+        <HelpTOCNode Title="SearchDepth Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.SearchDepth.htm" />
+        <HelpTOCNode Title="ShouldIncludeFiles Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ShouldIncludeFiles.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c7d487d2-c117-4ffb-a292-3154693a6a4b" Title="PermissionInfo Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm">
+      <HelpTOCNode Title="PermissionInfo Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" />
+      <HelpTOCNode Id="f6017eb5-9db8-4720-9d2f-9cc8ce37fa9d" Title="PermissionInfo Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor.htm">
+        <HelpTOCNode Title="PermissionInfo Constructor (DirectoryInfo)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor.htm" />
+        <HelpTOCNode Title="PermissionInfo Constructor (FileInfo)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c1b135ee-481b-4d48-8457-df3c5c39fa57" Title="PermissionInfo Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm">
+        <HelpTOCNode Id="00d24380-4b81-43fe-b67f-b8c6e4b8de9e" Title="Equals Method " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm">
+          <HelpTOCNode Title="Equals Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="53e58f33-6465-43cb-b527-31bb6b213365" Title="PermissionInfo Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm">
+        <HelpTOCNode Title="AccessRules Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.AccessRules.htm" />
+        <HelpTOCNode Title="FullName Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullName.htm" />
+        <HelpTOCNode Title="FullNameSplitPath Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullNameSplitPath.htm" />
+        <HelpTOCNode Title="Owner Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Owner.htm" />
+        <HelpTOCNode Title="PathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.PathLevels.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="12c2839d-4b2f-45ce-a28e-a461e10df2a3" Title="PermissionInfoFormatter Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm">
+      <HelpTOCNode Title="PermissionInfoFormatter Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" />
+      <HelpTOCNode Title="PermissionInfoFormatter Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.-ctor.htm" />
+      <HelpTOCNode Id="ed9874c9-b53d-4500-9869-7af5f7000f71" Title="PermissionInfoFormatter Fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm">
+        <HelpTOCNode Title="AccessControlTypeHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.AccessControlTypeHeader.htm" />
+        <HelpTOCNode Title="Comma Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Comma.htm" />
+        <HelpTOCNode Title="FileSystemRightsHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FileSystemRightsHeader.htm" />
+        <HelpTOCNode Title="IdentityReferenceHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IdentityReferenceHeader.htm" />
+        <HelpTOCNode Title="IsInheritedHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IsInheritedHeader.htm" />
+        <HelpTOCNode Title="LevelHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.LevelHeader.htm" />
+        <HelpTOCNode Title="MaxResults Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxResults.htm" />
+        <HelpTOCNode Title="OwnerHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.OwnerHeader.htm" />
+        <HelpTOCNode Title="PathHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PathHeader.htm" />
+        <HelpTOCNode Title="Quote Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Quote.htm" />
+        <HelpTOCNode Title="ResultNumberHeader Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ResultNumberHeader.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dcd9cd30-cf23-4ea1-bb68-0730a7ade65c" Title="PermissionInfoFormatter Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm">
+        <HelpTOCNode Title="FormatDirectories Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FormatDirectories.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="309c31af-44c0-47b2-a650-932180937fbd" Title="PermissionInfoFormatter Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm">
+        <HelpTOCNode Title="CancellationToken Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.CancellationToken.htm" />
+        <HelpTOCNode Title="ExcludedGroups Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ExcludedGroups.htm" />
+        <HelpTOCNode Title="MaxPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxPathLevels.htm" />
+        <HelpTOCNode Title="PermissionInfos Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PermissionInfos.htm" />
+        <HelpTOCNode Title="ShouldSplitPathLevels Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ShouldSplitPathLevels.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SearchDepth Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" />
+    <HelpTOCNode Id="209e6f6a-c908-4c83-a307-d2d3dafb0222" Title="ViewModel Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm">
+      <HelpTOCNode Title="ViewModel Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" />
+      <HelpTOCNode Title="ViewModel Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.-ctor.htm" />
+      <HelpTOCNode Id="7b202f9a-22ca-4cbf-a59c-5a34b933194a" Title="ViewModel Fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm">
+        <HelpTOCNode Title="_aboutWindow Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._aboutWindow.htm" />
+        <HelpTOCNode Title="_cancelButonVisibility Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._cancelButonVisibility.htm" />
+        <HelpTOCNode Title="_combinedPathLevelsIsChecked Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._combinedPathLevelsIsChecked.htm" />
+        <HelpTOCNode Title="_directoryPermissionsChecker Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._directoryPermissionsChecker.htm" />
+        <HelpTOCNode Title="_includeFilesIsChecked Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._includeFilesIsChecked.htm" />
+        <HelpTOCNode Title="_isBusy Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._isBusy.htm" />
+        <HelpTOCNode Title="_message Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._message.htm" />
+        <HelpTOCNode Title="_messageIsVisible Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageIsVisible.htm" />
+        <HelpTOCNode Title="_messageZIndex Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageZIndex.htm" />
+        <HelpTOCNode Title="_progressBarVisibility Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._progressBarVisibility.htm" />
+        <HelpTOCNode Title="_searchDepthAllIsChecked Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthAllIsChecked.htm" />
+        <HelpTOCNode Title="_searchDepthChildrenIsChecked Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthChildrenIsChecked.htm" />
+        <HelpTOCNode Title="_searchDepthCurrentIsChecked Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthCurrentIsChecked.htm" />
+        <HelpTOCNode Title="_splitPathLevelsIsChecked Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._splitPathLevelsIsChecked.htm" />
+        <HelpTOCNode Title="_userGuide Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._userGuide.htm" />
+        <HelpTOCNode Title="HelpFile Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HelpFile.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4287321a-e118-4db1-995f-a213ebb04466" Title="ViewModel Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm">
+        <HelpTOCNode Title="CanAddExcludedGroup Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedGroup.htm" />
+        <HelpTOCNode Title="CanAddExcludedPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedPath.htm" />
+        <HelpTOCNode Title="CanAddSearchPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddSearchPath.htm" />
+        <HelpTOCNode Title="CanCancel Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanCancel.htm" />
+        <HelpTOCNode Title="CanGetDirectoryPermissions Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanGetDirectoryPermissions.htm" />
+        <HelpTOCNode Title="CanRemoveExcludedGroup Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedGroup.htm" />
+        <HelpTOCNode Title="CanRemoveExcludedPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedPath.htm" />
+        <HelpTOCNode Title="CanRemoveSearchPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveSearchPath.htm" />
+        <HelpTOCNode Title="ExecuteAddExcludedGroup Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedGroup.htm" />
+        <HelpTOCNode Title="ExecuteAddExcludedPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedPath.htm" />
+        <HelpTOCNode Title="ExecuteAddSearchPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddSearchPath.htm" />
+        <HelpTOCNode Title="ExecuteCancel Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteCancel.htm" />
+        <HelpTOCNode Title="ExecuteGetDirectoryPermissions Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteGetDirectoryPermissions.htm" />
+        <HelpTOCNode Title="ExecuteRemoveExcludedGroup Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedGroup.htm" />
+        <HelpTOCNode Title="ExecuteRemoveExcludedPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedPath.htm" />
+        <HelpTOCNode Title="ExecuteRemoveSearchPath Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveSearchPath.htm" />
+        <HelpTOCNode Title="GetSearchDepth Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetSearchDepth.htm" />
+        <HelpTOCNode Title="HideMessage Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HideMessage.htm" />
+        <HelpTOCNode Title="NotifyPropertyChanged Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.NotifyPropertyChanged.htm" />
+        <HelpTOCNode Title="OpenAboutWindowCommandExecute Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommandExecute.htm" />
+        <HelpTOCNode Title="OpenHelpWindowCommandExecute Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommandExecute.htm" />
+        <HelpTOCNode Title="PathDisplayOptionIsChecked Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PathDisplayOptionIsChecked.htm" />
+        <HelpTOCNode Title="SetUpProperties Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SetUpProperties.htm" />
+        <HelpTOCNode Title="ShowMessage Method " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ShowMessage.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="775dd64f-6461-40e9-acc9-de17affeb532" Title="ViewModel Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm">
+        <HelpTOCNode Title="AboutWindow Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AboutWindow.htm" />
+        <HelpTOCNode Title="AddExcludedGroup Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedGroup.htm" />
+        <HelpTOCNode Title="AddExcludedPath Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedPath.htm" />
+        <HelpTOCNode Title="AddSearchPath Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddSearchPath.htm" />
+        <HelpTOCNode Title="Cancel Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Cancel.htm" />
+        <HelpTOCNode Title="CancelButtonVisibility Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CancelButtonVisibility.htm" />
+        <HelpTOCNode Title="CombinedPathLevelsIsChecked Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CombinedPathLevelsIsChecked.htm" />
+        <HelpTOCNode Title="ExcludedGroups Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedGroups.htm" />
+        <HelpTOCNode Title="ExcludedPaths Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedPaths.htm" />
+        <HelpTOCNode Title="GetDirectoryPermissions Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetDirectoryPermissions.htm" />
+        <HelpTOCNode Title="IncludeFilesIsChecked Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IncludeFilesIsChecked.htm" />
+        <HelpTOCNode Title="IsBusy Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IsBusy.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Message.htm" />
+        <HelpTOCNode Title="MessageIsVisible Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageIsVisible.htm" />
+        <HelpTOCNode Title="MessageZIndex Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageZIndex.htm" />
+        <HelpTOCNode Title="OpenAboutWindowCommand Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommand.htm" />
+        <HelpTOCNode Title="OpenHelpWindowCommand Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommand.htm" />
+        <HelpTOCNode Title="ProgressBarVisibility Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ProgressBarVisibility.htm" />
+        <HelpTOCNode Title="RemoveExcludedGroup Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedGroup.htm" />
+        <HelpTOCNode Title="RemoveExcludedPath Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedPath.htm" />
+        <HelpTOCNode Title="RemoveSearchPath Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveSearchPath.htm" />
+        <HelpTOCNode Title="SearchDepthAllIsChecked Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthAllIsChecked.htm" />
+        <HelpTOCNode Title="SearchDepthChildrenIsChecked Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthChildrenIsChecked.htm" />
+        <HelpTOCNode Title="SearchDepthCurrentIsChecked Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthCurrentIsChecked.htm" />
+        <HelpTOCNode Title="SearchPaths Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchPaths.htm" />
+        <HelpTOCNode Title="SplitPathLevelsIsChecked Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SplitPathLevelsIsChecked.htm" />
+        <HelpTOCNode Title="UserGuide Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.UserGuide.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Version.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ccf68487-cd12-4515-aaf9-0a38ccef5a25" Title="ViewModel Events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/E-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PropertyChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="2d34f3e4-fbb6-4618-8624-d2e95ffda671" Title="MichaelBrandonMorris.DirectoryPermissionTool.Properties Namespace" Url="html/N-MichaelBrandonMorris.DirectoryPermissionTool.Properties.htm">
+    <HelpTOCNode Id="a16db94b-9209-476f-83ff-72641ebd59b7" Title="AspChildControlTypeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm">
+      <HelpTOCNode Title="AspChildControlTypeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+      <HelpTOCNode Title="AspChildControlTypeAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspChildControlTypeAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" />
+      <HelpTOCNode Id="825fd3d1-bc76-4f79-89af-08d001d0557d" Title="AspChildControlTypeAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm">
+        <HelpTOCNode Title="ControlType Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.ControlType.htm" />
+        <HelpTOCNode Title="TagName Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.TagName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b0873ed8-58f0-477d-9db1-6944b1e1f999" Title="AspDataFieldAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm">
+      <HelpTOCNode Title="AspDataFieldAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+      <HelpTOCNode Title="AspDataFieldAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3224c0fe-cbce-46fc-a7b6-92b481c78185" Title="AspDataFieldsAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm">
+      <HelpTOCNode Title="AspDataFieldsAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+      <HelpTOCNode Title="AspDataFieldsAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bf6263a9-a5f7-4a09-8919-5a3227876adb" Title="AspMethodPropertyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm">
+      <HelpTOCNode Title="AspMethodPropertyAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+      <HelpTOCNode Title="AspMethodPropertyAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="593f185a-c651-466f-99b1-a852dbbcb2ac" Title="AspMvcActionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm">
+      <HelpTOCNode Title="AspMvcActionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+      <HelpTOCNode Id="047bb6c2-4732-401b-88f7-f6bc68b3fc18" Title="AspMvcActionAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor.htm">
+        <HelpTOCNode Title="AspMvcActionAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor.htm" />
+        <HelpTOCNode Title="AspMvcActionAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AspMvcActionAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" />
+      <HelpTOCNode Id="0bfdaa2e-2372-4bf9-b3c1-7b634b3a4948" Title="AspMvcActionAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm">
+        <HelpTOCNode Title="AnonymousProperty Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.AnonymousProperty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="51b1572a-4175-43c7-9f78-c97cc9e048de" Title="AspMvcActionSelectorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm">
+      <HelpTOCNode Title="AspMvcActionSelectorAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+      <HelpTOCNode Title="AspMvcActionSelectorAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f8ce4cdb-8d05-4c80-a758-b9e716bc1278" Title="AspMvcAreaAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm">
+      <HelpTOCNode Title="AspMvcAreaAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+      <HelpTOCNode Id="7dc1f158-20d2-4bda-ae98-4dc3024e35bb" Title="AspMvcAreaAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor.htm">
+        <HelpTOCNode Title="AspMvcAreaAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor.htm" />
+        <HelpTOCNode Title="AspMvcAreaAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AspMvcAreaAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" />
+      <HelpTOCNode Id="a2c8fd0b-c242-4d93-9596-0d7a5d77524c" Title="AspMvcAreaAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm">
+        <HelpTOCNode Title="AnonymousProperty Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.AnonymousProperty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="92583b15-75a6-4835-aeab-7bd69a0b33cd" Title="AspMvcAreaMasterLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm">
+      <HelpTOCNode Title="AspMvcAreaMasterLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+      <HelpTOCNode Title="AspMvcAreaMasterLocationFormatAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspMvcAreaMasterLocationFormatAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" />
+      <HelpTOCNode Id="49f64261-a715-4688-9543-94a955a438cf" Title="AspMvcAreaMasterLocationFormatAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm">
+        <HelpTOCNode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.Format.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f48372a0-1c0d-4d1b-b371-3b808496c389" Title="AspMvcAreaPartialViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm">
+      <HelpTOCNode Title="AspMvcAreaPartialViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Title="AspMvcAreaPartialViewLocationFormatAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspMvcAreaPartialViewLocationFormatAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Id="7ec9156a-b889-4858-a00e-dfd113f5dcbf" Title="AspMvcAreaPartialViewLocationFormatAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm">
+        <HelpTOCNode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.Format.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7d14dbe-97d7-4df5-aad2-7e91721005ab" Title="AspMvcAreaViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm">
+      <HelpTOCNode Title="AspMvcAreaViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Title="AspMvcAreaViewLocationFormatAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspMvcAreaViewLocationFormatAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Id="bd4a66cf-98c7-45f9-a62b-b325727aaa2e" Title="AspMvcAreaViewLocationFormatAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm">
+        <HelpTOCNode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.Format.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7ce0ba8-0cdd-49ef-bf37-efa97bcf1ba7" Title="AspMvcControllerAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm">
+      <HelpTOCNode Title="AspMvcControllerAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+      <HelpTOCNode Id="dbacec90-7502-4df5-b7af-12f96c926576" Title="AspMvcControllerAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor.htm">
+        <HelpTOCNode Title="AspMvcControllerAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor.htm" />
+        <HelpTOCNode Title="AspMvcControllerAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AspMvcControllerAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" />
+      <HelpTOCNode Id="706e5e69-a348-46dc-a476-4a82e18dff1e" Title="AspMvcControllerAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm">
+        <HelpTOCNode Title="AnonymousProperty Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.AnonymousProperty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7781afcb-5f31-4055-a65b-21d07739ca4f" Title="AspMvcDisplayTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm">
+      <HelpTOCNode Title="AspMvcDisplayTemplateAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+      <HelpTOCNode Title="AspMvcDisplayTemplateAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c57953f5-608f-48a0-acde-7cecf69e5c5e" Title="AspMvcEditorTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm">
+      <HelpTOCNode Title="AspMvcEditorTemplateAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+      <HelpTOCNode Title="AspMvcEditorTemplateAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="16892e4f-dea1-4c0e-aa30-22290ad6cfed" Title="AspMvcMasterAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm">
+      <HelpTOCNode Title="AspMvcMasterAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+      <HelpTOCNode Title="AspMvcMasterAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1c5814e-7c2a-461e-a20d-499e22d25348" Title="AspMvcMasterLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm">
+      <HelpTOCNode Title="AspMvcMasterLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+      <HelpTOCNode Title="AspMvcMasterLocationFormatAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspMvcMasterLocationFormatAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" />
+      <HelpTOCNode Id="a395c368-a98e-4848-9d5f-1125bb097d80" Title="AspMvcMasterLocationFormatAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm">
+        <HelpTOCNode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.Format.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b2e516b3-643b-4296-8190-d34639e84f04" Title="AspMvcModelTypeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm">
+      <HelpTOCNode Title="AspMvcModelTypeAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+      <HelpTOCNode Title="AspMvcModelTypeAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="74519f92-5e2e-4ef8-bbfb-d33f4e9f0c94" Title="AspMvcPartialViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm">
+      <HelpTOCNode Title="AspMvcPartialViewAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+      <HelpTOCNode Title="AspMvcPartialViewAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="605dbf82-d782-4fd9-aa9c-f9033f7aa411" Title="AspMvcPartialViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm">
+      <HelpTOCNode Title="AspMvcPartialViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Title="AspMvcPartialViewLocationFormatAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspMvcPartialViewLocationFormatAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Id="0be586d8-f418-420c-a52e-89f5a3c71879" Title="AspMvcPartialViewLocationFormatAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm">
+        <HelpTOCNode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.Format.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="586658fd-0113-4bc9-82ec-2eeef05783b3" Title="AspMvcSuppressViewErrorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm">
+      <HelpTOCNode Title="AspMvcSuppressViewErrorAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+      <HelpTOCNode Title="AspMvcSuppressViewErrorAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d25b91b-c634-4cbb-8e29-d21dcc545736" Title="AspMvcTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm">
+      <HelpTOCNode Title="AspMvcTemplateAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+      <HelpTOCNode Title="AspMvcTemplateAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3f1ac4ec-eb63-4017-8d66-b390537077ba" Title="AspMvcViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm">
+      <HelpTOCNode Title="AspMvcViewAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+      <HelpTOCNode Title="AspMvcViewAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="232759a0-3dab-4150-a142-bc6990c6f7c4" Title="AspMvcViewComponentAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm">
+      <HelpTOCNode Title="AspMvcViewComponentAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+      <HelpTOCNode Title="AspMvcViewComponentAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ede43548-d9eb-4472-9f84-ef2c44d42a24" Title="AspMvcViewComponentViewAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm">
+      <HelpTOCNode Title="AspMvcViewComponentViewAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+      <HelpTOCNode Title="AspMvcViewComponentViewAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe839dff-8be2-4f87-825d-8f9b23184811" Title="AspMvcViewLocationFormatAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm">
+      <HelpTOCNode Title="AspMvcViewLocationFormatAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Title="AspMvcViewLocationFormatAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspMvcViewLocationFormatAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" />
+      <HelpTOCNode Id="f3d4de8d-4139-49cd-b567-ddaaee628347" Title="AspMvcViewLocationFormatAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm">
+        <HelpTOCNode Title="Format Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.Format.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c82b7a05-27b5-4bb7-b187-2b5d33434136" Title="AspRequiredAttributeAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm">
+      <HelpTOCNode Title="AspRequiredAttributeAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+      <HelpTOCNode Title="AspRequiredAttributeAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspRequiredAttributeAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" />
+      <HelpTOCNode Id="d56a7023-a5c6-4a41-9eac-900e4eccaa6f" Title="AspRequiredAttributeAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm">
+        <HelpTOCNode Title="Attribute Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.Attribute.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d05e98a-4151-44d0-b7a9-f00d47de36d7" Title="AspTypePropertyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm">
+      <HelpTOCNode Title="AspTypePropertyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+      <HelpTOCNode Title="AspTypePropertyAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AspTypePropertyAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" />
+      <HelpTOCNode Id="d19cce0b-5fc2-40d4-b7f4-6963ed844306" Title="AspTypePropertyAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm">
+        <HelpTOCNode Title="CreateConstructorReferences Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.CreateConstructorReferences.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cb2bd9a2-68cb-4ca4-b213-69cc27aa6203" Title="AssertionConditionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm">
+      <HelpTOCNode Title="AssertionConditionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+      <HelpTOCNode Title="AssertionConditionAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.-ctor.htm" />
+      <HelpTOCNode Title="AssertionConditionAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" />
+      <HelpTOCNode Id="6bdfa312-4488-42a3-81b3-03e5d17af711" Title="AssertionConditionAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm">
+        <HelpTOCNode Title="ConditionType Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.ConditionType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="AssertionConditionType Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" />
+    <HelpTOCNode Id="de0f0323-ffc2-467c-9422-5c567720b57b" Title="AssertionMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm">
+      <HelpTOCNode Title="AssertionMethodAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+      <HelpTOCNode Title="AssertionMethodAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="043a3a18-f43f-4afc-8da5-aa7b7893b11d" Title="BaseTypeRequiredAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm">
+      <HelpTOCNode Title="BaseTypeRequiredAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+      <HelpTOCNode Title="BaseTypeRequiredAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.-ctor.htm" />
+      <HelpTOCNode Title="BaseTypeRequiredAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" />
+      <HelpTOCNode Id="967c5bdb-5795-4f88-85a0-73b76f0bae4d" Title="BaseTypeRequiredAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm">
+        <HelpTOCNode Title="BaseType Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.BaseType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="647c8bd0-b377-45e2-b551-64b2ae7d8f17" Title="CanBeNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm">
+      <HelpTOCNode Title="CanBeNullAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+      <HelpTOCNode Title="CanBeNullAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d1857cd1-ba8b-49be-a2dd-1e02145dd612" Title="CannotApplyEqualityOperatorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm">
+      <HelpTOCNode Title="CannotApplyEqualityOperatorAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+      <HelpTOCNode Title="CannotApplyEqualityOperatorAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5cad73b2-c664-4d69-b767-c4f4b7aaa70b" Title="CollectionAccessAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm">
+      <HelpTOCNode Title="CollectionAccessAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+      <HelpTOCNode Title="CollectionAccessAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.-ctor.htm" />
+      <HelpTOCNode Title="CollectionAccessAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" />
+      <HelpTOCNode Id="70cd93a6-c8bb-4db9-ae8a-3da57cec604f" Title="CollectionAccessAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm">
+        <HelpTOCNode Title="CollectionAccessType Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.CollectionAccessType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="CollectionAccessType Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" />
+    <HelpTOCNode Id="687e33f6-c4cd-4bf6-bc7d-3484baf5d5df" Title="ContractAnnotationAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm">
+      <HelpTOCNode Title="ContractAnnotationAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+      <HelpTOCNode Id="85eb6f25-9a03-4cc4-8b67-eddc55058cb9" Title="ContractAnnotationAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor.htm">
+        <HelpTOCNode Title="ContractAnnotationAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor.htm" />
+        <HelpTOCNode Title="ContractAnnotationAttribute Constructor (String, Boolean)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ContractAnnotationAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" />
+      <HelpTOCNode Id="3380f343-8fe7-4cd7-ae60-f7269054d1a5" Title="ContractAnnotationAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm">
+        <HelpTOCNode Title="Contract Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.Contract.htm" />
+        <HelpTOCNode Title="ForceFullStates Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.ForceFullStates.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e27d334b-f9ec-4b0e-b26f-3e133048772a" Title="HtmlAttributeValueAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm">
+      <HelpTOCNode Title="HtmlAttributeValueAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+      <HelpTOCNode Title="HtmlAttributeValueAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.-ctor.htm" />
+      <HelpTOCNode Title="HtmlAttributeValueAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" />
+      <HelpTOCNode Id="ce31752f-e7a3-425e-b5c9-3caaa30f8101" Title="HtmlAttributeValueAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a0ca7ac7-fa93-4e5c-b4a9-573405038e28" Title="HtmlElementAttributesAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm">
+      <HelpTOCNode Title="HtmlElementAttributesAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+      <HelpTOCNode Id="af3b79f7-6d95-46ae-a1ce-92330f32215e" Title="HtmlElementAttributesAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor.htm">
+        <HelpTOCNode Title="HtmlElementAttributesAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor.htm" />
+        <HelpTOCNode Title="HtmlElementAttributesAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HtmlElementAttributesAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" />
+      <HelpTOCNode Id="09ad8e58-7585-4073-8ba3-1c1c2eb7dc54" Title="HtmlElementAttributesAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="84b48bd3-e40a-4d4a-ab3f-31fb3d24ab79" Title="ImplicitNotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm">
+      <HelpTOCNode Title="ImplicitNotNullAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+      <HelpTOCNode Title="ImplicitNotNullAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ImplicitUseKindFlags Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" />
+    <HelpTOCNode Title="ImplicitUseTargetFlags Enumeration" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" />
+    <HelpTOCNode Id="e43b64c7-bb73-4888-bb3c-a420eb440daf" Title="InstantHandleAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm">
+      <HelpTOCNode Title="InstantHandleAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+      <HelpTOCNode Title="InstantHandleAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e0c4be41-c872-44ac-bead-32cec8d42d11" Title="InvokerParameterNameAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm">
+      <HelpTOCNode Title="InvokerParameterNameAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+      <HelpTOCNode Title="InvokerParameterNameAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="12ff8e0c-e0e1-4268-b77d-8257b1e563a4" Title="ItemCanBeNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm">
+      <HelpTOCNode Title="ItemCanBeNullAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+      <HelpTOCNode Title="ItemCanBeNullAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1819db2c-e795-4015-9e94-008e9803742d" Title="ItemNotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm">
+      <HelpTOCNode Title="ItemNotNullAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+      <HelpTOCNode Title="ItemNotNullAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="326341d7-2519-4596-b3e8-146049fefce2" Title="LinqTunnelAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm">
+      <HelpTOCNode Title="LinqTunnelAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+      <HelpTOCNode Title="LinqTunnelAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4be36767-03c2-4724-a7b2-4b637eb241f3" Title="LocalizationRequiredAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm">
+      <HelpTOCNode Title="LocalizationRequiredAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+      <HelpTOCNode Id="263f6fcc-d110-44d3-9e58-02e58b5a6865" Title="LocalizationRequiredAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor.htm">
+        <HelpTOCNode Title="LocalizationRequiredAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor.htm" />
+        <HelpTOCNode Title="LocalizationRequiredAttribute Constructor (Boolean)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LocalizationRequiredAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" />
+      <HelpTOCNode Id="0657b912-c992-414e-a036-02b789c91946" Title="LocalizationRequiredAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm">
+        <HelpTOCNode Title="Required Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.Required.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b22988a-298c-4d23-91b3-b57d85fadb91" Title="MacroAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm">
+      <HelpTOCNode Title="MacroAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+      <HelpTOCNode Title="MacroAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" />
+      <HelpTOCNode Id="29313fcf-4389-4837-a4e3-506e278c3cbf" Title="MacroAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm">
+        <HelpTOCNode Title="Editable Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Editable.htm" />
+        <HelpTOCNode Title="Expression Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Expression.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Target.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9dc25ac0-5f07-4886-ad52-3da5c93e9b7e" Title="MeansImplicitUseAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm">
+      <HelpTOCNode Title="MeansImplicitUseAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+      <HelpTOCNode Id="59ecaf35-cd7d-4c98-98a7-0e410286f8ac" Title="MeansImplicitUseAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor.htm">
+        <HelpTOCNode Title="MeansImplicitUseAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor.htm" />
+        <HelpTOCNode Title="MeansImplicitUseAttribute Constructor (ImplicitUseKindFlags)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor_1.htm" />
+        <HelpTOCNode Title="MeansImplicitUseAttribute Constructor (ImplicitUseTargetFlags)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor_2.htm" />
+        <HelpTOCNode Title="MeansImplicitUseAttribute Constructor (ImplicitUseKindFlags, ImplicitUseTargetFlags)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MeansImplicitUseAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" />
+      <HelpTOCNode Id="9703e4ae-e592-46b1-8a6c-dbf59be698d5" Title="MeansImplicitUseAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm">
+        <HelpTOCNode Title="TargetFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.TargetFlags.htm" />
+        <HelpTOCNode Title="UseKindFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.UseKindFlags.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ee51b867-9116-4ef7-88f7-0cebcd136faa" Title="MustUseReturnValueAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm">
+      <HelpTOCNode Title="MustUseReturnValueAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+      <HelpTOCNode Id="269130e9-e167-4cd5-b332-044a7bd87c55" Title="MustUseReturnValueAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor.htm">
+        <HelpTOCNode Title="MustUseReturnValueAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor.htm" />
+        <HelpTOCNode Title="MustUseReturnValueAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MustUseReturnValueAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" />
+      <HelpTOCNode Id="f9e82333-4e3c-421d-a210-ccb9ea07af8c" Title="MustUseReturnValueAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm">
+        <HelpTOCNode Title="Justification Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.Justification.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="26183027-754d-494a-a58b-b82b3eff1a64" Title="NoEnumerationAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm">
+      <HelpTOCNode Title="NoEnumerationAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+      <HelpTOCNode Title="NoEnumerationAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="225266f6-31ba-4bef-8ced-5a1f6322d089" Title="NoReorder Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm">
+      <HelpTOCNode Title="NoReorder Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+      <HelpTOCNode Title="NoReorder Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5a59bf9f-f905-4958-9731-d5c364e12c8b" Title="NotifyPropertyChangedInvocatorAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm">
+      <HelpTOCNode Title="NotifyPropertyChangedInvocatorAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+      <HelpTOCNode Id="21e8cc1b-facf-4d55-b079-9e7bff900d60" Title="NotifyPropertyChangedInvocatorAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor.htm">
+        <HelpTOCNode Title="NotifyPropertyChangedInvocatorAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor.htm" />
+        <HelpTOCNode Title="NotifyPropertyChangedInvocatorAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NotifyPropertyChangedInvocatorAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" />
+      <HelpTOCNode Id="cfb798da-3f3d-4de7-b829-598cc04abff3" Title="NotifyPropertyChangedInvocatorAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm">
+        <HelpTOCNode Title="ParameterName Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.ParameterName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="711eec5f-78f0-4c94-8d70-fb718b0b7ba2" Title="NotNullAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm">
+      <HelpTOCNode Title="NotNullAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+      <HelpTOCNode Title="NotNullAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="87c372f8-9988-4580-a7a6-ccdef850f3df" Title="PathReferenceAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm">
+      <HelpTOCNode Title="PathReferenceAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+      <HelpTOCNode Id="017c8745-c0e9-4bee-9c38-d4a983fdc892" Title="PathReferenceAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor.htm">
+        <HelpTOCNode Title="PathReferenceAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor.htm" />
+        <HelpTOCNode Title="PathReferenceAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PathReferenceAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" />
+      <HelpTOCNode Id="69061f61-0e88-4398-9035-cac5704b05ce" Title="PathReferenceAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm">
+        <HelpTOCNode Title="BasePath Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.BasePath.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="06e230b0-3809-45c0-b6ea-025bcf89ce56" Title="ProvidesContextAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm">
+      <HelpTOCNode Title="ProvidesContextAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+      <HelpTOCNode Title="ProvidesContextAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f14c912d-6a41-42b5-b465-8fe8fd130f3a" Title="PublicAPIAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm">
+      <HelpTOCNode Title="PublicAPIAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+      <HelpTOCNode Id="bff35daf-729b-415b-bb64-dc686b121252" Title="PublicAPIAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor.htm">
+        <HelpTOCNode Title="PublicAPIAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor.htm" />
+        <HelpTOCNode Title="PublicAPIAttribute Constructor (String)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PublicAPIAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" />
+      <HelpTOCNode Id="93e71696-acec-4566-9944-3902d73ef456" Title="PublicAPIAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm">
+        <HelpTOCNode Title="Comment Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.Comment.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="85750611-272d-4cf2-9bde-1c18b9bbfcdc" Title="PureAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm">
+      <HelpTOCNode Title="PureAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+      <HelpTOCNode Title="PureAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="33e234ac-fb58-4bf4-b502-7f41fe9f8098" Title="RazorDirectiveAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm">
+      <HelpTOCNode Title="RazorDirectiveAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+      <HelpTOCNode Title="RazorDirectiveAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.-ctor.htm" />
+      <HelpTOCNode Title="RazorDirectiveAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" />
+      <HelpTOCNode Id="db3f35ee-9417-4346-bd62-ae0cb71bd74d" Title="RazorDirectiveAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm">
+        <HelpTOCNode Title="Directive Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.Directive.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fc3315f3-7563-4fb4-b7d1-0345e838f5ab" Title="RazorHelperCommonAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm">
+      <HelpTOCNode Title="RazorHelperCommonAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+      <HelpTOCNode Title="RazorHelperCommonAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eda50678-d4ba-41b9-9f6e-63d53d519b6d" Title="RazorImportNamespaceAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm">
+      <HelpTOCNode Title="RazorImportNamespaceAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+      <HelpTOCNode Title="RazorImportNamespaceAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.-ctor.htm" />
+      <HelpTOCNode Title="RazorImportNamespaceAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" />
+      <HelpTOCNode Id="e3be4c16-f279-4945-b758-f09f6486f953" Title="RazorImportNamespaceAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="be8667bc-7927-4c11-aebf-cc5b8a83742d" Title="RazorInjectionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm">
+      <HelpTOCNode Title="RazorInjectionAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+      <HelpTOCNode Title="RazorInjectionAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.-ctor.htm" />
+      <HelpTOCNode Title="RazorInjectionAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" />
+      <HelpTOCNode Id="d6f37119-1e38-431d-bef8-c67b1f3f4849" Title="RazorInjectionAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm">
+        <HelpTOCNode Title="FieldName Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.FieldName.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5fa7509-2c93-4b4b-aa8e-faec7401ef77" Title="RazorLayoutAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm">
+      <HelpTOCNode Title="RazorLayoutAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+      <HelpTOCNode Title="RazorLayoutAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2316402a-1048-4133-921e-af241d0ef822" Title="RazorSectionAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm">
+      <HelpTOCNode Title="RazorSectionAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+      <HelpTOCNode Title="RazorSectionAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="053fc64b-7b96-4f86-947d-01e01cb7747c" Title="RazorWriteLiteralMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm">
+      <HelpTOCNode Title="RazorWriteLiteralMethodAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+      <HelpTOCNode Title="RazorWriteLiteralMethodAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a95b10a1-6f8a-4549-9ae0-d7fb3480170d" Title="RazorWriteMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm">
+      <HelpTOCNode Title="RazorWriteMethodAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+      <HelpTOCNode Title="RazorWriteMethodAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="196d0477-4cb4-4dad-a754-c56bc0499356" Title="RazorWriteMethodParameterAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm">
+      <HelpTOCNode Title="RazorWriteMethodParameterAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+      <HelpTOCNode Title="RazorWriteMethodParameterAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a45ea9ab-fd90-4939-8839-ee8f89935de9" Title="RegexPatternAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm">
+      <HelpTOCNode Title="RegexPatternAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+      <HelpTOCNode Title="RegexPatternAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="97937e7d-1fc2-4ffa-ba63-ab1c109785c0" Title="Resources Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.-ctor.htm" />
+      <HelpTOCNode Id="c59b1dad-a4a9-4de2-986b-6958cb21101d" Title="Resources Fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm">
+        <HelpTOCNode Title="resourceCulture Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceCulture.htm" />
+        <HelpTOCNode Title="resourceMan Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceMan.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Resources Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" />
+      <HelpTOCNode Id="28943df9-eaac-4757-8cfa-7deb312d1805" Title="Resources Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm">
+        <HelpTOCNode Title="Culture Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.Culture.htm" />
+        <HelpTOCNode Title="ResourceManager Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.ResourceManager.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8a123337-8713-40a4-b0bf-881582180093" Title="Settings Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+      <HelpTOCNode Id="69e7c781-4f2b-491a-983e-ca85716ebced" Title="Settings Fields" Url="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.defaultInstance.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Settings Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+      <HelpTOCNode Id="d68c7e8e-b7b6-429d-bfe0-3dc6516f6d0b" Title="Settings Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm">
+        <HelpTOCNode Title="Default Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.Default.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Settings Events" Url="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="028409f9-c088-4afb-bc0e-b1ff1043ee8c" Title="SourceTemplateAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm">
+      <HelpTOCNode Title="SourceTemplateAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+      <HelpTOCNode Title="SourceTemplateAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="69794a52-bb6b-42ec-a215-a3340c1e35ea" Title="StringFormatMethodAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm">
+      <HelpTOCNode Title="StringFormatMethodAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+      <HelpTOCNode Title="StringFormatMethodAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.-ctor.htm" />
+      <HelpTOCNode Title="StringFormatMethodAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" />
+      <HelpTOCNode Id="87303891-a64b-47dd-9190-4cc48a38bc97" Title="StringFormatMethodAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm">
+        <HelpTOCNode Title="FormatParameterName Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.FormatParameterName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e0f42806-ce6d-4a69-9d46-e378bea0f3e8" Title="TerminatesProgramAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm">
+      <HelpTOCNode Title="TerminatesProgramAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+      <HelpTOCNode Title="TerminatesProgramAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b3781f2f-6571-42fe-8245-efc478b8fde3" Title="UsedImplicitlyAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm">
+      <HelpTOCNode Title="UsedImplicitlyAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+      <HelpTOCNode Id="516a2e20-cf97-44b3-b77a-938782806761" Title="UsedImplicitlyAttribute Constructor " Url="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor.htm">
+        <HelpTOCNode Title="UsedImplicitlyAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor.htm" />
+        <HelpTOCNode Title="UsedImplicitlyAttribute Constructor (ImplicitUseKindFlags)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor_1.htm" />
+        <HelpTOCNode Title="UsedImplicitlyAttribute Constructor (ImplicitUseTargetFlags)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor_2.htm" />
+        <HelpTOCNode Title="UsedImplicitlyAttribute Constructor (ImplicitUseKindFlags, ImplicitUseTargetFlags)" Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UsedImplicitlyAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" />
+      <HelpTOCNode Id="ee4dda18-5c81-4a25-b6a2-5d05134abb03" Title="UsedImplicitlyAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm">
+        <HelpTOCNode Title="TargetFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.TargetFlags.htm" />
+        <HelpTOCNode Title="UseKindFlags Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.UseKindFlags.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0e524201-21f9-41ee-95f3-db5be70a89cb" Title="ValueProviderAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm">
+      <HelpTOCNode Title="ValueProviderAttribute Members" Url="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+      <HelpTOCNode Title="ValueProviderAttribute Constructor " Url="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.-ctor.htm" />
+      <HelpTOCNode Title="ValueProviderAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" />
+      <HelpTOCNode Id="be3b077a-9736-4d95-81cc-4c0c4eac57db" Title="ValueProviderAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e9ab6507-8508-47ce-9b81-b6912377e19f" Title="XamlItemBindingOfItemsControlAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm">
+      <HelpTOCNode Title="XamlItemBindingOfItemsControlAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+      <HelpTOCNode Title="XamlItemBindingOfItemsControlAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c5920d9f-dbf1-48a4-8d10-5f4d96bde7ab" Title="XamlItemsControlAttribute Class" Url="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm">
+      <HelpTOCNode Title="XamlItemsControlAttribute Methods" Url="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+      <HelpTOCNode Title="XamlItemsControlAttribute Properties" Url="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

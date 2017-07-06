@@ -1,0 +1,1954 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>MichaelBrandonMorris.DirectoryPermissionTool - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 90px; display: none;">
+	<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+		src="Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;"/>
+	<span class="Title">Keyword(s) to search:</span>
+	<input id="txtSearchText" type="text" style="width: 100%;" 
+		onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+	<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label>
+	<input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+	<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+		src="Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;"/>
+	<span class="Title">Keyword Index</span>
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 28px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.png"
+        height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+    <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+        src="Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+    <a href="#" onclick="javascript: TopicContent.history.go(-1); return false;">
+		<img class="TOCLink" style="float: right;" 
+        src="Back.png" height="24" width="24" alt="Previous page" title="Previous page" /></a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N-MichaelBrandonMorris.DirectoryPermissionTool.htm" target="TopicContent">MichaelBrandonMorris.DirectoryPermissionTool Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" target="TopicContent">AboutWindow Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" target="TopicContent">AboutWindow Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.-ctor.htm" target="TopicContent">AboutWindow Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" target="TopicContent">AboutWindow Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" target="TopicContent">AboutWindow Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.AboutWindow.htm" target="TopicContent">AboutWindow Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" target="TopicContent">App Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" target="TopicContent">App Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" target="TopicContent">App Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.App.htm" target="TopicContent">App Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" target="TopicContent">MainWindow Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" target="TopicContent">MainWindow Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.-ctor.htm" target="TopicContent">MainWindow Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" target="TopicContent">MainWindow Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.UIElement_OnMouseLeftButtonDown.htm" target="TopicContent">UIElement_OnMouseLeftButtonDown Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" target="TopicContent">MainWindow Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.MainWindow.htm" target="TopicContent">MainWindow Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" target="TopicContent">PermissionChecker Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" target="TopicContent">PermissionChecker Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.-ctor.htm" target="TopicContent">PermissionChecker Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" target="TopicContent">PermissionChecker Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CsvExtension.htm" target="TopicContent">CsvExtension Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.LogFileName.htm" target="TopicContent">LogFileName Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputFileName.htm" target="TopicContent">OutputFileName Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.OutputPath.htm" target="TopicContent">OutputPath Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.TxtExtension.htm" target="TopicContent">TxtExtension Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" target="TopicContent">PermissionChecker Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Cancel.htm" target="TopicContent">Cancel Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Execute.htm" target="TopicContent">Execute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenLog.htm" target="TopicContent">WriteAndOpenLog Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.WriteAndOpenResult.htm" target="TopicContent">WriteAndOpenResult Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.htm" target="TopicContent">PermissionChecker Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.CancellationTokenSource.htm" target="TopicContent">CancellationTokenSource Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ExcludedGroups.htm" target="TopicContent">ExcludedGroups Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Log.htm" target="TopicContent">Log Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.PermissionGetter.htm" target="TopicContent">PermissionGetter Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.Result.htm" target="TopicContent">Result Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionChecker.ShouldSplitPathLevels.htm" target="TopicContent">ShouldSplitPathLevels Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" target="TopicContent">PermissionGetter Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" target="TopicContent">PermissionGetter Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.-ctor.htm" target="TopicContent">PermissionGetter Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" target="TopicContent">PermissionGetter Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootLevel.htm" target="TopicContent">RootLevel Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" target="TopicContent">PermissionGetter Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetDirectories.htm" target="TopicContent">GetDirectories Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.GetPermissionInfos.htm" target="TopicContent">GetPermissionInfos Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.htm" target="TopicContent">PermissionGetter Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.CancellationToken.htm" target="TopicContent">CancellationToken Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ExcludePaths.htm" target="TopicContent">ExcludePaths Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.Log.htm" target="TopicContent">Log Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.MaxPathLevels.htm" target="TopicContent">MaxPathLevels Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.PermissionInfos.htm" target="TopicContent">PermissionInfos Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.RootDirectories.htm" target="TopicContent">RootDirectories Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.SearchDepth.htm" target="TopicContent">SearchDepth Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionGetter.ShouldIncludeFiles.htm" target="TopicContent">ShouldIncludeFiles Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" target="TopicContent">PermissionInfo Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" target="TopicContent">PermissionInfo Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor.htm" target="TopicContent">PermissionInfo Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor.htm" target="TopicContent">PermissionInfo Constructor (DirectoryInfo)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.-ctor_1.htm" target="TopicContent">PermissionInfo Constructor (FileInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" target="TopicContent">PermissionInfo Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm" target="TopicContent">Equals Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Equals.htm" target="TopicContent">Equals Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.htm" target="TopicContent">PermissionInfo Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.AccessRules.htm" target="TopicContent">AccessRules Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullName.htm" target="TopicContent">FullName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.FullNameSplitPath.htm" target="TopicContent">FullNameSplitPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.Owner.htm" target="TopicContent">Owner Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfo.PathLevels.htm" target="TopicContent">PathLevels Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" target="TopicContent">PermissionInfoFormatter Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" target="TopicContent">PermissionInfoFormatter Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.-ctor.htm" target="TopicContent">PermissionInfoFormatter Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" target="TopicContent">PermissionInfoFormatter Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.AccessControlTypeHeader.htm" target="TopicContent">AccessControlTypeHeader Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Comma.htm" target="TopicContent">Comma Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FileSystemRightsHeader.htm" target="TopicContent">FileSystemRightsHeader Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IdentityReferenceHeader.htm" target="TopicContent">IdentityReferenceHeader Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.IsInheritedHeader.htm" target="TopicContent">IsInheritedHeader Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.LevelHeader.htm" target="TopicContent">LevelHeader Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxResults.htm" target="TopicContent">MaxResults Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.OwnerHeader.htm" target="TopicContent">OwnerHeader Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PathHeader.htm" target="TopicContent">PathHeader Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.Quote.htm" target="TopicContent">Quote Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ResultNumberHeader.htm" target="TopicContent">ResultNumberHeader Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" target="TopicContent">PermissionInfoFormatter Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.FormatDirectories.htm" target="TopicContent">FormatDirectories Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.htm" target="TopicContent">PermissionInfoFormatter Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.CancellationToken.htm" target="TopicContent">CancellationToken Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ExcludedGroups.htm" target="TopicContent">ExcludedGroups Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.MaxPathLevels.htm" target="TopicContent">MaxPathLevels Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.PermissionInfos.htm" target="TopicContent">PermissionInfos Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.PermissionInfoFormatter.ShouldSplitPathLevels.htm" target="TopicContent">ShouldSplitPathLevels Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.SearchDepth.htm" target="TopicContent">SearchDepth Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" target="TopicContent">ViewModel Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" target="TopicContent">ViewModel Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.-ctor.htm" target="TopicContent">ViewModel Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" target="TopicContent">ViewModel Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._aboutWindow.htm" target="TopicContent">_aboutWindow Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._cancelButonVisibility.htm" target="TopicContent">_cancelButonVisibility Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._combinedPathLevelsIsChecked.htm" target="TopicContent">_combinedPathLevelsIsChecked Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._directoryPermissionsChecker.htm" target="TopicContent">_directoryPermissionsChecker Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._includeFilesIsChecked.htm" target="TopicContent">_includeFilesIsChecked Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._isBusy.htm" target="TopicContent">_isBusy Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._message.htm" target="TopicContent">_message Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageIsVisible.htm" target="TopicContent">_messageIsVisible Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._messageZIndex.htm" target="TopicContent">_messageZIndex Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._progressBarVisibility.htm" target="TopicContent">_progressBarVisibility Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthAllIsChecked.htm" target="TopicContent">_searchDepthAllIsChecked Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthChildrenIsChecked.htm" target="TopicContent">_searchDepthChildrenIsChecked Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._searchDepthCurrentIsChecked.htm" target="TopicContent">_searchDepthCurrentIsChecked Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._splitPathLevelsIsChecked.htm" target="TopicContent">_splitPathLevelsIsChecked Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel._userGuide.htm" target="TopicContent">_userGuide Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HelpFile.htm" target="TopicContent">HelpFile Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" target="TopicContent">ViewModel Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedGroup.htm" target="TopicContent">CanAddExcludedGroup Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddExcludedPath.htm" target="TopicContent">CanAddExcludedPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanAddSearchPath.htm" target="TopicContent">CanAddSearchPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanCancel.htm" target="TopicContent">CanCancel Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanGetDirectoryPermissions.htm" target="TopicContent">CanGetDirectoryPermissions Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedGroup.htm" target="TopicContent">CanRemoveExcludedGroup Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveExcludedPath.htm" target="TopicContent">CanRemoveExcludedPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CanRemoveSearchPath.htm" target="TopicContent">CanRemoveSearchPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedGroup.htm" target="TopicContent">ExecuteAddExcludedGroup Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddExcludedPath.htm" target="TopicContent">ExecuteAddExcludedPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteAddSearchPath.htm" target="TopicContent">ExecuteAddSearchPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteCancel.htm" target="TopicContent">ExecuteCancel Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteGetDirectoryPermissions.htm" target="TopicContent">ExecuteGetDirectoryPermissions Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedGroup.htm" target="TopicContent">ExecuteRemoveExcludedGroup Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveExcludedPath.htm" target="TopicContent">ExecuteRemoveExcludedPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExecuteRemoveSearchPath.htm" target="TopicContent">ExecuteRemoveSearchPath Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetSearchDepth.htm" target="TopicContent">GetSearchDepth Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.HideMessage.htm" target="TopicContent">HideMessage Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.NotifyPropertyChanged.htm" target="TopicContent">NotifyPropertyChanged Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommandExecute.htm" target="TopicContent">OpenAboutWindowCommandExecute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommandExecute.htm" target="TopicContent">OpenHelpWindowCommandExecute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PathDisplayOptionIsChecked.htm" target="TopicContent">PathDisplayOptionIsChecked Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SetUpProperties.htm" target="TopicContent">SetUpProperties Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ShowMessage.htm" target="TopicContent">ShowMessage Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" target="TopicContent">ViewModel Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AboutWindow.htm" target="TopicContent">AboutWindow Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedGroup.htm" target="TopicContent">AddExcludedGroup Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddExcludedPath.htm" target="TopicContent">AddExcludedPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.AddSearchPath.htm" target="TopicContent">AddSearchPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Cancel.htm" target="TopicContent">Cancel Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CancelButtonVisibility.htm" target="TopicContent">CancelButtonVisibility Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.CombinedPathLevelsIsChecked.htm" target="TopicContent">CombinedPathLevelsIsChecked Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedGroups.htm" target="TopicContent">ExcludedGroups Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ExcludedPaths.htm" target="TopicContent">ExcludedPaths Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.GetDirectoryPermissions.htm" target="TopicContent">GetDirectoryPermissions Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IncludeFilesIsChecked.htm" target="TopicContent">IncludeFilesIsChecked Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.IsBusy.htm" target="TopicContent">IsBusy Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Message.htm" target="TopicContent">Message Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageIsVisible.htm" target="TopicContent">MessageIsVisible Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.MessageZIndex.htm" target="TopicContent">MessageZIndex Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenAboutWindowCommand.htm" target="TopicContent">OpenAboutWindowCommand Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.OpenHelpWindowCommand.htm" target="TopicContent">OpenHelpWindowCommand Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.ProgressBarVisibility.htm" target="TopicContent">ProgressBarVisibility Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedGroup.htm" target="TopicContent">RemoveExcludedGroup Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveExcludedPath.htm" target="TopicContent">RemoveExcludedPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.RemoveSearchPath.htm" target="TopicContent">RemoveSearchPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthAllIsChecked.htm" target="TopicContent">SearchDepthAllIsChecked Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthChildrenIsChecked.htm" target="TopicContent">SearchDepthChildrenIsChecked Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchDepthCurrentIsChecked.htm" target="TopicContent">SearchDepthCurrentIsChecked Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SearchPaths.htm" target="TopicContent">SearchPaths Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.SplitPathLevelsIsChecked.htm" target="TopicContent">SplitPathLevelsIsChecked Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.UserGuide.htm" target="TopicContent">UserGuide Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.Version.htm" target="TopicContent">Version Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.htm" target="TopicContent">ViewModel Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E-MichaelBrandonMorris.DirectoryPermissionTool.ViewModel.PropertyChanged.htm" target="TopicContent">PropertyChanged Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N-MichaelBrandonMorris.DirectoryPermissionTool.Properties.htm" target="TopicContent">MichaelBrandonMorris.DirectoryPermissionTool.Properties Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" target="TopicContent">AspChildControlTypeAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" target="TopicContent">AspChildControlTypeAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.-ctor.htm" target="TopicContent">AspChildControlTypeAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" target="TopicContent">AspChildControlTypeAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.htm" target="TopicContent">AspChildControlTypeAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.ControlType.htm" target="TopicContent">ControlType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspChildControlTypeAttribute.TagName.htm" target="TopicContent">TagName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" target="TopicContent">AspDataFieldAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" target="TopicContent">AspDataFieldAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldAttribute.htm" target="TopicContent">AspDataFieldAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" target="TopicContent">AspDataFieldsAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" target="TopicContent">AspDataFieldsAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspDataFieldsAttribute.htm" target="TopicContent">AspDataFieldsAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" target="TopicContent">AspMethodPropertyAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" target="TopicContent">AspMethodPropertyAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMethodPropertyAttribute.htm" target="TopicContent">AspMethodPropertyAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" target="TopicContent">AspMvcActionAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" target="TopicContent">AspMvcActionAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor.htm" target="TopicContent">AspMvcActionAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor.htm" target="TopicContent">AspMvcActionAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.-ctor_1.htm" target="TopicContent">AspMvcActionAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" target="TopicContent">AspMvcActionAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.htm" target="TopicContent">AspMvcActionAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionAttribute.AnonymousProperty.htm" target="TopicContent">AnonymousProperty Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" target="TopicContent">AspMvcActionSelectorAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" target="TopicContent">AspMvcActionSelectorAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcActionSelectorAttribute.htm" target="TopicContent">AspMvcActionSelectorAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" target="TopicContent">AspMvcAreaAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" target="TopicContent">AspMvcAreaAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor.htm" target="TopicContent">AspMvcAreaAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor.htm" target="TopicContent">AspMvcAreaAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.-ctor_1.htm" target="TopicContent">AspMvcAreaAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" target="TopicContent">AspMvcAreaAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.htm" target="TopicContent">AspMvcAreaAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaAttribute.AnonymousProperty.htm" target="TopicContent">AnonymousProperty Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaMasterLocationFormatAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaMasterLocationFormatAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.-ctor.htm" target="TopicContent">AspMvcAreaMasterLocationFormatAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaMasterLocationFormatAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaMasterLocationFormatAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaMasterLocationFormatAttribute.Format.htm" target="TopicContent">Format Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaPartialViewLocationFormatAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaPartialViewLocationFormatAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.-ctor.htm" target="TopicContent">AspMvcAreaPartialViewLocationFormatAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaPartialViewLocationFormatAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaPartialViewLocationFormatAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaPartialViewLocationFormatAttribute.Format.htm" target="TopicContent">Format Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaViewLocationFormatAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaViewLocationFormatAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.-ctor.htm" target="TopicContent">AspMvcAreaViewLocationFormatAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaViewLocationFormatAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.htm" target="TopicContent">AspMvcAreaViewLocationFormatAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcAreaViewLocationFormatAttribute.Format.htm" target="TopicContent">Format Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" target="TopicContent">AspMvcControllerAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" target="TopicContent">AspMvcControllerAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor.htm" target="TopicContent">AspMvcControllerAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor.htm" target="TopicContent">AspMvcControllerAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.-ctor_1.htm" target="TopicContent">AspMvcControllerAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" target="TopicContent">AspMvcControllerAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.htm" target="TopicContent">AspMvcControllerAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcControllerAttribute.AnonymousProperty.htm" target="TopicContent">AnonymousProperty Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" target="TopicContent">AspMvcDisplayTemplateAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" target="TopicContent">AspMvcDisplayTemplateAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcDisplayTemplateAttribute.htm" target="TopicContent">AspMvcDisplayTemplateAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" target="TopicContent">AspMvcEditorTemplateAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" target="TopicContent">AspMvcEditorTemplateAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcEditorTemplateAttribute.htm" target="TopicContent">AspMvcEditorTemplateAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" target="TopicContent">AspMvcMasterAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" target="TopicContent">AspMvcMasterAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterAttribute.htm" target="TopicContent">AspMvcMasterAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcMasterLocationFormatAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcMasterLocationFormatAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.-ctor.htm" target="TopicContent">AspMvcMasterLocationFormatAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcMasterLocationFormatAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.htm" target="TopicContent">AspMvcMasterLocationFormatAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcMasterLocationFormatAttribute.Format.htm" target="TopicContent">Format Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" target="TopicContent">AspMvcModelTypeAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" target="TopicContent">AspMvcModelTypeAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcModelTypeAttribute.htm" target="TopicContent">AspMvcModelTypeAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" target="TopicContent">AspMvcPartialViewAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" target="TopicContent">AspMvcPartialViewAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewAttribute.htm" target="TopicContent">AspMvcPartialViewAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcPartialViewLocationFormatAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcPartialViewLocationFormatAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.-ctor.htm" target="TopicContent">AspMvcPartialViewLocationFormatAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcPartialViewLocationFormatAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.htm" target="TopicContent">AspMvcPartialViewLocationFormatAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcPartialViewLocationFormatAttribute.Format.htm" target="TopicContent">Format Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" target="TopicContent">AspMvcSuppressViewErrorAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" target="TopicContent">AspMvcSuppressViewErrorAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcSuppressViewErrorAttribute.htm" target="TopicContent">AspMvcSuppressViewErrorAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" target="TopicContent">AspMvcTemplateAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" target="TopicContent">AspMvcTemplateAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcTemplateAttribute.htm" target="TopicContent">AspMvcTemplateAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" target="TopicContent">AspMvcViewAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" target="TopicContent">AspMvcViewAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewAttribute.htm" target="TopicContent">AspMvcViewAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" target="TopicContent">AspMvcViewComponentAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" target="TopicContent">AspMvcViewComponentAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentAttribute.htm" target="TopicContent">AspMvcViewComponentAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" target="TopicContent">AspMvcViewComponentViewAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" target="TopicContent">AspMvcViewComponentViewAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewComponentViewAttribute.htm" target="TopicContent">AspMvcViewComponentViewAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" target="TopicContent">AspMvcViewLocationFormatAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" target="TopicContent">AspMvcViewLocationFormatAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.-ctor.htm" target="TopicContent">AspMvcViewLocationFormatAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" target="TopicContent">AspMvcViewLocationFormatAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.htm" target="TopicContent">AspMvcViewLocationFormatAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspMvcViewLocationFormatAttribute.Format.htm" target="TopicContent">Format Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" target="TopicContent">AspRequiredAttributeAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" target="TopicContent">AspRequiredAttributeAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.-ctor.htm" target="TopicContent">AspRequiredAttributeAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" target="TopicContent">AspRequiredAttributeAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.htm" target="TopicContent">AspRequiredAttributeAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspRequiredAttributeAttribute.Attribute.htm" target="TopicContent">Attribute Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" target="TopicContent">AspTypePropertyAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" target="TopicContent">AspTypePropertyAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.-ctor.htm" target="TopicContent">AspTypePropertyAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" target="TopicContent">AspTypePropertyAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.htm" target="TopicContent">AspTypePropertyAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AspTypePropertyAttribute.CreateConstructorReferences.htm" target="TopicContent">CreateConstructorReferences Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" target="TopicContent">AssertionConditionAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" target="TopicContent">AssertionConditionAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.-ctor.htm" target="TopicContent">AssertionConditionAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" target="TopicContent">AssertionConditionAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.htm" target="TopicContent">AssertionConditionAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionAttribute.ConditionType.htm" target="TopicContent">ConditionType Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionConditionType.htm" target="TopicContent">AssertionConditionType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" target="TopicContent">AssertionMethodAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" target="TopicContent">AssertionMethodAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.AssertionMethodAttribute.htm" target="TopicContent">AssertionMethodAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" target="TopicContent">BaseTypeRequiredAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" target="TopicContent">BaseTypeRequiredAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.-ctor.htm" target="TopicContent">BaseTypeRequiredAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" target="TopicContent">BaseTypeRequiredAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.htm" target="TopicContent">BaseTypeRequiredAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.BaseTypeRequiredAttribute.BaseType.htm" target="TopicContent">BaseType Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" target="TopicContent">CanBeNullAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" target="TopicContent">CanBeNullAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CanBeNullAttribute.htm" target="TopicContent">CanBeNullAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" target="TopicContent">CannotApplyEqualityOperatorAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" target="TopicContent">CannotApplyEqualityOperatorAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CannotApplyEqualityOperatorAttribute.htm" target="TopicContent">CannotApplyEqualityOperatorAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" target="TopicContent">CollectionAccessAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" target="TopicContent">CollectionAccessAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.-ctor.htm" target="TopicContent">CollectionAccessAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" target="TopicContent">CollectionAccessAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.htm" target="TopicContent">CollectionAccessAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessAttribute.CollectionAccessType.htm" target="TopicContent">CollectionAccessType Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.CollectionAccessType.htm" target="TopicContent">CollectionAccessType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" target="TopicContent">ContractAnnotationAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" target="TopicContent">ContractAnnotationAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor.htm" target="TopicContent">ContractAnnotationAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor.htm" target="TopicContent">ContractAnnotationAttribute Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.-ctor_1.htm" target="TopicContent">ContractAnnotationAttribute Constructor (String, Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" target="TopicContent">ContractAnnotationAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.htm" target="TopicContent">ContractAnnotationAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.Contract.htm" target="TopicContent">Contract Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ContractAnnotationAttribute.ForceFullStates.htm" target="TopicContent">ForceFullStates Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" target="TopicContent">HtmlAttributeValueAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" target="TopicContent">HtmlAttributeValueAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.-ctor.htm" target="TopicContent">HtmlAttributeValueAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" target="TopicContent">HtmlAttributeValueAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.htm" target="TopicContent">HtmlAttributeValueAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlAttributeValueAttribute.Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" target="TopicContent">HtmlElementAttributesAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" target="TopicContent">HtmlElementAttributesAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor.htm" target="TopicContent">HtmlElementAttributesAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor.htm" target="TopicContent">HtmlElementAttributesAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.-ctor_1.htm" target="TopicContent">HtmlElementAttributesAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" target="TopicContent">HtmlElementAttributesAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.htm" target="TopicContent">HtmlElementAttributesAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.HtmlElementAttributesAttribute.Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" target="TopicContent">ImplicitNotNullAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" target="TopicContent">ImplicitNotNullAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitNotNullAttribute.htm" target="TopicContent">ImplicitNotNullAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseKindFlags.htm" target="TopicContent">ImplicitUseKindFlags Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ImplicitUseTargetFlags.htm" target="TopicContent">ImplicitUseTargetFlags Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" target="TopicContent">InstantHandleAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" target="TopicContent">InstantHandleAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InstantHandleAttribute.htm" target="TopicContent">InstantHandleAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" target="TopicContent">InvokerParameterNameAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" target="TopicContent">InvokerParameterNameAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.InvokerParameterNameAttribute.htm" target="TopicContent">InvokerParameterNameAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" target="TopicContent">ItemCanBeNullAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" target="TopicContent">ItemCanBeNullAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemCanBeNullAttribute.htm" target="TopicContent">ItemCanBeNullAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" target="TopicContent">ItemNotNullAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" target="TopicContent">ItemNotNullAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ItemNotNullAttribute.htm" target="TopicContent">ItemNotNullAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" target="TopicContent">LinqTunnelAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" target="TopicContent">LinqTunnelAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LinqTunnelAttribute.htm" target="TopicContent">LinqTunnelAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" target="TopicContent">LocalizationRequiredAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" target="TopicContent">LocalizationRequiredAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor.htm" target="TopicContent">LocalizationRequiredAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor.htm" target="TopicContent">LocalizationRequiredAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.-ctor_1.htm" target="TopicContent">LocalizationRequiredAttribute Constructor (Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" target="TopicContent">LocalizationRequiredAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.htm" target="TopicContent">LocalizationRequiredAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.LocalizationRequiredAttribute.Required.htm" target="TopicContent">Required Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" target="TopicContent">MacroAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" target="TopicContent">MacroAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" target="TopicContent">MacroAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.htm" target="TopicContent">MacroAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Editable.htm" target="TopicContent">Editable Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Expression.htm" target="TopicContent">Expression Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MacroAttribute.Target.htm" target="TopicContent">Target Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" target="TopicContent">MeansImplicitUseAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" target="TopicContent">MeansImplicitUseAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor.htm" target="TopicContent">MeansImplicitUseAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor.htm" target="TopicContent">MeansImplicitUseAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor_1.htm" target="TopicContent">MeansImplicitUseAttribute Constructor (ImplicitUseKindFlags)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor_2.htm" target="TopicContent">MeansImplicitUseAttribute Constructor (ImplicitUseTargetFlags)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.-ctor_3.htm" target="TopicContent">MeansImplicitUseAttribute Constructor (ImplicitUseKindFlags, ImplicitUseTargetFlags)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" target="TopicContent">MeansImplicitUseAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.htm" target="TopicContent">MeansImplicitUseAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.TargetFlags.htm" target="TopicContent">TargetFlags Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MeansImplicitUseAttribute.UseKindFlags.htm" target="TopicContent">UseKindFlags Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" target="TopicContent">MustUseReturnValueAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" target="TopicContent">MustUseReturnValueAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor.htm" target="TopicContent">MustUseReturnValueAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor.htm" target="TopicContent">MustUseReturnValueAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.-ctor_1.htm" target="TopicContent">MustUseReturnValueAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" target="TopicContent">MustUseReturnValueAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.htm" target="TopicContent">MustUseReturnValueAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.MustUseReturnValueAttribute.Justification.htm" target="TopicContent">Justification Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" target="TopicContent">NoEnumerationAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" target="TopicContent">NoEnumerationAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoEnumerationAttribute.htm" target="TopicContent">NoEnumerationAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" target="TopicContent">NoReorder Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" target="TopicContent">NoReorder Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NoReorder.htm" target="TopicContent">NoReorder Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" target="TopicContent">NotifyPropertyChangedInvocatorAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" target="TopicContent">NotifyPropertyChangedInvocatorAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor.htm" target="TopicContent">NotifyPropertyChangedInvocatorAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor.htm" target="TopicContent">NotifyPropertyChangedInvocatorAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.-ctor_1.htm" target="TopicContent">NotifyPropertyChangedInvocatorAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" target="TopicContent">NotifyPropertyChangedInvocatorAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.htm" target="TopicContent">NotifyPropertyChangedInvocatorAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotifyPropertyChangedInvocatorAttribute.ParameterName.htm" target="TopicContent">ParameterName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" target="TopicContent">NotNullAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" target="TopicContent">NotNullAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.NotNullAttribute.htm" target="TopicContent">NotNullAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" target="TopicContent">PathReferenceAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" target="TopicContent">PathReferenceAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor.htm" target="TopicContent">PathReferenceAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor.htm" target="TopicContent">PathReferenceAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.-ctor_1.htm" target="TopicContent">PathReferenceAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" target="TopicContent">PathReferenceAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.htm" target="TopicContent">PathReferenceAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PathReferenceAttribute.BasePath.htm" target="TopicContent">BasePath Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" target="TopicContent">ProvidesContextAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" target="TopicContent">ProvidesContextAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ProvidesContextAttribute.htm" target="TopicContent">ProvidesContextAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" target="TopicContent">PublicAPIAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" target="TopicContent">PublicAPIAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor.htm" target="TopicContent">PublicAPIAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor.htm" target="TopicContent">PublicAPIAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.-ctor_1.htm" target="TopicContent">PublicAPIAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" target="TopicContent">PublicAPIAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.htm" target="TopicContent">PublicAPIAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PublicAPIAttribute.Comment.htm" target="TopicContent">Comment Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" target="TopicContent">PureAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" target="TopicContent">PureAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.PureAttribute.htm" target="TopicContent">PureAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" target="TopicContent">RazorDirectiveAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" target="TopicContent">RazorDirectiveAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.-ctor.htm" target="TopicContent">RazorDirectiveAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" target="TopicContent">RazorDirectiveAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.htm" target="TopicContent">RazorDirectiveAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorDirectiveAttribute.Directive.htm" target="TopicContent">Directive Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" target="TopicContent">RazorHelperCommonAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" target="TopicContent">RazorHelperCommonAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorHelperCommonAttribute.htm" target="TopicContent">RazorHelperCommonAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" target="TopicContent">RazorImportNamespaceAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" target="TopicContent">RazorImportNamespaceAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.-ctor.htm" target="TopicContent">RazorImportNamespaceAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" target="TopicContent">RazorImportNamespaceAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.htm" target="TopicContent">RazorImportNamespaceAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorImportNamespaceAttribute.Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" target="TopicContent">RazorInjectionAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" target="TopicContent">RazorInjectionAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.-ctor.htm" target="TopicContent">RazorInjectionAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" target="TopicContent">RazorInjectionAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.htm" target="TopicContent">RazorInjectionAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.FieldName.htm" target="TopicContent">FieldName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorInjectionAttribute.Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" target="TopicContent">RazorLayoutAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" target="TopicContent">RazorLayoutAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorLayoutAttribute.htm" target="TopicContent">RazorLayoutAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" target="TopicContent">RazorSectionAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" target="TopicContent">RazorSectionAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorSectionAttribute.htm" target="TopicContent">RazorSectionAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" target="TopicContent">RazorWriteLiteralMethodAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" target="TopicContent">RazorWriteLiteralMethodAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteLiteralMethodAttribute.htm" target="TopicContent">RazorWriteLiteralMethodAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" target="TopicContent">RazorWriteMethodAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" target="TopicContent">RazorWriteMethodAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodAttribute.htm" target="TopicContent">RazorWriteMethodAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" target="TopicContent">RazorWriteMethodParameterAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" target="TopicContent">RazorWriteMethodParameterAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RazorWriteMethodParameterAttribute.htm" target="TopicContent">RazorWriteMethodParameterAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" target="TopicContent">RegexPatternAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" target="TopicContent">RegexPatternAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.RegexPatternAttribute.htm" target="TopicContent">RegexPatternAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" target="TopicContent">Resources Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" target="TopicContent">Resources Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.-ctor.htm" target="TopicContent">Resources Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" target="TopicContent">Resources Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceCulture.htm" target="TopicContent">resourceCulture Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.resourceMan.htm" target="TopicContent">resourceMan Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" target="TopicContent">Resources Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.htm" target="TopicContent">Resources Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.Culture.htm" target="TopicContent">Culture Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Resources.ResourceManager.htm" target="TopicContent">ResourceManager Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" target="TopicContent">Settings Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" target="TopicContent">Settings Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" target="TopicContent">Settings Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.defaultInstance.htm" target="TopicContent">defaultInstance Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" target="TopicContent">Settings Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" target="TopicContent">Settings Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.Default.htm" target="TopicContent">Default Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.Settings.htm" target="TopicContent">Settings Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" target="TopicContent">SourceTemplateAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" target="TopicContent">SourceTemplateAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.SourceTemplateAttribute.htm" target="TopicContent">SourceTemplateAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" target="TopicContent">StringFormatMethodAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" target="TopicContent">StringFormatMethodAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.-ctor.htm" target="TopicContent">StringFormatMethodAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" target="TopicContent">StringFormatMethodAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.htm" target="TopicContent">StringFormatMethodAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.StringFormatMethodAttribute.FormatParameterName.htm" target="TopicContent">FormatParameterName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" target="TopicContent">TerminatesProgramAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" target="TopicContent">TerminatesProgramAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.TerminatesProgramAttribute.htm" target="TopicContent">TerminatesProgramAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" target="TopicContent">UsedImplicitlyAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" target="TopicContent">UsedImplicitlyAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor.htm" target="TopicContent">UsedImplicitlyAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor.htm" target="TopicContent">UsedImplicitlyAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor_1.htm" target="TopicContent">UsedImplicitlyAttribute Constructor (ImplicitUseKindFlags)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor_2.htm" target="TopicContent">UsedImplicitlyAttribute Constructor (ImplicitUseTargetFlags)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.-ctor_3.htm" target="TopicContent">UsedImplicitlyAttribute Constructor (ImplicitUseKindFlags, ImplicitUseTargetFlags)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" target="TopicContent">UsedImplicitlyAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.htm" target="TopicContent">UsedImplicitlyAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.TargetFlags.htm" target="TopicContent">TargetFlags Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.UsedImplicitlyAttribute.UseKindFlags.htm" target="TopicContent">UseKindFlags Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" target="TopicContent">ValueProviderAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" target="TopicContent">ValueProviderAttribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.-ctor.htm" target="TopicContent">ValueProviderAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" target="TopicContent">ValueProviderAttribute Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.htm" target="TopicContent">ValueProviderAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P-MichaelBrandonMorris.DirectoryPermissionTool.Properties.ValueProviderAttribute.Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" target="TopicContent">XamlItemBindingOfItemsControlAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" target="TopicContent">XamlItemBindingOfItemsControlAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemBindingOfItemsControlAttribute.htm" target="TopicContent">XamlItemBindingOfItemsControlAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" target="TopicContent">XamlItemsControlAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" target="TopicContent">XamlItemsControlAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties.T-MichaelBrandonMorris.DirectoryPermissionTool.Properties.XamlItemsControlAttribute.htm" target="TopicContent">XamlItemsControlAttribute Properties</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/n-michaelbrandonmorris.directorypermissiontool.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>
